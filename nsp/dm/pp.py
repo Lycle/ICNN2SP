@@ -101,12 +101,12 @@ class PoolingProblemDataManager(DataManager):
         # Generate random data using random first-stage solution and scenario subsets
         fss_scenario_subset_pairs = []
         n_second_stage_problems = 0
-        while n_samples_generated < self.cfg.n_samples_e:
+        while n_samples_generated < self.cfg.n_samples_e:   # n_samples_e = 5000 
             # Generate random first-stage solution
             x_subopt = self._get_random_sol()
 
             # Sample a random subset of scenarios
-            _n_scenarios = self.rng.randint(1, self.cfg.n_max_scenarios_in_tr)
+            _n_scenarios = self.rng.randint(1, self.cfg.n_max_scenarios_in_tr)  # n_max_scenarios_in_tr = 10
             scenario_idxs = sampler.get_scenario_idxs(_n_scenarios)
             fss_scenario_subset_pairs.append((x_subopt, scenario_idxs))
 

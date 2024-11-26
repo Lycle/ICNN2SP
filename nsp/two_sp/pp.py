@@ -136,6 +136,8 @@ class PoolingProblem(TwoStageStocProg):
         m.optimize()
         info = self._extract_mip_solve_info(m)
 
+        print(f"Scenario {scenario_id} - Obj val {info['obj_val']}")
+
         return info["obj_val"]
 
     def evaluate_first_stage_sol(self,
@@ -161,6 +163,7 @@ class PoolingProblem(TwoStageStocProg):
         for sid, prob in enumerate(self.probs):
             scen_revenue += prob * (self.get_second_stage_objective(fs_sol, sid, gap=gap,
                                                                     time_limit=time_limit, verbose=verbose))
+            print(f"                 Prob {prob}")
 
         return fs_revenue + scen_revenue
 
@@ -232,12 +235,12 @@ class PoolingProblem(TwoStageStocProg):
         fs_vars_dict = {'z_s': z_s, 'z_p': z_p, 'z_t': z_t, 'z_e': z_e}
 
         # Flow variables
-        _flow_names = self.s2t[:]
-        _flow_names.extend(self.p2t)
+        _flow_names = self.s2t[:]       # 3
+        _flow_names.extend(self.p2t)    # 2
         flow = m.addVars(_flow_names, _scenario_ids, name='flow', lb=0)
 
         # Proportion of total flow at pool j from source i under each scenario
-        prop = m.addVars(self.s2p, _scenario_ids, name='prop', lb=0)
+        prop = m.addVars(self.s2p, _scenario_ids, name='prop', lb=0)    # 4
 
         # To ensure relatively complete recourse
         surplus_sulfur = m.addVars(self.terminals, _scenario_ids, name='surplus_sulfur', lb=0)

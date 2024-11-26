@@ -18,10 +18,10 @@ class PoolingProblemApproximator(Approximator):
 
     def get_master_mip(self):
         mip = gp.Model('mipQ')
-        z_s = mip.addVars(self.inst['sources'], vtype="B", name="z_s")
-        z_p = mip.addVars(self.inst['pools'], vtype="B", name="z_p")
-        z_t = mip.addVars(self.inst['terminals'], vtype="B", name="z_t")
-        z_e = mip.addVars(self.inst['connections'], vtype="B", name="z_e")
+        z_s = mip.addVars(self.inst['sources'], vtype="B", name="z_s")     # 4
+        z_p = mip.addVars(self.inst['pools'], vtype="B", name="z_p")       # 1
+        z_t = mip.addVars(self.inst['terminals'], vtype="B", name="z_t")   # 2
+        z_e = mip.addVars(self.inst['connections'], vtype="B", name="z_e") # 9
 
         # Using an edge selects nodes
         for i, j in self.inst['s2p']:
