@@ -27,7 +27,9 @@ def factory_scenario_padder(args, split, max_scenarios):
 
     def pad_scenario_pp(scenario, n_scenarios):
         padded_scenarios = np.asarray(scenario)
+        # stacks padded_scenarios with extra rows of zeros to reach max_scenarios rows, each with 4 columns
         padded_scenarios = np.vstack((padded_scenarios,
+                                      #  creates the necessary rows filled with zeros
                                       np.zeros((max_scenarios - n_scenarios, 4))))
 
         return padded_scenarios
@@ -46,8 +48,10 @@ def factory_scenario_padder(args, split, max_scenarios):
         x_scen, x_n_scen = np.asarray(x_scen), np.asarray(x_n_scen)
 
     elif 'pp' in args.problem:
+        # an array of padded scenarios for each data point, where each entry has max_scenarios rows, padded as needed
         x_scen = np.asarray([pad_scenario_pp(x['scenario'], x['n_scenarios'])
                              for x in split])
+        # keeps track of the actual (non-padded) number of scenarios for each data point
         x_n_scen = np.asarray([x['n_scenarios'] for x in split])
 
     return x_scen, x_n_scen
