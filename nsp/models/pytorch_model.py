@@ -264,7 +264,6 @@ class ReLUNetworkPerScenarioModel(Model):
 
         return loader
 
-
 class ReLUNetworkExpectedModel(Model):
     def __init__(self,
                  problem,
@@ -338,6 +337,7 @@ class ReLUNetworkExpectedModel(Model):
                                               'ridge': self.wt_ridge})
 
         fs_dim, ss_dim = self._get_feature_dim()
+        # initialized as a 'ReLUNetworkExpected' model
         self.model = ReLUNetworkExpected(
             fs_input_dim=fs_dim,
             ss_input_dim=ss_dim,
@@ -415,9 +415,9 @@ class ReLUNetworkExpectedModel(Model):
             wandb.finish(exit_code=0)
 
     def get_run_name(self):
+        # shorten the run name as it may exceed Windows file path length
         run_name = f"p-{self.problem}_mt-nn-e-{self.batch_size}_lr-{self.lr}_do-{self.dropout}_" \
-                   f"opt-{self.optimizer_type}_loss-{self.loss_fn}_l1-{self.wt_lasso}_l2-{self.wt_ridge}_" \
-                   f"log-{self.log_freq}_ep-{self.n_epochs}_ehd-{self.embed_hidden_dim}_ed1-{self.embed_dim1}_" \
+                   f"opt-{self.optimizer_type}_loss-{self.loss_fn}_" \
                    f"ed2-{self.embed_dim2}_rhd-{self.relu_hidden_dim}_at-{self.agg_type}"
         return run_name
 
@@ -435,6 +435,7 @@ class ReLUNetworkExpectedModel(Model):
             pickle.dump(self.results, p)
 
     def _train_epoch(self):
+        # TODO: Project the hidden layer weights to be non-negative
         # Put the model in training mode
         self.model.train()
 
@@ -453,6 +454,13 @@ class ReLUNetworkExpectedModel(Model):
             loss.backward()
             self.optimizer.step()
 
+            # Clamp the weights of relu_output to be non-negative
+            self.model.relu_output.weight.data.clamp_(min=0)
+
+            # Verify that weights are non-negative
+            if (self.model.relu_output.weight.data < 0).any():
+                print("Negative weights detected in relu_output layer!")
+            
             ep_loss.append(loss.item())
 
         if self.use_wandb:
