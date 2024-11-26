@@ -18,7 +18,7 @@ def get_nn_p_function_call(args, problem):
     hds = list(map(lambda x: str(x), params["hidden_dims"]))
     hds = " ".join(hds)
 
-    cmd =  f'python -m nsp.scripts.train_model --problem {problem} --model nn_p '
+    cmd =  f'python -m nsp.scripts.train_model --problem {problem} --model_type nn_p '
     cmd += f'--hidden_dims {hds} '
     cmd += f'--lr {params["lr"]} '
     cmd += f'--dropout {params["dropout"]} '
@@ -41,7 +41,7 @@ def get_nn_e_function_call(args, problem):
     from nn_params import nn_e_params
     params = nn_e_params[problem]
 
-    cmd =  f'python -m nsp.scripts.train_model --problem {problem} --model nn_e '
+    cmd =  f'python -m nsp.scripts.train_model --problem {problem} --model_type nn_e '
     cmd += f'--embed_hidden_dim {params["embed_hidden_dim"]} '
     cmd += f'--embed_dim1 {params["embed_dim1"]} '
     cmd += f'--embed_dim2 {params["embed_dim2"]} '
@@ -57,7 +57,7 @@ def get_nn_e_function_call(args, problem):
     cmd += f'--log_freq {params["log_freq"]} '
     cmd += f'--n_epochs {params["n_epochs"]} '
     cmd += f'--use_wandb {params["use_wandb"]} '
-
+    
     return cmd
 
 
@@ -126,7 +126,7 @@ def get_commands(problem, args):
 
     # generate train_model function calls.
     if args.run_all or args.train_lr:
-        cmds.append(f'python -m nsp.scripts.train_model --problem {problem} --model lr ')
+        cmds.append(f'python -m nsp.scripts.train_model --problem {problem} --model_type lr ')
     if args.run_all or args.train_nn_p:
         cmds.append(get_nn_p_function_call(args, problem))
     if args.run_all or args.train_nn_e:
@@ -134,9 +134,9 @@ def get_commands(problem, args):
 
     # call get best model
     if args.run_all or args.get_best_nn_p_model:
-        cmds.append(f'python -m nsp.scripts.get_best_model --problem {problem} --model nn_p ')
+        cmds.append(f'python -m nsp.scripts.get_best_model --problem {problem} --model_type nn_p ')
     if args.run_all or args.get_best_nn_e_model:
-        cmds.append(f'python -m nsp.scripts.get_best_model --problem {problem} --model nn_e ')
+        cmds.append(f'python -m nsp.scripts.get_best_model --problem {problem} --model_type nn_e ')
 
     # call get scenario sets and test sets for problem
     scenarios, test_sets = get_scenario_and_test_sets(problem)
@@ -145,11 +145,11 @@ def get_commands(problem, args):
     for scenario in scenarios:
         for test_set in test_sets:
             if args.run_all or args.eval_lr:
-                cmds.append(f'python -m nsp.scripts.evaluate_model --problem {problem} --model lr --n_scenarios {scenario} --test_set {test_set} --n_procs {args.n_cpus}')
+                cmds.append(f'python -m nsp.scripts.evaluate_model --problem {problem} --model_type lr --n_scenarios {scenario} --test_set {test_set} --n_procs {args.n_cpus}')
             if args.run_all or args.eval_nn_p:
-                cmds.append(f'python -m nsp.scripts.evaluate_model --problem {problem} --model nn_p --n_scenarios {scenario} --test_set {test_set} --n_procs {args.n_cpus}')
+                cmds.append(f'python -m nsp.scripts.evaluate_model --problem {problem} --model_type nn_p --n_scenarios {scenario} --test_set {test_set} --n_procs {args.n_cpus}')
             if args.run_all or args.eval_nn_e:
-                cmds.append(f'python -m nsp.scripts.evaluate_model --problem {problem} --model nn_e --n_scenarios {scenario} --test_set {test_set} --n_procs {args.n_cpus}')
+                cmds.append(f'python -m nsp.scripts.evaluate_model --problem {problem} --model_type nn_e --n_scenarios {scenario} --test_set {test_set} --n_procs {args.n_cpus}')
             if args.run_all or args.eval_ef:
                 cmds.append(f'python -m nsp.scripts.evaluate_extensive --problem {problem} --n_scenarios {scenario} --test_set {test_set} --n_procs {args.n_cpus}')
 
@@ -164,7 +164,7 @@ def main(args):
         raise Exception(" Using --run_all and --as_dat may cause issues with parallelization. \n\
             It is strongly recommend to read the comments at the end of runner.py with respect --as_dat usage.  ")
 
-    # global variables for counting index of commant
+    # global variables for counting index of command
     cmds = []
     for problem in args.problems:
         cmds += get_commands(problem, args)
@@ -183,7 +183,9 @@ def main(args):
     # Note that this will take quite a long time.
     else:
         for cmd in cmds:
-            cmd_as_list = cmd.split(" ")
+            # update: strip trailing spaces before splitting the command.
+            cmd_as_list = cmd.strip().split(" ")
+            print(cmd)
             subprocess.call(cmd_as_list)
 
 
