@@ -72,9 +72,10 @@ class ReLUNetworkExpected(nn.Module):
         """
         super(ReLUNetworkExpected, self).__init__()
 
-        self.fs_input_dim = fs_input_dim
+        # fs: first stage, ss: second stage
+        self.fs_input_dim = fs_input_dim    # first stage input dimension (16 for PP)
 
-        self.ss_input_dim = ss_input_dim
+        self.ss_input_dim = ss_input_dim    # second stage input dimension (4 for PP)
         self.ss_hidden_dim = ss_hidden_dim
         self.ss_embed_dim1 = ss_embed_dim1
         self.ss_embed_dim2 = ss_embed_dim2
@@ -88,6 +89,7 @@ class ReLUNetworkExpected(nn.Module):
         self.output_dim = 1
 
         # layers for scenario input
+        # nn.Linear: to create a fully connected (dense) layer
         self.scen_input = nn.Linear(self.ss_input_dim, self.ss_hidden_dim, bias=self.bias)
         self.scen_embed1 = nn.Linear(self.ss_hidden_dim, self.ss_embed_dim1, bias=self.bias)
         self.scen_embed2 = nn.Linear(self.ss_embed_dim1, self.ss_embed_dim2)
@@ -95,6 +97,9 @@ class ReLUNetworkExpected(nn.Module):
         # for relu layer
         self.relu_input = nn.Linear(self.fs_input_dim + self.ss_embed_dim2, self.relu_hidden_dim)
         self.relu_output = nn.Linear(self.relu_hidden_dim, self.output_dim)
+        # TODO: skip connection
+        self.skip = nn.Linear(self.fs_input_dim + self.ss_embed_dim2, self.output_dim, bias=False)  # skip connection
+        
 
     def forward(self, x_fs, x_scen, x_n_scen=None):
         """ Forward pass. """
@@ -103,22 +108,30 @@ class ReLUNetworkExpected(nn.Module):
         x_scen_embed = self.embed_scenarios(x_scen, x_n_scen)
 
         # concat first stage solution and scenario embedding
-        x = torch.cat((x_fs, x_scen_embed), 1)
+        concat = torch.cat((x_fs, x_scen_embed), 1)
 
-        # get aggregate prediction
-        x = self.relu_input(x)
-        x = F.relu(x)
+        # get aggregate prediction of ReLU path
+        relu_hidden = self.relu_input(concat)
+        relu_hidden = F.relu(relu_hidden)
         if self.dropout:
-            x = F.dropout(x, p=self.dropout)
+            relu_hidden = F.dropout(relu_hidden, p=self.dropout)
 
-        x = self.relu_output(x)
+        relu_hidden = self.relu_output(relu_hidden)
 
-        return x
+        # skip connection path
+        skip_out = self.skip(concat)
+
+        # Final output by summing both paths
+        output = relu_hidden + skip_out
+
+        return output
 
     def embed_scenarios(self, x_scen, x_n_scen=None):
         """ Get scenario embedding
         """
-        # for each batch, pass-non padded values in. 
+        #  transform the scenario inputs (x_scen) into lower-dimensional embeddings
+
+        # for each batch, pass non-padded values in. 
         if x_n_scen is not None:
             x_scen_embed = []
             for i in range(x_scen.shape[0]):
