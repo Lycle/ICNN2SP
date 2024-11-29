@@ -1,8 +1,8 @@
 # added exclusions
 *.pickle
-*.pkl
+# *.pkl
 *.lp
-*.pt
+# *.pt
 *.mps
 *.cor
 *.smps
