@@ -6,8 +6,8 @@ Set parameter Threads to value 1
 Set parameter LogFile to value "data/cflp/grb_log_nn_e_s100_ts0_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
 Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
 
-CPU model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
-Thread count: 24 physical cores, 24 logical processors, using up to 1 threads
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
 
 Optimize a model with 513 rows, 563 columns and 26372 nonzeros
 Model fingerprint: 0xcd1bff21
@@ -71,19 +71,19 @@ Cutting planes:
   Cover: 2
   MIR: 13
 
-Explored 295 nodes (1900 simplex iterations) in 0.41 seconds (0.21 work units)
-Thread count was 1 (of 24 available processors)
+Explored 295 nodes (1900 simplex iterations) in 0.33 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
 
 Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
 
-User-callback calls 1162, time in user-callback 0.00 sec
+User-callback calls 1126, time in user-callback 0.00 sec
 Results for nn_e
     True:         26392.47484906986
     Predicted:    26122.565641031455
-    Time:         1.2583739757537842
+    Time:         1.1356470584869385
     Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
 EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=100, test_set=1
 
@@ -93,8 +93,8 @@ Set parameter Threads to value 1
 Set parameter LogFile to value "data/cflp/grb_log_nn_e_s100_ts1_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
 Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
 
-CPU model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
-Thread count: 24 physical cores, 24 logical processors, using up to 1 threads
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
 
 Optimize a model with 513 rows, 563 columns and 26372 nonzeros
 Model fingerprint: 0xcd1bff21
@@ -158,19 +158,19 @@ Cutting planes:
   Cover: 2
   MIR: 13
 
-Explored 295 nodes (1900 simplex iterations) in 0.40 seconds (0.21 work units)
-Thread count was 1 (of 24 available processors)
+Explored 295 nodes (1900 simplex iterations) in 0.31 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
 
 Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
 
-User-callback calls 1156, time in user-callback 0.00 sec
+User-callback calls 1120, time in user-callback 0.00 sec
 Results for nn_e
     True:         26447.31198584764
     Predicted:    26122.565641031455
-    Time:         1.2405004501342773
+    Time:         1.0309007167816162
     Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
 EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=100, test_set=2
 
@@ -180,8 +180,8 @@ Set parameter Threads to value 1
 Set parameter LogFile to value "data/cflp/grb_log_nn_e_s100_ts2_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
 Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
 
-CPU model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
-Thread count: 24 physical cores, 24 logical processors, using up to 1 threads
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
 
 Optimize a model with 513 rows, 563 columns and 26372 nonzeros
 Model fingerprint: 0xcd1bff21
@@ -245,19 +245,19 @@ Cutting planes:
   Cover: 2
   MIR: 13
 
-Explored 295 nodes (1900 simplex iterations) in 0.38 seconds (0.21 work units)
-Thread count was 1 (of 24 available processors)
+Explored 295 nodes (1900 simplex iterations) in 0.31 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
 
 Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
 
-User-callback calls 1151, time in user-callback 0.00 sec
+User-callback calls 1120, time in user-callback 0.00 sec
 Results for nn_e
     True:         26687.99664233371
     Predicted:    26122.565641031455
-    Time:         1.1965653896331787
+    Time:         1.044283390045166
     Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
 EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=100, test_set=3
 
@@ -267,8 +267,8 @@ Set parameter Threads to value 1
 Set parameter LogFile to value "data/cflp/grb_log_nn_e_s100_ts3_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
 Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
 
-CPU model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
-Thread count: 24 physical cores, 24 logical processors, using up to 1 threads
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
 
 Optimize a model with 513 rows, 563 columns and 26372 nonzeros
 Model fingerprint: 0xcd1bff21
@@ -332,19 +332,19 @@ Cutting planes:
   Cover: 2
   MIR: 13
 
-Explored 295 nodes (1900 simplex iterations) in 0.40 seconds (0.21 work units)
-Thread count was 1 (of 24 available processors)
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
 
 Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
 
-User-callback calls 1157, time in user-callback 0.00 sec
+User-callback calls 1121, time in user-callback 0.00 sec
 Results for nn_e
-    True:         26394.01240605923
+    True:         26393.971671053732
     Predicted:    26122.565641031455
-    Time:         1.2720236778259277
+    Time:         1.045868158340454
     Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
 EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=100, test_set=4
 
@@ -354,8 +354,8 @@ Set parameter Threads to value 1
 Set parameter LogFile to value "data/cflp/grb_log_nn_e_s100_ts4_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
 Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
 
-CPU model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
-Thread count: 24 physical cores, 24 logical processors, using up to 1 threads
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
 
 Optimize a model with 513 rows, 563 columns and 26372 nonzeros
 Model fingerprint: 0xcd1bff21
@@ -419,19 +419,19 @@ Cutting planes:
   Cover: 2
   MIR: 13
 
-Explored 295 nodes (1900 simplex iterations) in 0.39 seconds (0.21 work units)
-Thread count was 1 (of 24 available processors)
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
 
 Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
 
-User-callback calls 1158, time in user-callback 0.00 sec
+User-callback calls 1122, time in user-callback 0.00 sec
 Results for nn_e
     True:         26261.066336513923
     Predicted:    26122.565641031455
-    Time:         1.2034392356872559
+    Time:         1.0544602870941162
     Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
 EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=100, test_set=5
 
@@ -441,8 +441,8 @@ Set parameter Threads to value 1
 Set parameter LogFile to value "data/cflp/grb_log_nn_e_s100_ts5_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
 Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
 
-CPU model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
-Thread count: 24 physical cores, 24 logical processors, using up to 1 threads
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
 
 Optimize a model with 513 rows, 563 columns and 26372 nonzeros
 Model fingerprint: 0xcd1bff21
@@ -506,19 +506,19 @@ Cutting planes:
   Cover: 2
   MIR: 13
 
-Explored 295 nodes (1900 simplex iterations) in 0.40 seconds (0.21 work units)
-Thread count was 1 (of 24 available processors)
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
 
 Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
 
-User-callback calls 1158, time in user-callback 0.00 sec
+User-callback calls 1124, time in user-callback 0.00 sec
 Results for nn_e
     True:         26408.334537457493
     Predicted:    26122.565641031455
-    Time:         1.2488853931427002
+    Time:         1.063469409942627
     Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
 EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=100, test_set=6
 
@@ -528,8 +528,8 @@ Set parameter Threads to value 1
 Set parameter LogFile to value "data/cflp/grb_log_nn_e_s100_ts6_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
 Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
 
-CPU model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
-Thread count: 24 physical cores, 24 logical processors, using up to 1 threads
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
 
 Optimize a model with 513 rows, 563 columns and 26372 nonzeros
 Model fingerprint: 0xcd1bff21
@@ -593,19 +593,19 @@ Cutting planes:
   Cover: 2
   MIR: 13
 
-Explored 295 nodes (1900 simplex iterations) in 0.40 seconds (0.21 work units)
-Thread count was 1 (of 24 available processors)
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
 
 Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
 
-User-callback calls 1160, time in user-callback 0.00 sec
+User-callback calls 1120, time in user-callback 0.00 sec
 Results for nn_e
     True:         27075.76710873977
     Predicted:    26122.565641031455
-    Time:         1.245008945465088
+    Time:         0.9699621200561523
     Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
 EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=100, test_set=7
 
@@ -615,8 +615,8 @@ Set parameter Threads to value 1
 Set parameter LogFile to value "data/cflp/grb_log_nn_e_s100_ts7_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
 Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
 
-CPU model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
-Thread count: 24 physical cores, 24 logical processors, using up to 1 threads
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
 
 Optimize a model with 513 rows, 563 columns and 26372 nonzeros
 Model fingerprint: 0xcd1bff21
@@ -680,19 +680,19 @@ Cutting planes:
   Cover: 2
   MIR: 13
 
-Explored 295 nodes (1900 simplex iterations) in 0.40 seconds (0.21 work units)
-Thread count was 1 (of 24 available processors)
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
 
 Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
 
-User-callback calls 1161, time in user-callback 0.00 sec
+User-callback calls 1124, time in user-callback 0.00 sec
 Results for nn_e
     True:         26401.04582786418
     Predicted:    26122.565641031455
-    Time:         1.2640395164489746
+    Time:         0.9920945167541504
     Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
 EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=100, test_set=8
 
@@ -702,8 +702,8 @@ Set parameter Threads to value 1
 Set parameter LogFile to value "data/cflp/grb_log_nn_e_s100_ts8_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
 Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
 
-CPU model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
-Thread count: 24 physical cores, 24 logical processors, using up to 1 threads
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
 
 Optimize a model with 513 rows, 563 columns and 26372 nonzeros
 Model fingerprint: 0xcd1bff21
@@ -767,19 +767,19 @@ Cutting planes:
   Cover: 2
   MIR: 13
 
-Explored 295 nodes (1900 simplex iterations) in 0.40 seconds (0.21 work units)
-Thread count was 1 (of 24 available processors)
+Explored 295 nodes (1900 simplex iterations) in 0.33 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
 
 Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
 
-User-callback calls 1159, time in user-callback 0.00 sec
+User-callback calls 1124, time in user-callback 0.00 sec
 Results for nn_e
     True:         26256.987619185697
     Predicted:    26122.565641031455
-    Time:         1.3087472915649414
+    Time:         0.9720571041107178
     Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
 EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=100, test_set=9
 
@@ -789,8 +789,8 @@ Set parameter Threads to value 1
 Set parameter LogFile to value "data/cflp/grb_log_nn_e_s100_ts9_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
 Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
 
-CPU model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
-Thread count: 24 physical cores, 24 logical processors, using up to 1 threads
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
 
 Optimize a model with 513 rows, 563 columns and 26372 nonzeros
 Model fingerprint: 0xcd1bff21
@@ -854,19 +854,19 @@ Cutting planes:
   Cover: 2
   MIR: 13
 
-Explored 295 nodes (1900 simplex iterations) in 0.40 seconds (0.21 work units)
-Thread count was 1 (of 24 available processors)
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
 
 Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
 
-User-callback calls 1157, time in user-callback 0.00 sec
+User-callback calls 1121, time in user-callback 0.00 sec
 Results for nn_e
     True:         26060.841217992034
     Predicted:    26122.565641031455
-    Time:         1.2613205909729004
+    Time:         1.0112652778625488
     Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
 EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=100, test_set=10
 
@@ -876,8 +876,8 @@ Set parameter Threads to value 1
 Set parameter LogFile to value "data/cflp/grb_log_nn_e_s100_ts10_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
 Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
 
-CPU model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
-Thread count: 24 physical cores, 24 logical processors, using up to 1 threads
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
 
 Optimize a model with 513 rows, 563 columns and 26372 nonzeros
 Model fingerprint: 0xcd1bff21
@@ -941,19 +941,19 @@ Cutting planes:
   Cover: 2
   MIR: 13
 
-Explored 295 nodes (1900 simplex iterations) in 0.40 seconds (0.21 work units)
-Thread count was 1 (of 24 available processors)
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
 
 Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
 
-User-callback calls 1157, time in user-callback 0.00 sec
+User-callback calls 1124, time in user-callback 0.00 sec
 Results for nn_e
     True:         26227.943113924128
     Predicted:    26122.565641031455
-    Time:         1.2531073093414307
+    Time:         1.06412935256958
     Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
 EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=500, test_set=0
 
@@ -963,8 +963,8 @@ Set parameter Threads to value 1
 Set parameter LogFile to value "data/cflp/grb_log_nn_e_s500_ts0_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
 Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
 
-CPU model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
-Thread count: 24 physical cores, 24 logical processors, using up to 1 threads
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
 
 Optimize a model with 513 rows, 563 columns and 26372 nonzeros
 Model fingerprint: 0xcd1bff21
@@ -1028,19 +1028,19 @@ Cutting planes:
   Cover: 2
   MIR: 13
 
-Explored 295 nodes (1900 simplex iterations) in 0.39 seconds (0.21 work units)
-Thread count was 1 (of 24 available processors)
+Explored 295 nodes (1900 simplex iterations) in 0.31 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
 
 Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
 
-User-callback calls 1157, time in user-callback 0.00 sec
+User-callback calls 1123, time in user-callback 0.00 sec
 Results for nn_e
     True:         26543.479177134053
     Predicted:    26122.565641031455
-    Time:         1.2506144046783447
+    Time:         1.028876781463623
     Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
 EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=500, test_set=1
 
@@ -1050,8 +1050,8 @@ Set parameter Threads to value 1
 Set parameter LogFile to value "data/cflp/grb_log_nn_e_s500_ts1_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
 Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
 
-CPU model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
-Thread count: 24 physical cores, 24 logical processors, using up to 1 threads
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
 
 Optimize a model with 513 rows, 563 columns and 26372 nonzeros
 Model fingerprint: 0xcd1bff21
@@ -1115,19 +1115,19 @@ Cutting planes:
   Cover: 2
   MIR: 13
 
-Explored 295 nodes (1900 simplex iterations) in 0.39 seconds (0.21 work units)
-Thread count was 1 (of 24 available processors)
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
 
 Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
 
-User-callback calls 1153, time in user-callback 0.00 sec
+User-callback calls 1120, time in user-callback 0.00 sec
 Results for nn_e
     True:         26394.143247187352
     Predicted:    26122.565641031455
-    Time:         1.243044137954712
+    Time:         0.987076997756958
     Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
 EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=500, test_set=2
 
@@ -1137,8 +1137,8 @@ Set parameter Threads to value 1
 Set parameter LogFile to value "data/cflp/grb_log_nn_e_s500_ts2_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
 Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
 
-CPU model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
-Thread count: 24 physical cores, 24 logical processors, using up to 1 threads
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
 
 Optimize a model with 513 rows, 563 columns and 26372 nonzeros
 Model fingerprint: 0xcd1bff21
@@ -1202,19 +1202,19 @@ Cutting planes:
   Cover: 2
   MIR: 13
 
-Explored 295 nodes (1900 simplex iterations) in 0.39 seconds (0.21 work units)
-Thread count was 1 (of 24 available processors)
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
 
 Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
 
-User-callback calls 1157, time in user-callback 0.00 sec
+User-callback calls 1124, time in user-callback 0.00 sec
 Results for nn_e
-    True:         26347.556254117946
+    True:         26347.55432622648
     Predicted:    26122.565641031455
-    Time:         1.2595741748809814
+    Time:         1.0603556632995605
     Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
 EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=500, test_set=3
 
@@ -1224,8 +1224,8 @@ Set parameter Threads to value 1
 Set parameter LogFile to value "data/cflp/grb_log_nn_e_s500_ts3_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
 Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
 
-CPU model: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz, instruction set [SSE2|AVX|AVX2]
-Thread count: 24 physical cores, 24 logical processors, using up to 1 threads
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
 
 Optimize a model with 513 rows, 563 columns and 26372 nonzeros
 Model fingerprint: 0xcd1bff21
@@ -1289,15 +1289,1616 @@ Cutting planes:
   Cover: 2
   MIR: 13
 
-Explored 295 nodes (1900 simplex iterations) in 0.40 seconds (0.21 work units)
-Thread count was 1 (of 24 available processors)
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
 
 Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
 
-User-callback calls 1158, time in user-callback 0.00 sec
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-slurmstepd: error: *** STEP 4666052.0 ON pe32 CANCELLED AT 2024-11-29T06:35:45 DUE TO TIME LIMIT ***
-slurmstepd: error: *** JOB 4666052 ON pe32 CANCELLED AT 2024-11-29T06:35:45 DUE TO TIME LIMIT ***
+User-callback calls 1120, time in user-callback 0.00 sec
+Results for nn_e
+    True:         26451.808872367106
+    Predicted:    26122.565641031455
+    Time:         1.011643409729004
+    Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
+EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=500, test_set=4
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/cflp/grb_log_nn_e_s500_ts4_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 513 rows, 563 columns and 26372 nonzeros
+Model fingerprint: 0xcd1bff21
+Variable types: 513 continuous, 50 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [4e-09, 8e+01]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-02, 1e+02]
+Found heuristic solution: objective 34368.391747
+Presolve removed 380 rows and 379 columns
+Presolve time: 0.01s
+Presolved: 133 rows, 184 columns, 6784 nonzeros
+Variable types: 134 continuous, 50 integer (50 binary)
+Found heuristic solution: objective 30447.237377
+
+Root relaxation: objective 2.599341e+04, 61 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 25993.4077    0    9 30447.2374 25993.4077  14.6%     -    0s
+H    0     0                    26760.796296 25993.4077  2.87%     -    0s
+H    0     0                    26365.598233 25993.4077  1.41%     -    0s
+     0     0 25994.2328    0    9 26365.5982 25994.2328  1.41%     -    0s
+H    0     0                    26204.243357 26000.6596  0.78%     -    0s
+     0     0 26001.7312    0   10 26204.2434 26001.7312  0.77%     -    0s
+     0     0 26002.5583    0   10 26204.2434 26002.5583  0.77%     -    0s
+     0     0 26004.5124    0   11 26204.2434 26004.5124  0.76%     -    0s
+     0     0 26007.3938    0   10 26204.2434 26007.3938  0.75%     -    0s
+     0     0 26008.0171    0   10 26204.2434 26008.0171  0.75%     -    0s
+     0     0 26008.0361    0   10 26204.2434 26008.0361  0.75%     -    0s
+     0     0 26008.2547    0   10 26204.2434 26008.2547  0.75%     -    0s
+     0     0 26008.7043    0   11 26204.2434 26008.7043  0.75%     -    0s
+     0     0 26009.6810    0   13 26204.2434 26009.6810  0.74%     -    0s
+H    0     0                    26122.565641 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26011.2372    0   12 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0    9 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.3275    0   11 26122.5656 26011.3275  0.43%     -    0s
+     0     0 26011.4612    0   11 26122.5656 26011.4612  0.43%     -    0s
+     0     0 26011.5669    0   12 26122.5656 26011.5669  0.42%     -    0s
+     0     0 26011.8491    0   12 26122.5656 26011.8491  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   13 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     2 26014.5854    0   14 26122.5656 26014.5854  0.41%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  MIR: 13
+
+Explored 295 nodes (1900 simplex iterations) in 0.31 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
+
+User-callback calls 1118, time in user-callback 0.00 sec
+Results for nn_e
+    True:         26304.661281164037
+    Predicted:    26122.565641031455
+    Time:         1.0379910469055176
+    Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
+EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=500, test_set=5
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/cflp/grb_log_nn_e_s500_ts5_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 513 rows, 563 columns and 26372 nonzeros
+Model fingerprint: 0xcd1bff21
+Variable types: 513 continuous, 50 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [4e-09, 8e+01]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-02, 1e+02]
+Found heuristic solution: objective 34368.391747
+Presolve removed 380 rows and 379 columns
+Presolve time: 0.01s
+Presolved: 133 rows, 184 columns, 6784 nonzeros
+Variable types: 134 continuous, 50 integer (50 binary)
+Found heuristic solution: objective 30447.237377
+
+Root relaxation: objective 2.599341e+04, 61 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 25993.4077    0    9 30447.2374 25993.4077  14.6%     -    0s
+H    0     0                    26760.796296 25993.4077  2.87%     -    0s
+H    0     0                    26365.598233 25993.4077  1.41%     -    0s
+     0     0 25994.2328    0    9 26365.5982 25994.2328  1.41%     -    0s
+H    0     0                    26204.243357 26000.6596  0.78%     -    0s
+     0     0 26001.7312    0   10 26204.2434 26001.7312  0.77%     -    0s
+     0     0 26002.5583    0   10 26204.2434 26002.5583  0.77%     -    0s
+     0     0 26004.5124    0   11 26204.2434 26004.5124  0.76%     -    0s
+     0     0 26007.3938    0   10 26204.2434 26007.3938  0.75%     -    0s
+     0     0 26008.0171    0   10 26204.2434 26008.0171  0.75%     -    0s
+     0     0 26008.0361    0   10 26204.2434 26008.0361  0.75%     -    0s
+     0     0 26008.2547    0   10 26204.2434 26008.2547  0.75%     -    0s
+     0     0 26008.7043    0   11 26204.2434 26008.7043  0.75%     -    0s
+     0     0 26009.6810    0   13 26204.2434 26009.6810  0.74%     -    0s
+H    0     0                    26122.565641 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26011.2372    0   12 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0    9 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.3275    0   11 26122.5656 26011.3275  0.43%     -    0s
+     0     0 26011.4612    0   11 26122.5656 26011.4612  0.43%     -    0s
+     0     0 26011.5669    0   12 26122.5656 26011.5669  0.42%     -    0s
+     0     0 26011.8491    0   12 26122.5656 26011.8491  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   13 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     2 26014.5854    0   14 26122.5656 26014.5854  0.41%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  MIR: 13
+
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
+
+User-callback calls 1121, time in user-callback 0.00 sec
+Results for nn_e
+    True:         26343.829381841057
+    Predicted:    26122.565641031455
+    Time:         1.0472192764282227
+    Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
+EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=500, test_set=6
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/cflp/grb_log_nn_e_s500_ts6_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 513 rows, 563 columns and 26372 nonzeros
+Model fingerprint: 0xcd1bff21
+Variable types: 513 continuous, 50 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [4e-09, 8e+01]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-02, 1e+02]
+Found heuristic solution: objective 34368.391747
+Presolve removed 380 rows and 379 columns
+Presolve time: 0.01s
+Presolved: 133 rows, 184 columns, 6784 nonzeros
+Variable types: 134 continuous, 50 integer (50 binary)
+Found heuristic solution: objective 30447.237377
+
+Root relaxation: objective 2.599341e+04, 61 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 25993.4077    0    9 30447.2374 25993.4077  14.6%     -    0s
+H    0     0                    26760.796296 25993.4077  2.87%     -    0s
+H    0     0                    26365.598233 25993.4077  1.41%     -    0s
+     0     0 25994.2328    0    9 26365.5982 25994.2328  1.41%     -    0s
+H    0     0                    26204.243357 26000.6596  0.78%     -    0s
+     0     0 26001.7312    0   10 26204.2434 26001.7312  0.77%     -    0s
+     0     0 26002.5583    0   10 26204.2434 26002.5583  0.77%     -    0s
+     0     0 26004.5124    0   11 26204.2434 26004.5124  0.76%     -    0s
+     0     0 26007.3938    0   10 26204.2434 26007.3938  0.75%     -    0s
+     0     0 26008.0171    0   10 26204.2434 26008.0171  0.75%     -    0s
+     0     0 26008.0361    0   10 26204.2434 26008.0361  0.75%     -    0s
+     0     0 26008.2547    0   10 26204.2434 26008.2547  0.75%     -    0s
+     0     0 26008.7043    0   11 26204.2434 26008.7043  0.75%     -    0s
+     0     0 26009.6810    0   13 26204.2434 26009.6810  0.74%     -    0s
+H    0     0                    26122.565641 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26011.2372    0   12 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0    9 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.3275    0   11 26122.5656 26011.3275  0.43%     -    0s
+     0     0 26011.4612    0   11 26122.5656 26011.4612  0.43%     -    0s
+     0     0 26011.5669    0   12 26122.5656 26011.5669  0.42%     -    0s
+     0     0 26011.8491    0   12 26122.5656 26011.8491  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   13 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     2 26014.5854    0   14 26122.5656 26014.5854  0.41%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  MIR: 13
+
+Explored 295 nodes (1900 simplex iterations) in 0.31 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
+
+User-callback calls 1120, time in user-callback 0.00 sec
+Results for nn_e
+    True:         26273.64290602337
+    Predicted:    26122.565641031455
+    Time:         1.0386056900024414
+    Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
+EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=500, test_set=7
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/cflp/grb_log_nn_e_s500_ts7_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 513 rows, 563 columns and 26372 nonzeros
+Model fingerprint: 0xcd1bff21
+Variable types: 513 continuous, 50 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [4e-09, 8e+01]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-02, 1e+02]
+Found heuristic solution: objective 34368.391747
+Presolve removed 380 rows and 379 columns
+Presolve time: 0.01s
+Presolved: 133 rows, 184 columns, 6784 nonzeros
+Variable types: 134 continuous, 50 integer (50 binary)
+Found heuristic solution: objective 30447.237377
+
+Root relaxation: objective 2.599341e+04, 61 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 25993.4077    0    9 30447.2374 25993.4077  14.6%     -    0s
+H    0     0                    26760.796296 25993.4077  2.87%     -    0s
+H    0     0                    26365.598233 25993.4077  1.41%     -    0s
+     0     0 25994.2328    0    9 26365.5982 25994.2328  1.41%     -    0s
+H    0     0                    26204.243357 26000.6596  0.78%     -    0s
+     0     0 26001.7312    0   10 26204.2434 26001.7312  0.77%     -    0s
+     0     0 26002.5583    0   10 26204.2434 26002.5583  0.77%     -    0s
+     0     0 26004.5124    0   11 26204.2434 26004.5124  0.76%     -    0s
+     0     0 26007.3938    0   10 26204.2434 26007.3938  0.75%     -    0s
+     0     0 26008.0171    0   10 26204.2434 26008.0171  0.75%     -    0s
+     0     0 26008.0361    0   10 26204.2434 26008.0361  0.75%     -    0s
+     0     0 26008.2547    0   10 26204.2434 26008.2547  0.75%     -    0s
+     0     0 26008.7043    0   11 26204.2434 26008.7043  0.75%     -    0s
+     0     0 26009.6810    0   13 26204.2434 26009.6810  0.74%     -    0s
+H    0     0                    26122.565641 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26011.2372    0   12 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0    9 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.3275    0   11 26122.5656 26011.3275  0.43%     -    0s
+     0     0 26011.4612    0   11 26122.5656 26011.4612  0.43%     -    0s
+     0     0 26011.5669    0   12 26122.5656 26011.5669  0.42%     -    0s
+     0     0 26011.8491    0   12 26122.5656 26011.8491  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   13 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     2 26014.5854    0   14 26122.5656 26014.5854  0.41%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  MIR: 13
+
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
+
+User-callback calls 1121, time in user-callback 0.00 sec
+Results for nn_e
+    True:         26493.687589781013
+    Predicted:    26122.565641031455
+    Time:         1.0620167255401611
+    Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
+EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=500, test_set=8
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/cflp/grb_log_nn_e_s500_ts8_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 513 rows, 563 columns and 26372 nonzeros
+Model fingerprint: 0xcd1bff21
+Variable types: 513 continuous, 50 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [4e-09, 8e+01]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-02, 1e+02]
+Found heuristic solution: objective 34368.391747
+Presolve removed 380 rows and 379 columns
+Presolve time: 0.01s
+Presolved: 133 rows, 184 columns, 6784 nonzeros
+Variable types: 134 continuous, 50 integer (50 binary)
+Found heuristic solution: objective 30447.237377
+
+Root relaxation: objective 2.599341e+04, 61 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 25993.4077    0    9 30447.2374 25993.4077  14.6%     -    0s
+H    0     0                    26760.796296 25993.4077  2.87%     -    0s
+H    0     0                    26365.598233 25993.4077  1.41%     -    0s
+     0     0 25994.2328    0    9 26365.5982 25994.2328  1.41%     -    0s
+H    0     0                    26204.243357 26000.6596  0.78%     -    0s
+     0     0 26001.7312    0   10 26204.2434 26001.7312  0.77%     -    0s
+     0     0 26002.5583    0   10 26204.2434 26002.5583  0.77%     -    0s
+     0     0 26004.5124    0   11 26204.2434 26004.5124  0.76%     -    0s
+     0     0 26007.3938    0   10 26204.2434 26007.3938  0.75%     -    0s
+     0     0 26008.0171    0   10 26204.2434 26008.0171  0.75%     -    0s
+     0     0 26008.0361    0   10 26204.2434 26008.0361  0.75%     -    0s
+     0     0 26008.2547    0   10 26204.2434 26008.2547  0.75%     -    0s
+     0     0 26008.7043    0   11 26204.2434 26008.7043  0.75%     -    0s
+     0     0 26009.6810    0   13 26204.2434 26009.6810  0.74%     -    0s
+H    0     0                    26122.565641 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26011.2372    0   12 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0    9 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.3275    0   11 26122.5656 26011.3275  0.43%     -    0s
+     0     0 26011.4612    0   11 26122.5656 26011.4612  0.43%     -    0s
+     0     0 26011.5669    0   12 26122.5656 26011.5669  0.42%     -    0s
+     0     0 26011.8491    0   12 26122.5656 26011.8491  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   13 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     2 26014.5854    0   14 26122.5656 26014.5854  0.41%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  MIR: 13
+
+Explored 295 nodes (1900 simplex iterations) in 0.31 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
+
+User-callback calls 1120, time in user-callback 0.00 sec
+Results for nn_e
+    True:         26261.969564878185
+    Predicted:    26122.565641031455
+    Time:         1.0169532299041748
+    Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
+EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=500, test_set=9
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/cflp/grb_log_nn_e_s500_ts9_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 513 rows, 563 columns and 26372 nonzeros
+Model fingerprint: 0xcd1bff21
+Variable types: 513 continuous, 50 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [4e-09, 8e+01]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-02, 1e+02]
+Found heuristic solution: objective 34368.391747
+Presolve removed 380 rows and 379 columns
+Presolve time: 0.01s
+Presolved: 133 rows, 184 columns, 6784 nonzeros
+Variable types: 134 continuous, 50 integer (50 binary)
+Found heuristic solution: objective 30447.237377
+
+Root relaxation: objective 2.599341e+04, 61 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 25993.4077    0    9 30447.2374 25993.4077  14.6%     -    0s
+H    0     0                    26760.796296 25993.4077  2.87%     -    0s
+H    0     0                    26365.598233 25993.4077  1.41%     -    0s
+     0     0 25994.2328    0    9 26365.5982 25994.2328  1.41%     -    0s
+H    0     0                    26204.243357 26000.6596  0.78%     -    0s
+     0     0 26001.7312    0   10 26204.2434 26001.7312  0.77%     -    0s
+     0     0 26002.5583    0   10 26204.2434 26002.5583  0.77%     -    0s
+     0     0 26004.5124    0   11 26204.2434 26004.5124  0.76%     -    0s
+     0     0 26007.3938    0   10 26204.2434 26007.3938  0.75%     -    0s
+     0     0 26008.0171    0   10 26204.2434 26008.0171  0.75%     -    0s
+     0     0 26008.0361    0   10 26204.2434 26008.0361  0.75%     -    0s
+     0     0 26008.2547    0   10 26204.2434 26008.2547  0.75%     -    0s
+     0     0 26008.7043    0   11 26204.2434 26008.7043  0.75%     -    0s
+     0     0 26009.6810    0   13 26204.2434 26009.6810  0.74%     -    0s
+H    0     0                    26122.565641 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26011.2372    0   12 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0    9 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.3275    0   11 26122.5656 26011.3275  0.43%     -    0s
+     0     0 26011.4612    0   11 26122.5656 26011.4612  0.43%     -    0s
+     0     0 26011.5669    0   12 26122.5656 26011.5669  0.42%     -    0s
+     0     0 26011.8491    0   12 26122.5656 26011.8491  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   13 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     2 26014.5854    0   14 26122.5656 26014.5854  0.41%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  MIR: 13
+
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
+
+User-callback calls 1121, time in user-callback 0.00 sec
+Results for nn_e
+    True:         26477.367518277057
+    Predicted:    26122.565641031455
+    Time:         1.0485742092132568
+    Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
+EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=500, test_set=10
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/cflp/grb_log_nn_e_s500_ts10_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 513 rows, 563 columns and 26372 nonzeros
+Model fingerprint: 0xcd1bff21
+Variable types: 513 continuous, 50 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [4e-09, 8e+01]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-02, 1e+02]
+Found heuristic solution: objective 34368.391747
+Presolve removed 380 rows and 379 columns
+Presolve time: 0.01s
+Presolved: 133 rows, 184 columns, 6784 nonzeros
+Variable types: 134 continuous, 50 integer (50 binary)
+Found heuristic solution: objective 30447.237377
+
+Root relaxation: objective 2.599341e+04, 61 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 25993.4077    0    9 30447.2374 25993.4077  14.6%     -    0s
+H    0     0                    26760.796296 25993.4077  2.87%     -    0s
+H    0     0                    26365.598233 25993.4077  1.41%     -    0s
+     0     0 25994.2328    0    9 26365.5982 25994.2328  1.41%     -    0s
+H    0     0                    26204.243357 26000.6596  0.78%     -    0s
+     0     0 26001.7312    0   10 26204.2434 26001.7312  0.77%     -    0s
+     0     0 26002.5583    0   10 26204.2434 26002.5583  0.77%     -    0s
+     0     0 26004.5124    0   11 26204.2434 26004.5124  0.76%     -    0s
+     0     0 26007.3938    0   10 26204.2434 26007.3938  0.75%     -    0s
+     0     0 26008.0171    0   10 26204.2434 26008.0171  0.75%     -    0s
+     0     0 26008.0361    0   10 26204.2434 26008.0361  0.75%     -    0s
+     0     0 26008.2547    0   10 26204.2434 26008.2547  0.75%     -    0s
+     0     0 26008.7043    0   11 26204.2434 26008.7043  0.75%     -    0s
+     0     0 26009.6810    0   13 26204.2434 26009.6810  0.74%     -    0s
+H    0     0                    26122.565641 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26011.2372    0   12 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0    9 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.3275    0   11 26122.5656 26011.3275  0.43%     -    0s
+     0     0 26011.4612    0   11 26122.5656 26011.4612  0.43%     -    0s
+     0     0 26011.5669    0   12 26122.5656 26011.5669  0.42%     -    0s
+     0     0 26011.8491    0   12 26122.5656 26011.8491  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   13 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     2 26014.5854    0   14 26122.5656 26014.5854  0.41%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  MIR: 13
+
+Explored 295 nodes (1900 simplex iterations) in 0.31 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
+
+User-callback calls 1119, time in user-callback 0.00 sec
+Results for nn_e
+    True:         26456.478620235626
+    Predicted:    26122.565641031455
+    Time:         1.0416889190673828
+    Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
+EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=1000, test_set=0
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/cflp/grb_log_nn_e_s1000_ts0_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 513 rows, 563 columns and 26372 nonzeros
+Model fingerprint: 0xcd1bff21
+Variable types: 513 continuous, 50 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [4e-09, 8e+01]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-02, 1e+02]
+Found heuristic solution: objective 34368.391747
+Presolve removed 380 rows and 379 columns
+Presolve time: 0.01s
+Presolved: 133 rows, 184 columns, 6784 nonzeros
+Variable types: 134 continuous, 50 integer (50 binary)
+Found heuristic solution: objective 30447.237377
+
+Root relaxation: objective 2.599341e+04, 61 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 25993.4077    0    9 30447.2374 25993.4077  14.6%     -    0s
+H    0     0                    26760.796296 25993.4077  2.87%     -    0s
+H    0     0                    26365.598233 25993.4077  1.41%     -    0s
+     0     0 25994.2328    0    9 26365.5982 25994.2328  1.41%     -    0s
+H    0     0                    26204.243357 26000.6596  0.78%     -    0s
+     0     0 26001.7312    0   10 26204.2434 26001.7312  0.77%     -    0s
+     0     0 26002.5583    0   10 26204.2434 26002.5583  0.77%     -    0s
+     0     0 26004.5124    0   11 26204.2434 26004.5124  0.76%     -    0s
+     0     0 26007.3938    0   10 26204.2434 26007.3938  0.75%     -    0s
+     0     0 26008.0171    0   10 26204.2434 26008.0171  0.75%     -    0s
+     0     0 26008.0361    0   10 26204.2434 26008.0361  0.75%     -    0s
+     0     0 26008.2547    0   10 26204.2434 26008.2547  0.75%     -    0s
+     0     0 26008.7043    0   11 26204.2434 26008.7043  0.75%     -    0s
+     0     0 26009.6810    0   13 26204.2434 26009.6810  0.74%     -    0s
+H    0     0                    26122.565641 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26011.2372    0   12 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0    9 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.3275    0   11 26122.5656 26011.3275  0.43%     -    0s
+     0     0 26011.4612    0   11 26122.5656 26011.4612  0.43%     -    0s
+     0     0 26011.5669    0   12 26122.5656 26011.5669  0.42%     -    0s
+     0     0 26011.8491    0   12 26122.5656 26011.8491  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   13 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     2 26014.5854    0   14 26122.5656 26014.5854  0.41%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  MIR: 13
+
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
+
+User-callback calls 1122, time in user-callback 0.00 sec
+Results for nn_e
+    True:         26430.056949772723
+    Predicted:    26122.565641031455
+    Time:         1.0432202816009521
+    Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
+EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=1000, test_set=1
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/cflp/grb_log_nn_e_s1000_ts1_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 513 rows, 563 columns and 26372 nonzeros
+Model fingerprint: 0xcd1bff21
+Variable types: 513 continuous, 50 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [4e-09, 8e+01]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-02, 1e+02]
+Found heuristic solution: objective 34368.391747
+Presolve removed 380 rows and 379 columns
+Presolve time: 0.01s
+Presolved: 133 rows, 184 columns, 6784 nonzeros
+Variable types: 134 continuous, 50 integer (50 binary)
+Found heuristic solution: objective 30447.237377
+
+Root relaxation: objective 2.599341e+04, 61 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 25993.4077    0    9 30447.2374 25993.4077  14.6%     -    0s
+H    0     0                    26760.796296 25993.4077  2.87%     -    0s
+H    0     0                    26365.598233 25993.4077  1.41%     -    0s
+     0     0 25994.2328    0    9 26365.5982 25994.2328  1.41%     -    0s
+H    0     0                    26204.243357 26000.6596  0.78%     -    0s
+     0     0 26001.7312    0   10 26204.2434 26001.7312  0.77%     -    0s
+     0     0 26002.5583    0   10 26204.2434 26002.5583  0.77%     -    0s
+     0     0 26004.5124    0   11 26204.2434 26004.5124  0.76%     -    0s
+     0     0 26007.3938    0   10 26204.2434 26007.3938  0.75%     -    0s
+     0     0 26008.0171    0   10 26204.2434 26008.0171  0.75%     -    0s
+     0     0 26008.0361    0   10 26204.2434 26008.0361  0.75%     -    0s
+     0     0 26008.2547    0   10 26204.2434 26008.2547  0.75%     -    0s
+     0     0 26008.7043    0   11 26204.2434 26008.7043  0.75%     -    0s
+     0     0 26009.6810    0   13 26204.2434 26009.6810  0.74%     -    0s
+H    0     0                    26122.565641 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26011.2372    0   12 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0    9 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.3275    0   11 26122.5656 26011.3275  0.43%     -    0s
+     0     0 26011.4612    0   11 26122.5656 26011.4612  0.43%     -    0s
+     0     0 26011.5669    0   12 26122.5656 26011.5669  0.42%     -    0s
+     0     0 26011.8491    0   12 26122.5656 26011.8491  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   13 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     2 26014.5854    0   14 26122.5656 26014.5854  0.41%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  MIR: 13
+
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
+
+User-callback calls 1120, time in user-callback 0.00 sec
+Results for nn_e
+    True:         26375.944003094926
+    Predicted:    26122.565641031455
+    Time:         0.9900796413421631
+    Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
+EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=1000, test_set=2
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/cflp/grb_log_nn_e_s1000_ts2_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 513 rows, 563 columns and 26372 nonzeros
+Model fingerprint: 0xcd1bff21
+Variable types: 513 continuous, 50 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [4e-09, 8e+01]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-02, 1e+02]
+Found heuristic solution: objective 34368.391747
+Presolve removed 380 rows and 379 columns
+Presolve time: 0.01s
+Presolved: 133 rows, 184 columns, 6784 nonzeros
+Variable types: 134 continuous, 50 integer (50 binary)
+Found heuristic solution: objective 30447.237377
+
+Root relaxation: objective 2.599341e+04, 61 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 25993.4077    0    9 30447.2374 25993.4077  14.6%     -    0s
+H    0     0                    26760.796296 25993.4077  2.87%     -    0s
+H    0     0                    26365.598233 25993.4077  1.41%     -    0s
+     0     0 25994.2328    0    9 26365.5982 25994.2328  1.41%     -    0s
+H    0     0                    26204.243357 26000.6596  0.78%     -    0s
+     0     0 26001.7312    0   10 26204.2434 26001.7312  0.77%     -    0s
+     0     0 26002.5583    0   10 26204.2434 26002.5583  0.77%     -    0s
+     0     0 26004.5124    0   11 26204.2434 26004.5124  0.76%     -    0s
+     0     0 26007.3938    0   10 26204.2434 26007.3938  0.75%     -    0s
+     0     0 26008.0171    0   10 26204.2434 26008.0171  0.75%     -    0s
+     0     0 26008.0361    0   10 26204.2434 26008.0361  0.75%     -    0s
+     0     0 26008.2547    0   10 26204.2434 26008.2547  0.75%     -    0s
+     0     0 26008.7043    0   11 26204.2434 26008.7043  0.75%     -    0s
+     0     0 26009.6810    0   13 26204.2434 26009.6810  0.74%     -    0s
+H    0     0                    26122.565641 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26011.2372    0   12 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0    9 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.3275    0   11 26122.5656 26011.3275  0.43%     -    0s
+     0     0 26011.4612    0   11 26122.5656 26011.4612  0.43%     -    0s
+     0     0 26011.5669    0   12 26122.5656 26011.5669  0.42%     -    0s
+     0     0 26011.8491    0   12 26122.5656 26011.8491  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   13 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     2 26014.5854    0   14 26122.5656 26014.5854  0.41%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  MIR: 13
+
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
+
+User-callback calls 1121, time in user-callback 0.00 sec
+Results for nn_e
+    True:         26324.00203374408
+    Predicted:    26122.565641031455
+    Time:         1.0092668533325195
+    Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
+EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=1000, test_set=3
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/cflp/grb_log_nn_e_s1000_ts3_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 513 rows, 563 columns and 26372 nonzeros
+Model fingerprint: 0xcd1bff21
+Variable types: 513 continuous, 50 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [4e-09, 8e+01]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-02, 1e+02]
+Found heuristic solution: objective 34368.391747
+Presolve removed 380 rows and 379 columns
+Presolve time: 0.01s
+Presolved: 133 rows, 184 columns, 6784 nonzeros
+Variable types: 134 continuous, 50 integer (50 binary)
+Found heuristic solution: objective 30447.237377
+
+Root relaxation: objective 2.599341e+04, 61 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 25993.4077    0    9 30447.2374 25993.4077  14.6%     -    0s
+H    0     0                    26760.796296 25993.4077  2.87%     -    0s
+H    0     0                    26365.598233 25993.4077  1.41%     -    0s
+     0     0 25994.2328    0    9 26365.5982 25994.2328  1.41%     -    0s
+H    0     0                    26204.243357 26000.6596  0.78%     -    0s
+     0     0 26001.7312    0   10 26204.2434 26001.7312  0.77%     -    0s
+     0     0 26002.5583    0   10 26204.2434 26002.5583  0.77%     -    0s
+     0     0 26004.5124    0   11 26204.2434 26004.5124  0.76%     -    0s
+     0     0 26007.3938    0   10 26204.2434 26007.3938  0.75%     -    0s
+     0     0 26008.0171    0   10 26204.2434 26008.0171  0.75%     -    0s
+     0     0 26008.0361    0   10 26204.2434 26008.0361  0.75%     -    0s
+     0     0 26008.2547    0   10 26204.2434 26008.2547  0.75%     -    0s
+     0     0 26008.7043    0   11 26204.2434 26008.7043  0.75%     -    0s
+     0     0 26009.6810    0   13 26204.2434 26009.6810  0.74%     -    0s
+H    0     0                    26122.565641 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26011.2372    0   12 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0    9 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.3275    0   11 26122.5656 26011.3275  0.43%     -    0s
+     0     0 26011.4612    0   11 26122.5656 26011.4612  0.43%     -    0s
+     0     0 26011.5669    0   12 26122.5656 26011.5669  0.42%     -    0s
+     0     0 26011.8491    0   12 26122.5656 26011.8491  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   13 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     2 26014.5854    0   14 26122.5656 26014.5854  0.41%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  MIR: 13
+
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
+
+User-callback calls 1124, time in user-callback 0.00 sec
+Results for nn_e
+    True:         26458.81575873001
+    Predicted:    26122.565641031455
+    Time:         1.0621654987335205
+    Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
+EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=1000, test_set=4
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/cflp/grb_log_nn_e_s1000_ts4_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 513 rows, 563 columns and 26372 nonzeros
+Model fingerprint: 0xcd1bff21
+Variable types: 513 continuous, 50 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [4e-09, 8e+01]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-02, 1e+02]
+Found heuristic solution: objective 34368.391747
+Presolve removed 380 rows and 379 columns
+Presolve time: 0.01s
+Presolved: 133 rows, 184 columns, 6784 nonzeros
+Variable types: 134 continuous, 50 integer (50 binary)
+Found heuristic solution: objective 30447.237377
+
+Root relaxation: objective 2.599341e+04, 61 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 25993.4077    0    9 30447.2374 25993.4077  14.6%     -    0s
+H    0     0                    26760.796296 25993.4077  2.87%     -    0s
+H    0     0                    26365.598233 25993.4077  1.41%     -    0s
+     0     0 25994.2328    0    9 26365.5982 25994.2328  1.41%     -    0s
+H    0     0                    26204.243357 26000.6596  0.78%     -    0s
+     0     0 26001.7312    0   10 26204.2434 26001.7312  0.77%     -    0s
+     0     0 26002.5583    0   10 26204.2434 26002.5583  0.77%     -    0s
+     0     0 26004.5124    0   11 26204.2434 26004.5124  0.76%     -    0s
+     0     0 26007.3938    0   10 26204.2434 26007.3938  0.75%     -    0s
+     0     0 26008.0171    0   10 26204.2434 26008.0171  0.75%     -    0s
+     0     0 26008.0361    0   10 26204.2434 26008.0361  0.75%     -    0s
+     0     0 26008.2547    0   10 26204.2434 26008.2547  0.75%     -    0s
+     0     0 26008.7043    0   11 26204.2434 26008.7043  0.75%     -    0s
+     0     0 26009.6810    0   13 26204.2434 26009.6810  0.74%     -    0s
+H    0     0                    26122.565641 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26011.2372    0   12 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0    9 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.3275    0   11 26122.5656 26011.3275  0.43%     -    0s
+     0     0 26011.4612    0   11 26122.5656 26011.4612  0.43%     -    0s
+     0     0 26011.5669    0   12 26122.5656 26011.5669  0.42%     -    0s
+     0     0 26011.8491    0   12 26122.5656 26011.8491  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   13 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     2 26014.5854    0   14 26122.5656 26014.5854  0.41%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  MIR: 13
+
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
+
+User-callback calls 1120, time in user-callback 0.00 sec
+Results for nn_e
+    True:         26432.06423150518
+    Predicted:    26122.565641031455
+    Time:         1.056837797164917
+    Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
+EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=1000, test_set=5
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/cflp/grb_log_nn_e_s1000_ts5_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 513 rows, 563 columns and 26372 nonzeros
+Model fingerprint: 0xcd1bff21
+Variable types: 513 continuous, 50 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [4e-09, 8e+01]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-02, 1e+02]
+Found heuristic solution: objective 34368.391747
+Presolve removed 380 rows and 379 columns
+Presolve time: 0.01s
+Presolved: 133 rows, 184 columns, 6784 nonzeros
+Variable types: 134 continuous, 50 integer (50 binary)
+Found heuristic solution: objective 30447.237377
+
+Root relaxation: objective 2.599341e+04, 61 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 25993.4077    0    9 30447.2374 25993.4077  14.6%     -    0s
+H    0     0                    26760.796296 25993.4077  2.87%     -    0s
+H    0     0                    26365.598233 25993.4077  1.41%     -    0s
+     0     0 25994.2328    0    9 26365.5982 25994.2328  1.41%     -    0s
+H    0     0                    26204.243357 26000.6596  0.78%     -    0s
+     0     0 26001.7312    0   10 26204.2434 26001.7312  0.77%     -    0s
+     0     0 26002.5583    0   10 26204.2434 26002.5583  0.77%     -    0s
+     0     0 26004.5124    0   11 26204.2434 26004.5124  0.76%     -    0s
+     0     0 26007.3938    0   10 26204.2434 26007.3938  0.75%     -    0s
+     0     0 26008.0171    0   10 26204.2434 26008.0171  0.75%     -    0s
+     0     0 26008.0361    0   10 26204.2434 26008.0361  0.75%     -    0s
+     0     0 26008.2547    0   10 26204.2434 26008.2547  0.75%     -    0s
+     0     0 26008.7043    0   11 26204.2434 26008.7043  0.75%     -    0s
+     0     0 26009.6810    0   13 26204.2434 26009.6810  0.74%     -    0s
+H    0     0                    26122.565641 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26011.2372    0   12 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0    9 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.3275    0   11 26122.5656 26011.3275  0.43%     -    0s
+     0     0 26011.4612    0   11 26122.5656 26011.4612  0.43%     -    0s
+     0     0 26011.5669    0   12 26122.5656 26011.5669  0.42%     -    0s
+     0     0 26011.8491    0   12 26122.5656 26011.8491  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   13 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     2 26014.5854    0   14 26122.5656 26014.5854  0.41%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  MIR: 13
+
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
+
+User-callback calls 1122, time in user-callback 0.00 sec
+Results for nn_e
+    True:         26396.057524256208
+    Predicted:    26122.565641031455
+    Time:         1.0053040981292725
+    Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
+EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=1000, test_set=6
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/cflp/grb_log_nn_e_s1000_ts6_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 513 rows, 563 columns and 26372 nonzeros
+Model fingerprint: 0xcd1bff21
+Variable types: 513 continuous, 50 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [4e-09, 8e+01]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-02, 1e+02]
+Found heuristic solution: objective 34368.391747
+Presolve removed 380 rows and 379 columns
+Presolve time: 0.01s
+Presolved: 133 rows, 184 columns, 6784 nonzeros
+Variable types: 134 continuous, 50 integer (50 binary)
+Found heuristic solution: objective 30447.237377
+
+Root relaxation: objective 2.599341e+04, 61 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 25993.4077    0    9 30447.2374 25993.4077  14.6%     -    0s
+H    0     0                    26760.796296 25993.4077  2.87%     -    0s
+H    0     0                    26365.598233 25993.4077  1.41%     -    0s
+     0     0 25994.2328    0    9 26365.5982 25994.2328  1.41%     -    0s
+H    0     0                    26204.243357 26000.6596  0.78%     -    0s
+     0     0 26001.7312    0   10 26204.2434 26001.7312  0.77%     -    0s
+     0     0 26002.5583    0   10 26204.2434 26002.5583  0.77%     -    0s
+     0     0 26004.5124    0   11 26204.2434 26004.5124  0.76%     -    0s
+     0     0 26007.3938    0   10 26204.2434 26007.3938  0.75%     -    0s
+     0     0 26008.0171    0   10 26204.2434 26008.0171  0.75%     -    0s
+     0     0 26008.0361    0   10 26204.2434 26008.0361  0.75%     -    0s
+     0     0 26008.2547    0   10 26204.2434 26008.2547  0.75%     -    0s
+     0     0 26008.7043    0   11 26204.2434 26008.7043  0.75%     -    0s
+     0     0 26009.6810    0   13 26204.2434 26009.6810  0.74%     -    0s
+H    0     0                    26122.565641 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26011.2372    0   12 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0    9 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.3275    0   11 26122.5656 26011.3275  0.43%     -    0s
+     0     0 26011.4612    0   11 26122.5656 26011.4612  0.43%     -    0s
+     0     0 26011.5669    0   12 26122.5656 26011.5669  0.42%     -    0s
+     0     0 26011.8491    0   12 26122.5656 26011.8491  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   13 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     2 26014.5854    0   14 26122.5656 26014.5854  0.41%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  MIR: 13
+
+Explored 295 nodes (1900 simplex iterations) in 0.31 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
+
+User-callback calls 1119, time in user-callback 0.00 sec
+Results for nn_e
+    True:         26454.400142261235
+    Predicted:    26122.565641031455
+    Time:         1.0513818264007568
+    Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
+EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=1000, test_set=7
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/cflp/grb_log_nn_e_s1000_ts7_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 513 rows, 563 columns and 26372 nonzeros
+Model fingerprint: 0xcd1bff21
+Variable types: 513 continuous, 50 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [4e-09, 8e+01]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-02, 1e+02]
+Found heuristic solution: objective 34368.391747
+Presolve removed 380 rows and 379 columns
+Presolve time: 0.01s
+Presolved: 133 rows, 184 columns, 6784 nonzeros
+Variable types: 134 continuous, 50 integer (50 binary)
+Found heuristic solution: objective 30447.237377
+
+Root relaxation: objective 2.599341e+04, 61 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 25993.4077    0    9 30447.2374 25993.4077  14.6%     -    0s
+H    0     0                    26760.796296 25993.4077  2.87%     -    0s
+H    0     0                    26365.598233 25993.4077  1.41%     -    0s
+     0     0 25994.2328    0    9 26365.5982 25994.2328  1.41%     -    0s
+H    0     0                    26204.243357 26000.6596  0.78%     -    0s
+     0     0 26001.7312    0   10 26204.2434 26001.7312  0.77%     -    0s
+     0     0 26002.5583    0   10 26204.2434 26002.5583  0.77%     -    0s
+     0     0 26004.5124    0   11 26204.2434 26004.5124  0.76%     -    0s
+     0     0 26007.3938    0   10 26204.2434 26007.3938  0.75%     -    0s
+     0     0 26008.0171    0   10 26204.2434 26008.0171  0.75%     -    0s
+     0     0 26008.0361    0   10 26204.2434 26008.0361  0.75%     -    0s
+     0     0 26008.2547    0   10 26204.2434 26008.2547  0.75%     -    0s
+     0     0 26008.7043    0   11 26204.2434 26008.7043  0.75%     -    0s
+     0     0 26009.6810    0   13 26204.2434 26009.6810  0.74%     -    0s
+H    0     0                    26122.565641 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26011.2372    0   12 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0    9 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.3275    0   11 26122.5656 26011.3275  0.43%     -    0s
+     0     0 26011.4612    0   11 26122.5656 26011.4612  0.43%     -    0s
+     0     0 26011.5669    0   12 26122.5656 26011.5669  0.42%     -    0s
+     0     0 26011.8491    0   12 26122.5656 26011.8491  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   13 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     2 26014.5854    0   14 26122.5656 26014.5854  0.41%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  MIR: 13
+
+Explored 295 nodes (1900 simplex iterations) in 0.31 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
+
+User-callback calls 1119, time in user-callback 0.00 sec
+Results for nn_e
+    True:         26260.732534016308
+    Predicted:    26122.565641031455
+    Time:         1.0412607192993164
+    Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
+EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=1000, test_set=8
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/cflp/grb_log_nn_e_s1000_ts8_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 513 rows, 563 columns and 26372 nonzeros
+Model fingerprint: 0xcd1bff21
+Variable types: 513 continuous, 50 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [4e-09, 8e+01]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-02, 1e+02]
+Found heuristic solution: objective 34368.391747
+Presolve removed 380 rows and 379 columns
+Presolve time: 0.01s
+Presolved: 133 rows, 184 columns, 6784 nonzeros
+Variable types: 134 continuous, 50 integer (50 binary)
+Found heuristic solution: objective 30447.237377
+
+Root relaxation: objective 2.599341e+04, 61 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 25993.4077    0    9 30447.2374 25993.4077  14.6%     -    0s
+H    0     0                    26760.796296 25993.4077  2.87%     -    0s
+H    0     0                    26365.598233 25993.4077  1.41%     -    0s
+     0     0 25994.2328    0    9 26365.5982 25994.2328  1.41%     -    0s
+H    0     0                    26204.243357 26000.6596  0.78%     -    0s
+     0     0 26001.7312    0   10 26204.2434 26001.7312  0.77%     -    0s
+     0     0 26002.5583    0   10 26204.2434 26002.5583  0.77%     -    0s
+     0     0 26004.5124    0   11 26204.2434 26004.5124  0.76%     -    0s
+     0     0 26007.3938    0   10 26204.2434 26007.3938  0.75%     -    0s
+     0     0 26008.0171    0   10 26204.2434 26008.0171  0.75%     -    0s
+     0     0 26008.0361    0   10 26204.2434 26008.0361  0.75%     -    0s
+     0     0 26008.2547    0   10 26204.2434 26008.2547  0.75%     -    0s
+     0     0 26008.7043    0   11 26204.2434 26008.7043  0.75%     -    0s
+     0     0 26009.6810    0   13 26204.2434 26009.6810  0.74%     -    0s
+H    0     0                    26122.565641 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26011.2372    0   12 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0    9 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.3275    0   11 26122.5656 26011.3275  0.43%     -    0s
+     0     0 26011.4612    0   11 26122.5656 26011.4612  0.43%     -    0s
+     0     0 26011.5669    0   12 26122.5656 26011.5669  0.42%     -    0s
+     0     0 26011.8491    0   12 26122.5656 26011.8491  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   13 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     2 26014.5854    0   14 26122.5656 26014.5854  0.41%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  MIR: 13
+
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
+
+User-callback calls 1120, time in user-callback 0.00 sec
+Results for nn_e
+    True:         26495.506109783673
+    Predicted:    26122.565641031455
+    Time:         1.0701167583465576
+    Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
+EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=1000, test_set=9
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/cflp/grb_log_nn_e_s1000_ts9_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 513 rows, 563 columns and 26372 nonzeros
+Model fingerprint: 0xcd1bff21
+Variable types: 513 continuous, 50 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [4e-09, 8e+01]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-02, 1e+02]
+Found heuristic solution: objective 34368.391747
+Presolve removed 380 rows and 379 columns
+Presolve time: 0.01s
+Presolved: 133 rows, 184 columns, 6784 nonzeros
+Variable types: 134 continuous, 50 integer (50 binary)
+Found heuristic solution: objective 30447.237377
+
+Root relaxation: objective 2.599341e+04, 61 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 25993.4077    0    9 30447.2374 25993.4077  14.6%     -    0s
+H    0     0                    26760.796296 25993.4077  2.87%     -    0s
+H    0     0                    26365.598233 25993.4077  1.41%     -    0s
+     0     0 25994.2328    0    9 26365.5982 25994.2328  1.41%     -    0s
+H    0     0                    26204.243357 26000.6596  0.78%     -    0s
+     0     0 26001.7312    0   10 26204.2434 26001.7312  0.77%     -    0s
+     0     0 26002.5583    0   10 26204.2434 26002.5583  0.77%     -    0s
+     0     0 26004.5124    0   11 26204.2434 26004.5124  0.76%     -    0s
+     0     0 26007.3938    0   10 26204.2434 26007.3938  0.75%     -    0s
+     0     0 26008.0171    0   10 26204.2434 26008.0171  0.75%     -    0s
+     0     0 26008.0361    0   10 26204.2434 26008.0361  0.75%     -    0s
+     0     0 26008.2547    0   10 26204.2434 26008.2547  0.75%     -    0s
+     0     0 26008.7043    0   11 26204.2434 26008.7043  0.75%     -    0s
+     0     0 26009.6810    0   13 26204.2434 26009.6810  0.74%     -    0s
+H    0     0                    26122.565641 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26011.2372    0   12 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0    9 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.3275    0   11 26122.5656 26011.3275  0.43%     -    0s
+     0     0 26011.4612    0   11 26122.5656 26011.4612  0.43%     -    0s
+     0     0 26011.5669    0   12 26122.5656 26011.5669  0.42%     -    0s
+     0     0 26011.8491    0   12 26122.5656 26011.8491  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   13 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     2 26014.5854    0   14 26122.5656 26014.5854  0.41%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  MIR: 13
+
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
+
+User-callback calls 1122, time in user-callback 0.00 sec
+Results for nn_e
+    True:         26457.323158855677
+    Predicted:    26122.565641031455
+    Time:         1.15570068359375
+    Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
+EVALUATING MODELS: problem=cflp_50_50, model_type=nn_e, n_scenarios=1000, test_set=10
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/cflp/grb_log_nn_e_s1000_ts10_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 513 rows, 563 columns and 26372 nonzeros
+Model fingerprint: 0xcd1bff21
+Variable types: 513 continuous, 50 integer (50 binary)
+Coefficient statistics:
+  Matrix range     [4e-09, 8e+01]
+  Objective range  [1e+00, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e-02, 1e+02]
+Found heuristic solution: objective 34368.391747
+Presolve removed 380 rows and 379 columns
+Presolve time: 0.01s
+Presolved: 133 rows, 184 columns, 6784 nonzeros
+Variable types: 134 continuous, 50 integer (50 binary)
+Found heuristic solution: objective 30447.237377
+
+Root relaxation: objective 2.599341e+04, 61 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 25993.4077    0    9 30447.2374 25993.4077  14.6%     -    0s
+H    0     0                    26760.796296 25993.4077  2.87%     -    0s
+H    0     0                    26365.598233 25993.4077  1.41%     -    0s
+     0     0 25994.2328    0    9 26365.5982 25994.2328  1.41%     -    0s
+H    0     0                    26204.243357 26000.6596  0.78%     -    0s
+     0     0 26001.7312    0   10 26204.2434 26001.7312  0.77%     -    0s
+     0     0 26002.5583    0   10 26204.2434 26002.5583  0.77%     -    0s
+     0     0 26004.5124    0   11 26204.2434 26004.5124  0.76%     -    0s
+     0     0 26007.3938    0   10 26204.2434 26007.3938  0.75%     -    0s
+     0     0 26008.0171    0   10 26204.2434 26008.0171  0.75%     -    0s
+     0     0 26008.0361    0   10 26204.2434 26008.0361  0.75%     -    0s
+     0     0 26008.2547    0   10 26204.2434 26008.2547  0.75%     -    0s
+     0     0 26008.7043    0   11 26204.2434 26008.7043  0.75%     -    0s
+     0     0 26009.6810    0   13 26204.2434 26009.6810  0.74%     -    0s
+H    0     0                    26122.565641 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26010.5185    0   13 26122.5656 26010.5185  0.43%     -    0s
+     0     0 26011.2372    0   12 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0    9 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   10 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.2372    0   11 26122.5656 26011.2372  0.43%     -    0s
+     0     0 26011.3275    0   11 26122.5656 26011.3275  0.43%     -    0s
+     0     0 26011.4612    0   11 26122.5656 26011.4612  0.43%     -    0s
+     0     0 26011.5669    0   12 26122.5656 26011.5669  0.42%     -    0s
+     0     0 26011.8491    0   12 26122.5656 26011.8491  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   12 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   13 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     0 26013.4619    0   14 26122.5656 26013.4619  0.42%     -    0s
+     0     2 26014.5854    0   14 26122.5656 26014.5854  0.41%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  MIR: 13
+
+Explored 295 nodes (1900 simplex iterations) in 0.32 seconds (0.21 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 7: 26122.6 26204.2 26365.6 ... 34368.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.612256564103e+04, best bound 2.612221178896e+04, gap 0.0014%
+
+User-callback calls 1122, time in user-callback 0.00 sec
+Results for nn_e
+    True:         26367.73626910146
+    Predicted:    26122.565641031455
+    Time:         1.0916640758514404
+    Sol:          {'x_0': 0.0, 'x_1': 0.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 1.0, 'x_7': 0.0, 'x_8': 0.0, 'x_9': 1.0, 'x_10': 0.0, 'x_11': 1.0, 'x_12': 1.0, 'x_13': 1.0, 'x_14': 0.0, 'x_15': 0.0, 'x_16': 0.0, 'x_17': 0.0, 'x_18': 0.0, 'x_19': 0.0, 'x_20': 0.0, 'x_21': 1.0, 'x_22': 0.0, 'x_23': 1.0, 'x_24': 0.0, 'x_25': 0.0, 'x_26': 1.0, 'x_27': 0.0, 'x_28': 0.0, 'x_29': 1.0, 'x_30': 0.0, 'x_31': 0.0, 'x_32': 1.0, 'x_33': 1.0, 'x_34': 0.0, 'x_35': 1.0, 'x_36': 0.0, 'x_37': 0.0, 'x_38': 1.0, 'x_39': 1.0, 'x_40': 1.0, 'x_41': 1.0, 'x_42': 0.0, 'x_43': 1.0, 'x_44': 0.0, 'x_45': 1.0, 'x_46': 1.0, 'x_47': 0.0, 'x_48': 0.0, 'x_49': 0.0}
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 100 --test_set 0 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 100 --test_set 1 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 100 --test_set 2 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 100 --test_set 3 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 100 --test_set 4 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 100 --test_set 5 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 100 --test_set 6 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 100 --test_set 7 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 100 --test_set 8 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 100 --test_set 9 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 100 --test_set 10 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 500 --test_set 0 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 500 --test_set 1 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 500 --test_set 2 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 500 --test_set 3 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 500 --test_set 4 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 500 --test_set 5 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 500 --test_set 6 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 500 --test_set 7 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 500 --test_set 8 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 500 --test_set 9 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 500 --test_set 10 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 1000 --test_set 0 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 1000 --test_set 1 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 1000 --test_set 2 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 1000 --test_set 3 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 1000 --test_set 4 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 1000 --test_set 5 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 1000 --test_set 6 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 1000 --test_set 7 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 1000 --test_set 8 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 1000 --test_set 9 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem cflp_50_50 --model_type nn_e --n_scenarios 1000 --test_set 10 --n_procs 16

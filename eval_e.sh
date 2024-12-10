@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=eval_e
-#SBATCH --time=03:00:00
+#SBATCH --time=12:00:00
 #SBATCH --mem=64G
 #SBATCH --cpus-per-task=16
 #SBATCH --output=eval_e.out
