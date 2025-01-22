@@ -106,7 +106,7 @@ if __name__ == '__main__':
     parser.add_argument('--n_procs', type=int, default=1,
                         help='Number of processes for evaluting the first stage solution.')
     parser.add_argument('--test_set', type=str, default="0",
-                        help='Evaluate a the test set (unseen scenarios). Only implemented for CFLP.')
+                        help='Evaluate at the test set (unseen scenarios). Only implemented for CFLP.')
     parser.add_argument('--hidden_dims', nargs="+", type=int, default=[64], help='List for hidden dimension.')
     args = parser.parse_args()
     main(args)
