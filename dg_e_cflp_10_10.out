@@ -1,0 +1,273 @@
+Loading CFLP data manager...
+Generating NN-E dataset for machine learning... 
+  PROBLEM: cflp_10_10
+  Getting objective for first varying first stage. 
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Solving LP 11000 / 250325
+Solving LP 12000 / 250325
+Solving LP 27000 / 250325
+Solving LP 40000 / 250325
+Solving LP 95000 / 250325
+Solving LP 115000 / 250325
+Solving LP 133000 / 250325
+Solving LP 158000 / 250325
+Solving LP 163000 / 250325
+Solving LP 171000 / 250325
+Solving LP 182000 / 250325
+Solving LP 183000 / 250325
+Solving LP 185000 / 250325
+Solving LP 190000 / 250325
+Solving LP 195000 / 250325
+Solving LP 198000 / 250325
+Solving LP 199000 / 250325
+Solving LP 2000 / 250325
+Solving LP 20000 / 250325
+Solving LP 23000 / 250325
+Solving LP 24000 / 250325
+Solving LP 30000 / 250325
+Solving LP 32000 / 250325
+Solving LP 48000 / 250325
+Solving LP 51000 / 250325
+Solving LP 53000 / 250325
+Solving LP 59000 / 250325
+Solving LP 75000 / 250325
+Solving LP 104000 / 250325
+Solving LP 105000 / 250325
+Solving LP 113000 / 250325
+Solving LP 116000 / 250325
+Solving LP 120000 / 250325
+Solving LP 125000 / 250325
+Solving LP 145000 / 250325
+Solving LP 153000 / 250325
+Solving LP 156000 / 250325
+Solving LP 161000 / 250325
+Solving LP 165000 / 250325
+Solving LP 167000 / 250325
+Solving LP 169000 / 250325
+Solving LP 180000 / 250325
+Solving LP 185000 / 250325
+Solving LP 192000 / 250325
+Solving LP 3000 / 250325
+Solving LP 4000 / 250325
+Solving LP 28000 / 250325
+Solving LP 34000 / 250325
+Solving LP 43000 / 250325
+Solving LP 66000 / 250325
+Solving LP 74000 / 250325
+Solving LP 89000 / 250325
+Solving LP 149000 / 250325
+Solving LP 195000 / 250325
+Solving LP 2000 / 250325
+Solving LP 6000 / 250325
+Solving LP 43000 / 250325
+Solving LP 44000 / 250325
+Solving LP 47000 / 250325
+Solving LP 83000 / 250325
+Solving LP 113000 / 250325
+Solving LP 114000 / 250325
+Solving LP 159000 / 250325
+Solving LP 162000 / 250325
+Solving LP 176000 / 250325
+Solving LP 177000 / 250325
+Solving LP 181000 / 250325
+Solving LP 189000 / 250325
+Solving LP 25000 / 250325
+Solving LP 45000 / 250325
+Solving LP 48000 / 250325
+Solving LP 50000 / 250325
+Solving LP 51000 / 250325
+Solving LP 61000 / 250325
+Solving LP 64000 / 250325
+Solving LP 73000 / 250325
+Solving LP 78000 / 250325
+Solving LP 84000 / 250325
+Solving LP 113000 / 250325
+Solving LP 114000 / 250325
+Solving LP 131000 / 250325
+Solving LP 134000 / 250325
+Solving LP 144000 / 250325
+Solving LP 164000 / 250325
+Solving LP 168000 / 250325
+Solving LP 194000 / 250325
+Solving LP 201000 / 250325
+Solving LP 2000 / 250325
+Solving LP 17000 / 250325
+Solving LP 18000 / 250325
+Solving LP 29000 / 250325
+Solving LP 36000 / 250325
+Solving LP 68000 / 250325
+Solving LP 82000 / 250325
+Solving LP 86000 / 250325
+Solving LP 96000 / 250325
+Solving LP 99000 / 250325
+Solving LP 111000 / 250325
+Solving LP 147000 / 250325
+Solving LP 152000 / 250325
+Solving LP 156000 / 250325
+Solving LP 157000 / 250325
+Solving LP 174000 / 250325
+Solving LP 3000 / 250325
+Solving LP 7000 / 250325
+Solving LP 26000 / 250325
+Solving LP 52000 / 250325
+Solving LP 81000 / 250325
+Solving LP 85000 / 250325
+Solving LP 93000 / 250325
+Solving LP 94000 / 250325
+Solving LP 146000 / 250325
+Solving LP 164000 / 250325
+Solving LP 33000 / 250325
+Solving LP 39000 / 250325
+Solving LP 48000 / 250325
+Solving LP 54000 / 250325
+Solving LP 67000 / 250325
+Solving LP 129000 / 250325
+Solving LP 131000 / 250325
+Solving LP 135000 / 250325
+Solving LP 138000 / 250325
+Solving LP 154000 / 250325
+Solving LP 173000 / 250325
+Solving LP 189000 / 250325
+Solving LP 191000 / 250325
+Solving LP 2000 / 250325
+Solving LP 10000 / 250325
+Solving LP 38000 / 250325
+Solving LP 41000 / 250325
+Solving LP 61000 / 250325
+Solving LP 62000 / 250325
+Solving LP 65000 / 250325
+Solving LP 76000 / 250325
+Solving LP 82000 / 250325
+Solving LP 101000 / 250325
+Solving LP 108000 / 250325
+Solving LP 132000 / 250325
+Solving LP 147000 / 250325
+Solving LP 151000 / 250325
+Solving LP 185000 / 250325
+Solving LP 14000 / 250325
+Solving LP 20000 / 250325
+Solving LP 52000 / 250325
+Solving LP 65000 / 250325
+Solving LP 89000 / 250325
+Solving LP 90000 / 250325
+Solving LP 96000 / 250325
+Solving LP 123000 / 250325
+Solving LP 137000 / 250325
+Solving LP 140000 / 250325
+Solving LP 150000 / 250325
+Solving LP 178000 / 250325
+Solving LP 195000 / 250325
+Solving LP 8000 / 250325
+Solving LP 13000 / 250325
+Solving LP 18000 / 250325
+Solving LP 34000 / 250325
+Solving LP 35000 / 250325
+Solving LP 47000 / 250325
+Solving LP 72000 / 250325
+Solving LP 78000 / 250325
+Solving LP 87000 / 250325
+Solving LP 92000 / 250325
+Solving LP 99000 / 250325
+Solving LP 102000 / 250325
+Solving LP 114000 / 250325
+Solving LP 115000 / 250325
+Solving LP 138000 / 250325
+Solving LP 139000 / 250325
+Solving LP 142000 / 250325
+Solving LP 172000 / 250325
+Solving LP 173000 / 250325
+Solving LP 179000 / 250325
+Solving LP 187000 / 250325
+Solving LP 189000 / 250325
+Solving LP 195000 / 250325
+Solving LP 196000 / 250325
+Solving LP 35000 / 250325
+Solving LP 49000 / 250325
+Solving LP 57000 / 250325
+Solving LP 70000 / 250325
+Solving LP 79000 / 250325
+Solving LP 91000 / 250325
+Solving LP 98000 / 250325
+Solving LP 111000 / 250325
+Solving LP 122000 / 250325
+Solving LP 127000 / 250325
+Solving LP 160000 / 250325
+Solving LP 173000 / 250325
+Solving LP 175000 / 250325
+Solving LP 188000 / 250325
+Solving LP 196000 / 250325
+Solving LP 1000 / 250325
+Solving LP 21000 / 250325
+Solving LP 51000 / 250325
+Solving LP 60000 / 250325
+Solving LP 80000 / 250325
+Solving LP 107000 / 250325
+Solving LP 109000 / 250325
+Solving LP 118000 / 250325
+Solving LP 128000 / 250325
+Solving LP 155000 / 250325
+Solving LP 193000 / 250325
+Solving LP 25000 / 250325
+Solving LP 46000 / 250325
+Solving LP 55000 / 250325
+Solving LP 58000 / 250325
+Solving LP 69000 / 250325
+Solving LP 97000 / 250325
+Solving LP 100000 / 250325
+Solving LP 110000 / 250325
+Solving LP 112000 / 250325
+Solving LP 115000 / 250325
+Solving LP 141000 / 250325
+Solving LP 179000 / 250325
+Solving LP 180000 / 250325
+Solving LP 9000 / 250325
+Solving LP 19000 / 250325
+Solving LP 22000 / 250325
+Solving LP 25000 / 250325
+Solving LP 42000 / 250325
+Solving LP 55000 / 250325
+Solving LP 77000 / 250325
+Solving LP 81000 / 250325
+Solving LP 106000 / 250325
+Solving LP 114000 / 250325
+Solving LP 119000 / 250325
+Solving LP 126000 / 250325
+Solving LP 143000 / 250325
+Solving LP 148000 / 250325
+Solving LP 166000 / 250325
+Solving LP 5000 / 250325
+Solving LP 35000 / 250325
+Solving LP 37000 / 250325
+Solving LP 41000 / 250325
+Solving LP 52000 / 250325
+Solving LP 88000 / 250325
+Solving LP 117000 / 250325
+Solving LP 121000 / 250325
+Solving LP 124000 / 250325
+Solving LP 136000 / 250325
+Solving LP 142000 / 250325
+Solving LP 197000 / 250325
+Solving LP 200000 / 250325
+Solving LP 202000 / 250325
+Storing reuslts... Done
+Time (No MP):        2007.541578054428
+Total Time:          1620.0701174736023
+Dataset size:        5000
+Train dataset size:  4000
+Valid dataset size:  1000
+python -m nsp.scripts.run_dm --problem cflp_10_10 --mode GEN_DATASET_E --n_procs 16

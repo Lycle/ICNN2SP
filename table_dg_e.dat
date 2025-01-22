@@ -1,0 +1,2 @@
+1 python3 runner.py --problems cflp_10_10 --run_dg_e 1 --n_cpus 16
+2 python3 runner.py --problems cflp_25_25 --run_dg_e 1 --n_cpus 16
