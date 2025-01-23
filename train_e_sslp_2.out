@@ -1,0 +1,1230 @@
+TRAINING MODELS: problem = sslp_15_45
+
+  [10] MSE:   tr: 7128.829, val: 6477.468
+       MAE:   tr: 48.232, val: 45.508
+       MAPE:  tr: 0.125, val: 0.125
+    New Best Model
+  [20] MSE:   tr: 5431.896, val: 5155.611
+       MAE:   tr: 43.801, val: 43.723
+       MAPE:  tr: 0.105, val: 0.105
+    New Best Model
+  [30] MSE:   tr: 5854.429, val: 5689.122
+       MAE:   tr: 42.748, val: 42.424
+       MAPE:  tr: 0.111, val: 0.111
+    New Best Model
+  [40] MSE:   tr: 5541.414, val: 5020.254
+       MAE:   tr: 40.911, val: 39.684
+       MAPE:  tr: 0.093, val: 0.093
+    New Best Model
+  [50] MSE:   tr: 7102.545, val: 6023.584
+       MAE:   tr: 51.281, val: 48.976
+       MAPE:  tr: 0.128, val: 0.128
+  [60] MSE:   tr: 5407.484, val: 4850.054
+       MAE:   tr: 44.306, val: 42.296
+       MAPE:  tr: 0.104, val: 0.104
+  [70] MSE:   tr: 6150.982, val: 5188.687
+       MAE:   tr: 48.533, val: 46.106
+       MAPE:  tr: 0.120, val: 0.120
+  [80] MSE:   tr: 6317.349, val: 5861.720
+       MAE:   tr: 45.858, val: 45.176
+       MAPE:  tr: 0.119, val: 0.119
+  [90] MSE:   tr: 11116.428, val: 10278.220
+       MAE:   tr: 72.938, val: 70.896
+       MAPE:  tr: 0.157, val: 0.157
+  [100] MSE:   tr: 5707.868, val: 5155.883
+       MAE:   tr: 38.249, val: 37.078
+       MAPE:  tr: 0.090, val: 0.090
+    New Best Model
+  [110] MSE:   tr: 5360.423, val: 5124.859
+       MAE:   tr: 39.036, val: 38.030
+       MAPE:  tr: 0.100, val: 0.100
+  [120] MSE:   tr: 5141.129, val: 5624.478
+       MAE:   tr: 36.393, val: 36.161
+       MAPE:  tr: 0.086, val: 0.086
+    New Best Model
+  [130] MSE:   tr: 5864.306, val: 4755.692
+       MAE:   tr: 40.417, val: 37.885
+       MAPE:  tr: 0.104, val: 0.104
+  [140] MSE:   tr: 6739.590, val: 6292.710
+       MAE:   tr: 56.241, val: 55.201
+       MAPE:  tr: 0.145, val: 0.145
+  [150] MSE:   tr: 5220.216, val: 5095.288
+       MAE:   tr: 41.211, val: 40.805
+       MAPE:  tr: 0.102, val: 0.102
+  [160] MSE:   tr: 8773.572, val: 8352.566
+       MAE:   tr: 55.764, val: 53.429
+       MAPE:  tr: 0.151, val: 0.151
+  [170] MSE:   tr: 8129.003, val: 7331.352
+       MAE:   tr: 55.159, val: 52.300
+       MAPE:  tr: 0.149, val: 0.149
+  [180] MSE:   tr: 5800.131, val: 5046.030
+       MAE:   tr: 45.568, val: 43.840
+       MAPE:  tr: 0.116, val: 0.116
+  [190] MSE:   tr: 6482.995, val: 6293.947
+       MAE:   tr: 47.105, val: 46.190
+       MAPE:  tr: 0.121, val: 0.121
+  [200] MSE:   tr: 5755.351, val: 5962.659
+       MAE:   tr: 43.168, val: 43.759
+       MAPE:  tr: 0.107, val: 0.107
+  [210] MSE:   tr: 5582.359, val: 5757.041
+       MAE:   tr: 43.052, val: 43.469
+       MAPE:  tr: 0.111, val: 0.111
+  [220] MSE:   tr: 8925.644, val: 9133.491
+       MAE:   tr: 56.637, val: 53.625
+       MAPE:  tr: 0.155, val: 0.155
+  [230] MSE:   tr: 6870.942, val: 6147.446
+       MAE:   tr: 50.513, val: 48.063
+       MAPE:  tr: 0.132, val: 0.132
+  [240] MSE:   tr: 6446.240, val: 7160.981
+       MAE:   tr: 47.683, val: 47.414
+       MAPE:  tr: 0.129, val: 0.129
+  [250] MSE:   tr: 6395.010, val: 6165.500
+       MAE:   tr: 48.725, val: 46.568
+       MAPE:  tr: 0.129, val: 0.129
+  [260] MSE:   tr: 6411.634, val: 5528.073
+       MAE:   tr: 48.259, val: 45.809
+       MAPE:  tr: 0.128, val: 0.128
+  [270] MSE:   tr: 6608.593, val: 5870.524
+       MAE:   tr: 46.240, val: 43.437
+       MAPE:  tr: 0.118, val: 0.118
+  [280] MSE:   tr: 6292.075, val: 7454.541
+       MAE:   tr: 50.041, val: 48.983
+       MAPE:  tr: 0.126, val: 0.126
+  [290] MSE:   tr: 5468.812, val: 6790.782
+       MAE:   tr: 47.778, val: 47.708
+       MAPE:  tr: 0.118, val: 0.118
+  [300] MSE:   tr: 6688.631, val: 5719.398
+       MAE:   tr: 48.489, val: 45.597
+       MAPE:  tr: 0.116, val: 0.116
+  [310] MSE:   tr: 7339.768, val: 6443.283
+       MAE:   tr: 48.203, val: 44.405
+       MAPE:  tr: 0.124, val: 0.124
+  [320] MSE:   tr: 6497.608, val: 5274.974
+       MAE:   tr: 47.750, val: 45.128
+       MAPE:  tr: 0.127, val: 0.127
+  [330] MSE:   tr: 6791.378, val: 6563.104
+       MAE:   tr: 46.841, val: 46.664
+       MAPE:  tr: 0.126, val: 0.126
+  [340] MSE:   tr: 6130.662, val: 6103.292
+       MAE:   tr: 46.288, val: 45.322
+       MAPE:  tr: 0.122, val: 0.122
+  [350] MSE:   tr: 10919.855, val: 10560.133
+       MAE:   tr: 64.699, val: 61.154
+       MAPE:  tr: 0.191, val: 0.191
+  [360] MSE:   tr: 5955.470, val: 6451.849
+       MAE:   tr: 44.542, val: 45.168
+       MAPE:  tr: 0.118, val: 0.118
+  [370] MSE:   tr: 6619.039, val: 7091.987
+       MAE:   tr: 48.489, val: 47.656
+       MAPE:  tr: 0.124, val: 0.124
+  [380] MSE:   tr: 5444.128, val: 5175.695
+       MAE:   tr: 43.338, val: 41.480
+       MAPE:  tr: 0.108, val: 0.108
+  [390] MSE:   tr: 9581.543, val: 9177.677
+       MAE:   tr: 58.122, val: 54.454
+       MAPE:  tr: 0.156, val: 0.156
+  [400] MSE:   tr: 6514.882, val: 5612.191
+       MAE:   tr: 47.415, val: 44.925
+       MAPE:  tr: 0.122, val: 0.122
+  [410] MSE:   tr: 6624.674, val: 6179.067
+       MAE:   tr: 48.790, val: 48.118
+       MAPE:  tr: 0.126, val: 0.126
+  [420] MSE:   tr: 6079.699, val: 5900.568
+       MAE:   tr: 46.709, val: 45.907
+       MAPE:  tr: 0.117, val: 0.117
+  [430] MSE:   tr: 5761.471, val: 5453.934
+       MAE:   tr: 43.682, val: 43.122
+       MAPE:  tr: 0.106, val: 0.106
+  [440] MSE:   tr: 6011.404, val: 4977.038
+       MAE:   tr: 45.530, val: 43.130
+       MAPE:  tr: 0.112, val: 0.112
+  [450] MSE:   tr: 6064.315, val: 6199.261
+       MAE:   tr: 43.212, val: 42.221
+       MAPE:  tr: 0.099, val: 0.099
+  [460] MSE:   tr: 28373.264, val: 26968.657
+       MAE:   tr: 135.430, val: 135.591
+       MAPE:  tr: 0.284, val: 0.284
+  [470] MSE:   tr: 5845.941, val: 5312.021
+       MAE:   tr: 41.883, val: 41.401
+       MAPE:  tr: 0.094, val: 0.094
+  [480] MSE:   tr: 5368.068, val: 4798.264
+       MAE:   tr: 42.260, val: 41.448
+       MAPE:  tr: 0.101, val: 0.101
+  [490] MSE:   tr: 5549.056, val: 5384.048
+       MAE:   tr: 45.283, val: 45.028
+       MAPE:  tr: 0.113, val: 0.113
+  [500] MSE:   tr: 5280.897, val: 5198.318
+       MAE:   tr: 41.491, val: 41.297
+       MAPE:  tr: 0.101, val: 0.101
+  [510] MSE:   tr: 6366.965, val: 6296.223
+       MAE:   tr: 44.918, val: 44.106
+       MAPE:  tr: 0.115, val: 0.115
+  [520] MSE:   tr: 6555.256, val: 6257.350
+       MAE:   tr: 48.604, val: 47.491
+       MAPE:  tr: 0.124, val: 0.124
+  [530] MSE:   tr: 6102.714, val: 5170.696
+       MAE:   tr: 43.520, val: 42.105
+       MAPE:  tr: 0.102, val: 0.102
+  [540] MSE:   tr: 5540.386, val: 5694.199
+       MAE:   tr: 43.439, val: 43.902
+       MAPE:  tr: 0.111, val: 0.111
+  [550] MSE:   tr: 5575.235, val: 5211.443
+       MAE:   tr: 43.625, val: 42.988
+       MAPE:  tr: 0.105, val: 0.105
+  [560] MSE:   tr: 5540.938, val: 5084.550
+       MAE:   tr: 41.193, val: 39.775
+       MAPE:  tr: 0.097, val: 0.097
+  [570] MSE:   tr: 5589.372, val: 4816.267
+       MAE:   tr: 40.579, val: 38.967
+       MAPE:  tr: 0.096, val: 0.096
+  [580] MSE:   tr: 4952.736, val: 4664.672
+       MAE:   tr: 38.524, val: 37.417
+       MAPE:  tr: 0.094, val: 0.094
+  [590] MSE:   tr: 5327.233, val: 5157.317
+       MAE:   tr: 38.600, val: 37.809
+       MAPE:  tr: 0.098, val: 0.098
+  [600] MSE:   tr: 5101.688, val: 4684.992
+       MAE:   tr: 37.255, val: 35.798
+       MAPE:  tr: 0.090, val: 0.090
+    New Best Model
+  [610] MSE:   tr: 5033.347, val: 4815.001
+       MAE:   tr: 37.105, val: 36.013
+       MAPE:  tr: 0.089, val: 0.089
+  [620] MSE:   tr: 5156.233, val: 4525.090
+       MAE:   tr: 37.237, val: 35.765
+       MAPE:  tr: 0.089, val: 0.089
+    New Best Model
+  [630] MSE:   tr: 6103.818, val: 5924.446
+       MAE:   tr: 47.101, val: 45.329
+       MAPE:  tr: 0.115, val: 0.115
+  [640] MSE:   tr: 5339.653, val: 4610.229
+       MAE:   tr: 40.152, val: 37.952
+       MAPE:  tr: 0.096, val: 0.096
+  [650] MSE:   tr: 5215.544, val: 4505.440
+       MAE:   tr: 39.060, val: 37.302
+       MAPE:  tr: 0.095, val: 0.095
+  [660] MSE:   tr: 5550.196, val: 4790.561
+       MAE:   tr: 37.315, val: 36.024
+       MAPE:  tr: 0.085, val: 0.085
+  [670] MSE:   tr: 5441.886, val: 5753.416
+       MAE:   tr: 35.630, val: 35.702
+       MAPE:  tr: 0.081, val: 0.081
+    New Best Model
+  [680] MSE:   tr: 6747.004, val: 7330.965
+       MAE:   tr: 47.191, val: 46.391
+       MAPE:  tr: 0.128, val: 0.128
+TRAINING MODELS: problem = sslp_15_45
+
+  [10] MSE:   tr: 7128.829, val: 6477.468
+       MAE:   tr: 48.232, val: 45.508
+       MAPE:  tr: 0.125, val: 0.125
+    New Best Model
+  [20] MSE:   tr: 5431.896, val: 5155.611
+       MAE:   tr: 43.801, val: 43.723
+       MAPE:  tr: 0.105, val: 0.105
+    New Best Model
+  [30] MSE:   tr: 5854.429, val: 5689.122
+       MAE:   tr: 42.748, val: 42.424
+       MAPE:  tr: 0.111, val: 0.111
+    New Best Model
+  [40] MSE:   tr: 5541.414, val: 5020.254
+       MAE:   tr: 40.911, val: 39.684
+       MAPE:  tr: 0.093, val: 0.093
+    New Best Model
+  [50] MSE:   tr: 7102.545, val: 6023.584
+       MAE:   tr: 51.281, val: 48.976
+       MAPE:  tr: 0.128, val: 0.128
+  [60] MSE:   tr: 5407.484, val: 4850.054
+       MAE:   tr: 44.306, val: 42.296
+       MAPE:  tr: 0.104, val: 0.104
+  [70] MSE:   tr: 6150.982, val: 5188.687
+       MAE:   tr: 48.533, val: 46.106
+       MAPE:  tr: 0.120, val: 0.120
+  [80] MSE:   tr: 6317.349, val: 5861.720
+       MAE:   tr: 45.858, val: 45.176
+       MAPE:  tr: 0.119, val: 0.119
+  [90] MSE:   tr: 11116.428, val: 10278.220
+       MAE:   tr: 72.938, val: 70.896
+       MAPE:  tr: 0.157, val: 0.157
+  [100] MSE:   tr: 5707.868, val: 5155.883
+       MAE:   tr: 38.249, val: 37.078
+       MAPE:  tr: 0.090, val: 0.090
+    New Best Model
+  [110] MSE:   tr: 5360.423, val: 5124.859
+       MAE:   tr: 39.036, val: 38.030
+       MAPE:  tr: 0.100, val: 0.100
+  [120] MSE:   tr: 5141.129, val: 5624.478
+       MAE:   tr: 36.393, val: 36.161
+       MAPE:  tr: 0.086, val: 0.086
+    New Best Model
+  [130] MSE:   tr: 5864.306, val: 4755.692
+       MAE:   tr: 40.417, val: 37.885
+       MAPE:  tr: 0.104, val: 0.104
+  [140] MSE:   tr: 6739.590, val: 6292.710
+       MAE:   tr: 56.241, val: 55.201
+       MAPE:  tr: 0.145, val: 0.145
+  [150] MSE:   tr: 5220.216, val: 5095.288
+       MAE:   tr: 41.211, val: 40.805
+       MAPE:  tr: 0.102, val: 0.102
+  [160] MSE:   tr: 8773.572, val: 8352.566
+       MAE:   tr: 55.764, val: 53.429
+       MAPE:  tr: 0.151, val: 0.151
+  [170] MSE:   tr: 8129.003, val: 7331.352
+       MAE:   tr: 55.159, val: 52.300
+       MAPE:  tr: 0.149, val: 0.149
+  [180] MSE:   tr: 5800.131, val: 5046.030
+       MAE:   tr: 45.568, val: 43.840
+       MAPE:  tr: 0.116, val: 0.116
+  [190] MSE:   tr: 6482.995, val: 6293.947
+       MAE:   tr: 47.105, val: 46.190
+       MAPE:  tr: 0.121, val: 0.121
+  [200] MSE:   tr: 5755.351, val: 5962.659
+       MAE:   tr: 43.168, val: 43.759
+       MAPE:  tr: 0.107, val: 0.107
+  [210] MSE:   tr: 5582.359, val: 5757.041
+       MAE:   tr: 43.052, val: 43.469
+       MAPE:  tr: 0.111, val: 0.111
+  [220] MSE:   tr: 8925.644, val: 9133.491
+       MAE:   tr: 56.637, val: 53.625
+       MAPE:  tr: 0.155, val: 0.155
+  [230] MSE:   tr: 6870.942, val: 6147.446
+       MAE:   tr: 50.513, val: 48.063
+       MAPE:  tr: 0.132, val: 0.132
+  [240] MSE:   tr: 6446.240, val: 7160.981
+       MAE:   tr: 47.683, val: 47.414
+       MAPE:  tr: 0.129, val: 0.129
+  [250] MSE:   tr: 6395.010, val: 6165.500
+       MAE:   tr: 48.725, val: 46.568
+       MAPE:  tr: 0.129, val: 0.129
+  [260] MSE:   tr: 6411.634, val: 5528.073
+       MAE:   tr: 48.259, val: 45.809
+       MAPE:  tr: 0.128, val: 0.128
+  [270] MSE:   tr: 6608.593, val: 5870.524
+       MAE:   tr: 46.240, val: 43.437
+       MAPE:  tr: 0.118, val: 0.118
+  [280] MSE:   tr: 6292.075, val: 7454.541
+       MAE:   tr: 50.041, val: 48.983
+       MAPE:  tr: 0.126, val: 0.126
+  [290] MSE:   tr: 5468.812, val: 6790.782
+       MAE:   tr: 47.778, val: 47.708
+       MAPE:  tr: 0.118, val: 0.118
+  [300] MSE:   tr: 6688.631, val: 5719.398
+       MAE:   tr: 48.489, val: 45.597
+       MAPE:  tr: 0.116, val: 0.116
+  [310] MSE:   tr: 7339.768, val: 6443.283
+       MAE:   tr: 48.203, val: 44.405
+       MAPE:  tr: 0.124, val: 0.124
+  [320] MSE:   tr: 6497.608, val: 5274.974
+       MAE:   tr: 47.750, val: 45.128
+       MAPE:  tr: 0.127, val: 0.127
+  [330] MSE:   tr: 6791.378, val: 6563.104
+       MAE:   tr: 46.841, val: 46.664
+       MAPE:  tr: 0.126, val: 0.126
+  [340] MSE:   tr: 6130.662, val: 6103.292
+       MAE:   tr: 46.288, val: 45.322
+       MAPE:  tr: 0.122, val: 0.122
+  [350] MSE:   tr: 10919.855, val: 10560.133
+       MAE:   tr: 64.699, val: 61.154
+       MAPE:  tr: 0.191, val: 0.191
+  [360] MSE:   tr: 5955.470, val: 6451.849
+       MAE:   tr: 44.542, val: 45.168
+       MAPE:  tr: 0.118, val: 0.118
+  [370] MSE:   tr: 6619.039, val: 7091.987
+       MAE:   tr: 48.489, val: 47.656
+       MAPE:  tr: 0.124, val: 0.124
+  [380] MSE:   tr: 5444.128, val: 5175.695
+       MAE:   tr: 43.338, val: 41.480
+       MAPE:  tr: 0.108, val: 0.108
+  [390] MSE:   tr: 9581.543, val: 9177.677
+       MAE:   tr: 58.122, val: 54.454
+       MAPE:  tr: 0.156, val: 0.156
+  [400] MSE:   tr: 6514.882, val: 5612.191
+       MAE:   tr: 47.415, val: 44.925
+       MAPE:  tr: 0.122, val: 0.122
+  [410] MSE:   tr: 6624.674, val: 6179.067
+       MAE:   tr: 48.790, val: 48.118
+       MAPE:  tr: 0.126, val: 0.126
+  [420] MSE:   tr: 6079.699, val: 5900.568
+       MAE:   tr: 46.709, val: 45.907
+       MAPE:  tr: 0.117, val: 0.117
+  [430] MSE:   tr: 5761.471, val: 5453.934
+       MAE:   tr: 43.682, val: 43.122
+       MAPE:  tr: 0.106, val: 0.106
+  [440] MSE:   tr: 6011.404, val: 4977.038
+       MAE:   tr: 45.530, val: 43.130
+       MAPE:  tr: 0.112, val: 0.112
+  [450] MSE:   tr: 6064.315, val: 6199.261
+       MAE:   tr: 43.212, val: 42.221
+       MAPE:  tr: 0.099, val: 0.099
+  [460] MSE:   tr: 28373.264, val: 26968.657
+       MAE:   tr: 135.430, val: 135.591
+       MAPE:  tr: 0.284, val: 0.284
+  [470] MSE:   tr: 5845.941, val: 5312.021
+       MAE:   tr: 41.883, val: 41.401
+       MAPE:  tr: 0.094, val: 0.094
+  [480] MSE:   tr: 5368.068, val: 4798.264
+       MAE:   tr: 42.260, val: 41.448
+       MAPE:  tr: 0.101, val: 0.101
+  [490] MSE:   tr: 5549.056, val: 5384.048
+       MAE:   tr: 45.283, val: 45.028
+       MAPE:  tr: 0.113, val: 0.113
+  [500] MSE:   tr: 5280.897, val: 5198.318
+       MAE:   tr: 41.491, val: 41.297
+       MAPE:  tr: 0.101, val: 0.101
+  [510] MSE:   tr: 6366.965, val: 6296.223
+       MAE:   tr: 44.918, val: 44.106
+       MAPE:  tr: 0.115, val: 0.115
+  [520] MSE:   tr: 6555.256, val: 6257.350
+       MAE:   tr: 48.604, val: 47.491
+       MAPE:  tr: 0.124, val: 0.124
+  [530] MSE:   tr: 6102.714, val: 5170.696
+       MAE:   tr: 43.520, val: 42.105
+       MAPE:  tr: 0.102, val: 0.102
+  [540] MSE:   tr: 5540.386, val: 5694.199
+       MAE:   tr: 43.439, val: 43.902
+       MAPE:  tr: 0.111, val: 0.111
+  [550] MSE:   tr: 5575.235, val: 5211.443
+       MAE:   tr: 43.625, val: 42.988
+       MAPE:  tr: 0.105, val: 0.105
+  [560] MSE:   tr: 5540.938, val: 5084.550
+       MAE:   tr: 41.193, val: 39.775
+       MAPE:  tr: 0.097, val: 0.097
+  [570] MSE:   tr: 5589.372, val: 4816.267
+       MAE:   tr: 40.579, val: 38.967
+       MAPE:  tr: 0.096, val: 0.096
+  [580] MSE:   tr: 4952.736, val: 4664.672
+       MAE:   tr: 38.524, val: 37.417
+       MAPE:  tr: 0.094, val: 0.094
+  [590] MSE:   tr: 5327.233, val: 5157.317
+       MAE:   tr: 38.600, val: 37.809
+       MAPE:  tr: 0.098, val: 0.098
+  [600] MSE:   tr: 5101.688, val: 4684.992
+       MAE:   tr: 37.255, val: 35.798
+       MAPE:  tr: 0.090, val: 0.090
+    New Best Model
+  [610] MSE:   tr: 5033.347, val: 4815.001
+       MAE:   tr: 37.105, val: 36.013
+       MAPE:  tr: 0.089, val: 0.089
+  [620] MSE:   tr: 5156.233, val: 4525.090
+       MAE:   tr: 37.237, val: 35.765
+       MAPE:  tr: 0.089, val: 0.089
+    New Best Model
+  [630] MSE:   tr: 6103.818, val: 5924.446
+       MAE:   tr: 47.101, val: 45.329
+       MAPE:  tr: 0.115, val: 0.115
+  [640] MSE:   tr: 5339.653, val: 4610.229
+       MAE:   tr: 40.152, val: 37.952
+       MAPE:  tr: 0.096, val: 0.096
+  [650] MSE:   tr: 5215.544, val: 4505.440
+       MAE:   tr: 39.060, val: 37.302
+       MAPE:  tr: 0.095, val: 0.095
+  [660] MSE:   tr: 5550.196, val: 4790.561
+       MAE:   tr: 37.315, val: 36.024
+       MAPE:  tr: 0.085, val: 0.085
+  [670] MSE:   tr: 5441.886, val: 5753.416
+       MAE:   tr: 35.630, val: 35.702
+       MAPE:  tr: 0.081, val: 0.081
+    New Best Model
+  [680] MSE:   tr: 6747.004, val: 7330.965
+       MAE:   tr: 47.191, val: 46.391
+       MAPE:  tr: 0.128, val: 0.128
+  [690] MSE:   tr: 5472.098, val: 5047.633
+       MAE:   tr: 39.224, val: 38.115
+       MAPE:  tr: 0.096, val: 0.096
+  [700] MSE:   tr: 5274.466, val: 5374.027
+       MAE:   tr: 39.393, val: 38.741
+       MAPE:  tr: 0.098, val: 0.098
+  [710] MSE:   tr: 5984.193, val: 5187.418
+       MAE:   tr: 40.600, val: 39.257
+       MAPE:  tr: 0.098, val: 0.098
+  [720] MSE:   tr: 7119.545, val: 5750.402
+       MAE:   tr: 46.168, val: 44.072
+       MAPE:  tr: 0.125, val: 0.125
+  [730] MSE:   tr: 6221.392, val: 6060.762
+       MAE:   tr: 44.335, val: 42.863
+       MAPE:  tr: 0.103, val: 0.103
+  [740] MSE:   tr: 6008.699, val: 5698.192
+       MAE:   tr: 43.797, val: 43.419
+       MAPE:  tr: 0.112, val: 0.112
+  [750] MSE:   tr: 44266.006, val: 40504.923
+       MAE:   tr: 99.612, val: 93.342
+       MAPE:  tr: 0.217, val: 0.217
+  [760] MSE:   tr: 5732.932, val: 5056.008
+       MAE:   tr: 44.227, val: 42.599
+       MAPE:  tr: 0.102, val: 0.102
+  [770] MSE:   tr: 5477.690, val: 5422.723
+       MAE:   tr: 43.142, val: 42.683
+       MAPE:  tr: 0.102, val: 0.102
+  [780] MSE:   tr: 5784.438, val: 4938.942
+       MAE:   tr: 43.407, val: 41.895
+       MAPE:  tr: 0.100, val: 0.100
+  [790] MSE:   tr: 5799.542, val: 5729.900
+       MAE:   tr: 44.960, val: 45.380
+       MAPE:  tr: 0.114, val: 0.114
+  [800] MSE:   tr: 5352.133, val: 5131.691
+       MAE:   tr: 42.831, val: 41.983
+       MAPE:  tr: 0.103, val: 0.103
+  [810] MSE:   tr: 5429.636, val: 4637.451
+       MAE:   tr: 42.204, val: 40.440
+       MAPE:  tr: 0.102, val: 0.102
+  [820] MSE:   tr: 9800.895, val: 9271.251
+       MAE:   tr: 56.954, val: 52.896
+       MAPE:  tr: 0.151, val: 0.151
+  [830] MSE:   tr: 6190.390, val: 6586.756
+       MAE:   tr: 44.382, val: 43.643
+       MAPE:  tr: 0.116, val: 0.116
+  [840] MSE:   tr: 50515.952, val: 46321.031
+       MAE:   tr: 98.196, val: 91.606
+       MAPE:  tr: 0.227, val: 0.227
+  [850] MSE:   tr: 5975.553, val: 5247.626
+       MAE:   tr: 47.048, val: 44.800
+       MAPE:  tr: 0.118, val: 0.118
+  [860] MSE:   tr: 5925.127, val: 5953.893
+       MAE:   tr: 47.288, val: 46.674
+       MAPE:  tr: 0.122, val: 0.122
+  [870] MSE:   tr: 5891.597, val: 5649.358
+       MAE:   tr: 46.880, val: 45.236
+       MAPE:  tr: 0.114, val: 0.114
+  [880] MSE:   tr: 5951.732, val: 5323.720
+       MAE:   tr: 48.238, val: 46.421
+       MAPE:  tr: 0.116, val: 0.116
+  [890] MSE:   tr: 5799.923, val: 5193.569
+       MAE:   tr: 44.780, val: 43.970
+       MAPE:  tr: 0.105, val: 0.105
+  [900] MSE:   tr: 5431.174, val: 5481.053
+       MAE:   tr: 43.290, val: 42.354
+       MAPE:  tr: 0.102, val: 0.102
+  [910] MSE:   tr: 5237.464, val: 5370.318
+       MAE:   tr: 42.560, val: 42.303
+       MAPE:  tr: 0.105, val: 0.105
+  [920] MSE:   tr: 5469.413, val: 5099.328
+       MAE:   tr: 42.138, val: 40.358
+       MAPE:  tr: 0.099, val: 0.099
+  [930] MSE:   tr: 5549.910, val: 4962.988
+       MAE:   tr: 40.297, val: 39.006
+       MAPE:  tr: 0.097, val: 0.097
+  [940] MSE:   tr: 5585.459, val: 5502.347
+       MAE:   tr: 41.857, val: 41.965
+       MAPE:  tr: 0.104, val: 0.104
+  [950] MSE:   tr: 5229.027, val: 5724.452
+       MAE:   tr: 40.923, val: 41.784
+       MAPE:  tr: 0.099, val: 0.099
+  [960] MSE:   tr: 70285.378, val: 69431.592
+       MAE:   tr: 240.642, val: 242.417
+       MAPE:  tr: 0.505, val: 0.505
+  [970] MSE:   tr: 5395.645, val: 5879.053
+       MAE:   tr: 41.517, val: 41.922
+       MAPE:  tr: 0.103, val: 0.103
+  [980] MSE:   tr: 48059.530, val: 49123.329
+       MAE:   tr: 182.850, val: 187.735
+       MAPE:  tr: 0.386, val: 0.386
+  [990] MSE:   tr: 6304.243, val: 7579.862
+       MAE:   tr: 44.696, val: 44.543
+       MAPE:  tr: 0.105, val: 0.105
+  [1000] MSE:   tr: 5277.352, val: 5569.635
+       MAE:   tr: 43.891, val: 43.341
+       MAPE:  tr: 0.105, val: 0.105
+  [1010] MSE:   tr: 5594.466, val: 6133.618
+       MAE:   tr: 42.049, val: 42.324
+       MAPE:  tr: 0.103, val: 0.103
+  [1020] MSE:   tr: 23245.449, val: 20978.749
+       MAE:   tr: 110.460, val: 103.707
+       MAPE:  tr: 0.275, val: 0.275
+  [1030] MSE:   tr: 5734.595, val: 5465.023
+       MAE:   tr: 44.192, val: 43.103
+       MAPE:  tr: 0.104, val: 0.104
+  [1040] MSE:   tr: 5744.045, val: 5786.264
+       MAE:   tr: 44.433, val: 44.409
+       MAPE:  tr: 0.108, val: 0.108
+  [1050] MSE:   tr: 5629.345, val: 5660.353
+       MAE:   tr: 41.834, val: 41.398
+       MAPE:  tr: 0.099, val: 0.099
+  [1060] MSE:   tr: 5931.681, val: 4859.516
+       MAE:   tr: 40.642, val: 38.764
+       MAPE:  tr: 0.093, val: 0.093
+  [1070] MSE:   tr: 5252.476, val: 4841.177
+       MAE:   tr: 37.712, val: 36.831
+       MAPE:  tr: 0.090, val: 0.090
+  [1080] MSE:   tr: 5443.610, val: 5397.342
+       MAE:   tr: 39.190, val: 38.450
+       MAPE:  tr: 0.096, val: 0.096
+  [1090] MSE:   tr: 5426.773, val: 5334.839
+       MAE:   tr: 38.254, val: 37.050
+       MAPE:  tr: 0.088, val: 0.088
+  [1100] MSE:   tr: 13641.971, val: 11805.982
+       MAE:   tr: 68.936, val: 66.399
+       MAPE:  tr: 0.153, val: 0.153
+  [1110] MSE:   tr: 5941.967, val: 4975.825
+       MAE:   tr: 43.663, val: 41.806
+       MAPE:  tr: 0.108, val: 0.108
+  [1120] MSE:   tr: 5634.472, val: 4974.578
+       MAE:   tr: 40.938, val: 39.418
+       MAPE:  tr: 0.097, val: 0.097
+  [1130] MSE:   tr: 5980.136, val: 5298.255
+       MAE:   tr: 41.461, val: 39.837
+       MAPE:  tr: 0.101, val: 0.101
+  [1140] MSE:   tr: 5691.291, val: 5351.609
+       MAE:   tr: 42.405, val: 41.119
+       MAPE:  tr: 0.103, val: 0.103
+  [1150] MSE:   tr: 5399.597, val: 4972.866
+       MAE:   tr: 39.616, val: 38.082
+       MAPE:  tr: 0.096, val: 0.096
+  [1160] MSE:   tr: 5099.262, val: 4655.372
+       MAE:   tr: 37.650, val: 36.381
+       MAPE:  tr: 0.089, val: 0.089
+  [1170] MSE:   tr: 8604.964, val: 9294.849
+       MAE:   tr: 71.189, val: 72.598
+       MAPE:  tr: 0.168, val: 0.168
+  [1180] MSE:   tr: 5462.891, val: 5390.610
+       MAE:   tr: 39.316, val: 39.441
+       MAPE:  tr: 0.096, val: 0.096
+  [1190] MSE:   tr: 5130.198, val: 4533.269
+       MAE:   tr: 37.239, val: 35.847
+       MAPE:  tr: 0.088, val: 0.088
+  [1200] MSE:   tr: 5033.532, val: 5187.530
+       MAE:   tr: 38.020, val: 37.870
+       MAPE:  tr: 0.092, val: 0.092
+  [1210] MSE:   tr: 5249.258, val: 4611.735
+       MAE:   tr: 36.680, val: 34.871
+       MAPE:  tr: 0.086, val: 0.086
+    New Best Model
+  [1220] MSE:   tr: 6032.440, val: 4812.928
+       MAE:   tr: 41.585, val: 39.758
+       MAPE:  tr: 0.101, val: 0.101
+  [1230] MSE:   tr: 5422.118, val: 4799.610
+       MAE:   tr: 40.085, val: 38.358
+       MAPE:  tr: 0.098, val: 0.098
+  [1240] MSE:   tr: 5728.851, val: 5131.076
+       MAE:   tr: 38.959, val: 37.979
+       MAPE:  tr: 0.096, val: 0.096
+  [1250] MSE:   tr: 5329.604, val: 4509.925
+       MAE:   tr: 37.793, val: 35.493
+       MAPE:  tr: 0.094, val: 0.094
+  [1260] MSE:   tr: 5249.085, val: 5114.523
+       MAE:   tr: 38.430, val: 37.881
+       MAPE:  tr: 0.096, val: 0.096
+  [1270] MSE:   tr: 5137.575, val: 4673.226
+       MAE:   tr: 36.394, val: 35.104
+       MAPE:  tr: 0.087, val: 0.087
+  [1280] MSE:   tr: 7274.012, val: 7091.960
+       MAE:   tr: 56.229, val: 54.607
+       MAPE:  tr: 0.134, val: 0.134
+  [1290] MSE:   tr: 7733.010, val: 7572.257
+       MAE:   tr: 55.042, val: 54.386
+       MAPE:  tr: 0.140, val: 0.140
+  [1300] MSE:   tr: 6658.092, val: 6070.308
+       MAE:   tr: 50.475, val: 48.184
+       MAPE:  tr: 0.117, val: 0.117
+  [1310] MSE:   tr: 6454.857, val: 6322.948
+       MAE:   tr: 50.859, val: 50.011
+       MAPE:  tr: 0.125, val: 0.125
+  [1320] MSE:   tr: 5648.040, val: 5240.822
+       MAE:   tr: 40.733, val: 39.733
+       MAPE:  tr: 0.092, val: 0.092
+  [1330] MSE:   tr: 38432.620, val: 35527.205
+       MAE:   tr: 146.239, val: 145.165
+       MAPE:  tr: 0.304, val: 0.304
+  [1340] MSE:   tr: 5464.533, val: 4990.450
+       MAE:   tr: 42.602, val: 40.844
+       MAPE:  tr: 0.104, val: 0.104
+  [1350] MSE:   tr: 5588.185, val: 5344.051
+       MAE:   tr: 43.200, val: 42.336
+       MAPE:  tr: 0.106, val: 0.106
+  [1360] MSE:   tr: 5584.549, val: 5203.614
+       MAE:   tr: 42.092, val: 40.308
+       MAPE:  tr: 0.107, val: 0.107
+  [1370] MSE:   tr: 5445.603, val: 4726.188
+       MAE:   tr: 39.993, val: 39.050
+       MAPE:  tr: 0.098, val: 0.098
+  [690] MSE:   tr: 5472.098, val: 5047.633
+       MAE:   tr: 39.224, val: 38.115
+       MAPE:  tr: 0.096, val: 0.096
+  [700] MSE:   tr: 5274.466, val: 5374.027
+       MAE:   tr: 39.393, val: 38.741
+       MAPE:  tr: 0.098, val: 0.098
+  [710] MSE:   tr: 5984.193, val: 5187.418
+       MAE:   tr: 40.600, val: 39.257
+       MAPE:  tr: 0.098, val: 0.098
+  [720] MSE:   tr: 7119.545, val: 5750.402
+       MAE:   tr: 46.168, val: 44.072
+       MAPE:  tr: 0.125, val: 0.125
+  [730] MSE:   tr: 6221.392, val: 6060.762
+       MAE:   tr: 44.335, val: 42.863
+       MAPE:  tr: 0.103, val: 0.103
+  [740] MSE:   tr: 6008.699, val: 5698.192
+       MAE:   tr: 43.797, val: 43.419
+       MAPE:  tr: 0.112, val: 0.112
+  [750] MSE:   tr: 44266.006, val: 40504.923
+       MAE:   tr: 99.612, val: 93.342
+       MAPE:  tr: 0.217, val: 0.217
+  [760] MSE:   tr: 5732.932, val: 5056.008
+       MAE:   tr: 44.227, val: 42.599
+       MAPE:  tr: 0.102, val: 0.102
+  [770] MSE:   tr: 5477.690, val: 5422.723
+       MAE:   tr: 43.142, val: 42.683
+       MAPE:  tr: 0.102, val: 0.102
+  [780] MSE:   tr: 5784.438, val: 4938.942
+       MAE:   tr: 43.407, val: 41.895
+       MAPE:  tr: 0.100, val: 0.100
+  [790] MSE:   tr: 5799.542, val: 5729.900
+       MAE:   tr: 44.960, val: 45.380
+       MAPE:  tr: 0.114, val: 0.114
+  [800] MSE:   tr: 5352.133, val: 5131.691
+       MAE:   tr: 42.831, val: 41.983
+       MAPE:  tr: 0.103, val: 0.103
+  [810] MSE:   tr: 5429.636, val: 4637.451
+       MAE:   tr: 42.204, val: 40.440
+       MAPE:  tr: 0.102, val: 0.102
+  [820] MSE:   tr: 9800.895, val: 9271.251
+       MAE:   tr: 56.954, val: 52.896
+       MAPE:  tr: 0.151, val: 0.151
+  [830] MSE:   tr: 6190.390, val: 6586.756
+       MAE:   tr: 44.382, val: 43.643
+       MAPE:  tr: 0.116, val: 0.116
+  [840] MSE:   tr: 50515.952, val: 46321.031
+       MAE:   tr: 98.196, val: 91.606
+       MAPE:  tr: 0.227, val: 0.227
+  [850] MSE:   tr: 5975.553, val: 5247.626
+       MAE:   tr: 47.048, val: 44.800
+       MAPE:  tr: 0.118, val: 0.118
+  [860] MSE:   tr: 5925.127, val: 5953.893
+       MAE:   tr: 47.288, val: 46.674
+       MAPE:  tr: 0.122, val: 0.122
+  [870] MSE:   tr: 5891.597, val: 5649.358
+       MAE:   tr: 46.880, val: 45.236
+       MAPE:  tr: 0.114, val: 0.114
+  [880] MSE:   tr: 5951.732, val: 5323.720
+       MAE:   tr: 48.238, val: 46.421
+       MAPE:  tr: 0.116, val: 0.116
+  [890] MSE:   tr: 5799.923, val: 5193.569
+       MAE:   tr: 44.780, val: 43.970
+       MAPE:  tr: 0.105, val: 0.105
+  [900] MSE:   tr: 5431.174, val: 5481.053
+       MAE:   tr: 43.290, val: 42.354
+       MAPE:  tr: 0.102, val: 0.102
+  [910] MSE:   tr: 5237.464, val: 5370.318
+       MAE:   tr: 42.560, val: 42.303
+       MAPE:  tr: 0.105, val: 0.105
+  [920] MSE:   tr: 5469.413, val: 5099.328
+       MAE:   tr: 42.138, val: 40.358
+       MAPE:  tr: 0.099, val: 0.099
+  [930] MSE:   tr: 5549.910, val: 4962.988
+       MAE:   tr: 40.297, val: 39.006
+       MAPE:  tr: 0.097, val: 0.097
+  [940] MSE:   tr: 5585.459, val: 5502.347
+       MAE:   tr: 41.857, val: 41.965
+       MAPE:  tr: 0.104, val: 0.104
+  [950] MSE:   tr: 5229.027, val: 5724.452
+       MAE:   tr: 40.923, val: 41.784
+       MAPE:  tr: 0.099, val: 0.099
+  [960] MSE:   tr: 70285.378, val: 69431.592
+       MAE:   tr: 240.642, val: 242.417
+       MAPE:  tr: 0.505, val: 0.505
+  [970] MSE:   tr: 5395.645, val: 5879.053
+       MAE:   tr: 41.517, val: 41.922
+       MAPE:  tr: 0.103, val: 0.103
+  [980] MSE:   tr: 48059.530, val: 49123.329
+       MAE:   tr: 182.850, val: 187.735
+       MAPE:  tr: 0.386, val: 0.386
+  [990] MSE:   tr: 6304.243, val: 7579.862
+       MAE:   tr: 44.696, val: 44.543
+       MAPE:  tr: 0.105, val: 0.105
+  [1000] MSE:   tr: 5277.352, val: 5569.635
+       MAE:   tr: 43.891, val: 43.341
+       MAPE:  tr: 0.105, val: 0.105
+  [1010] MSE:   tr: 5594.466, val: 6133.618
+       MAE:   tr: 42.049, val: 42.324
+       MAPE:  tr: 0.103, val: 0.103
+  [1020] MSE:   tr: 23245.449, val: 20978.749
+       MAE:   tr: 110.460, val: 103.707
+       MAPE:  tr: 0.275, val: 0.275
+  [1030] MSE:   tr: 5734.595, val: 5465.023
+       MAE:   tr: 44.192, val: 43.103
+       MAPE:  tr: 0.104, val: 0.104
+  [1040] MSE:   tr: 5744.045, val: 5786.264
+       MAE:   tr: 44.433, val: 44.409
+       MAPE:  tr: 0.108, val: 0.108
+  [1050] MSE:   tr: 5629.345, val: 5660.353
+       MAE:   tr: 41.834, val: 41.398
+       MAPE:  tr: 0.099, val: 0.099
+  [1060] MSE:   tr: 5931.681, val: 4859.516
+       MAE:   tr: 40.642, val: 38.764
+       MAPE:  tr: 0.093, val: 0.093
+  [1070] MSE:   tr: 5252.476, val: 4841.177
+       MAE:   tr: 37.712, val: 36.831
+       MAPE:  tr: 0.090, val: 0.090
+  [1080] MSE:   tr: 5443.610, val: 5397.342
+       MAE:   tr: 39.190, val: 38.450
+       MAPE:  tr: 0.096, val: 0.096
+  [1090] MSE:   tr: 5426.773, val: 5334.839
+       MAE:   tr: 38.254, val: 37.050
+       MAPE:  tr: 0.088, val: 0.088
+  [1100] MSE:   tr: 13641.971, val: 11805.982
+       MAE:   tr: 68.936, val: 66.399
+       MAPE:  tr: 0.153, val: 0.153
+  [1110] MSE:   tr: 5941.967, val: 4975.825
+       MAE:   tr: 43.663, val: 41.806
+       MAPE:  tr: 0.108, val: 0.108
+  [1120] MSE:   tr: 5634.472, val: 4974.578
+       MAE:   tr: 40.938, val: 39.418
+       MAPE:  tr: 0.097, val: 0.097
+  [1130] MSE:   tr: 5980.136, val: 5298.255
+       MAE:   tr: 41.461, val: 39.837
+       MAPE:  tr: 0.101, val: 0.101
+  [1140] MSE:   tr: 5691.291, val: 5351.609
+       MAE:   tr: 42.405, val: 41.119
+       MAPE:  tr: 0.103, val: 0.103
+  [1150] MSE:   tr: 5399.597, val: 4972.866
+       MAE:   tr: 39.616, val: 38.082
+       MAPE:  tr: 0.096, val: 0.096
+  [1160] MSE:   tr: 5099.262, val: 4655.372
+       MAE:   tr: 37.650, val: 36.381
+       MAPE:  tr: 0.089, val: 0.089
+  [1170] MSE:   tr: 8604.964, val: 9294.849
+       MAE:   tr: 71.189, val: 72.598
+       MAPE:  tr: 0.168, val: 0.168
+  [1180] MSE:   tr: 5462.891, val: 5390.610
+       MAE:   tr: 39.316, val: 39.441
+       MAPE:  tr: 0.096, val: 0.096
+  [1190] MSE:   tr: 5130.198, val: 4533.269
+       MAE:   tr: 37.239, val: 35.847
+       MAPE:  tr: 0.088, val: 0.088
+  [1200] MSE:   tr: 5033.532, val: 5187.530
+       MAE:   tr: 38.020, val: 37.870
+       MAPE:  tr: 0.092, val: 0.092
+  [1210] MSE:   tr: 5249.258, val: 4611.735
+       MAE:   tr: 36.680, val: 34.871
+       MAPE:  tr: 0.086, val: 0.086
+    New Best Model
+  [1220] MSE:   tr: 6032.440, val: 4812.928
+       MAE:   tr: 41.585, val: 39.758
+       MAPE:  tr: 0.101, val: 0.101
+  [1230] MSE:   tr: 5422.118, val: 4799.610
+       MAE:   tr: 40.085, val: 38.358
+       MAPE:  tr: 0.098, val: 0.098
+  [1240] MSE:   tr: 5728.851, val: 5131.076
+       MAE:   tr: 38.959, val: 37.979
+       MAPE:  tr: 0.096, val: 0.096
+  [1250] MSE:   tr: 5329.604, val: 4509.925
+       MAE:   tr: 37.793, val: 35.493
+       MAPE:  tr: 0.094, val: 0.094
+  [1260] MSE:   tr: 5249.085, val: 5114.523
+       MAE:   tr: 38.430, val: 37.881
+       MAPE:  tr: 0.096, val: 0.096
+  [1270] MSE:   tr: 5137.575, val: 4673.226
+       MAE:   tr: 36.394, val: 35.104
+       MAPE:  tr: 0.087, val: 0.087
+  [1280] MSE:   tr: 7274.012, val: 7091.960
+       MAE:   tr: 56.229, val: 54.607
+       MAPE:  tr: 0.134, val: 0.134
+  [1290] MSE:   tr: 7733.010, val: 7572.257
+       MAE:   tr: 55.042, val: 54.386
+       MAPE:  tr: 0.140, val: 0.140
+  [1300] MSE:   tr: 6658.092, val: 6070.308
+       MAE:   tr: 50.475, val: 48.184
+       MAPE:  tr: 0.117, val: 0.117
+  [1310] MSE:   tr: 6454.857, val: 6322.948
+       MAE:   tr: 50.859, val: 50.011
+       MAPE:  tr: 0.125, val: 0.125
+  [1320] MSE:   tr: 5648.040, val: 5240.822
+       MAE:   tr: 40.733, val: 39.733
+       MAPE:  tr: 0.092, val: 0.092
+  [1330] MSE:   tr: 38432.620, val: 35527.205
+       MAE:   tr: 146.239, val: 145.165
+       MAPE:  tr: 0.304, val: 0.304
+  [1340] MSE:   tr: 5464.533, val: 4990.450
+       MAE:   tr: 42.602, val: 40.844
+       MAPE:  tr: 0.104, val: 0.104
+  [1350] MSE:   tr: 5588.185, val: 5344.051
+       MAE:   tr: 43.200, val: 42.336
+       MAPE:  tr: 0.106, val: 0.106
+  [1360] MSE:   tr: 5584.549, val: 5203.614
+       MAE:   tr: 42.092, val: 40.308
+       MAPE:  tr: 0.107, val: 0.107
+  [1370] MSE:   tr: 5445.603, val: 4726.188
+       MAE:   tr: 39.993, val: 39.050
+       MAPE:  tr: 0.098, val: 0.098
+  [1380] MSE:   tr: 5409.056, val: 5213.643
+       MAE:   tr: 39.557, val: 38.589
+       MAPE:  tr: 0.098, val: 0.098
+  [1390] MSE:   tr: 5236.493, val: 5099.465
+       MAE:   tr: 39.517, val: 38.227
+       MAPE:  tr: 0.096, val: 0.096
+  [1400] MSE:   tr: 5345.374, val: 4887.877
+       MAE:   tr: 39.264, val: 38.155
+       MAPE:  tr: 0.099, val: 0.099
+  [1410] MSE:   tr: 5689.123, val: 5437.765
+       MAE:   tr: 44.404, val: 42.700
+       MAPE:  tr: 0.116, val: 0.116
+  [1420] MSE:   tr: 5043.018, val: 4836.488
+       MAE:   tr: 37.854, val: 36.350
+       MAPE:  tr: 0.094, val: 0.094
+  [1430] MSE:   tr: 5372.434, val: 4980.814
+       MAE:   tr: 41.168, val: 40.742
+       MAPE:  tr: 0.101, val: 0.101
+  [1440] MSE:   tr: 5331.361, val: 4857.606
+       MAE:   tr: 38.172, val: 36.956
+       MAPE:  tr: 0.093, val: 0.093
+  [1450] MSE:   tr: 5173.967, val: 5008.735
+       MAE:   tr: 39.559, val: 38.879
+       MAPE:  tr: 0.096, val: 0.096
+  [1460] MSE:   tr: 11332.635, val: 11063.412
+       MAE:   tr: 60.186, val: 60.053
+       MAPE:  tr: 0.180, val: 0.180
+  [1470] MSE:   tr: 7280.770, val: 6316.680
+       MAE:   tr: 43.340, val: 39.697
+       MAPE:  tr: 0.093, val: 0.093
+  [1480] MSE:   tr: 8687.672, val: 8505.598
+       MAE:   tr: 56.401, val: 53.602
+       MAPE:  tr: 0.163, val: 0.163
+  [1490] MSE:   tr: 5208.045, val: 4961.389
+       MAE:   tr: 41.151, val: 40.303
+       MAPE:  tr: 0.102, val: 0.102
+  [1500] MSE:   tr: 5202.867, val: 5252.954
+       MAE:   tr: 39.885, val: 39.743
+       MAPE:  tr: 0.098, val: 0.098
+  [1510] MSE:   tr: 5057.103, val: 4759.280
+       MAE:   tr: 38.912, val: 37.470
+       MAPE:  tr: 0.095, val: 0.095
+  [1520] MSE:   tr: 5010.824, val: 4874.163
+       MAE:   tr: 38.443, val: 38.066
+       MAPE:  tr: 0.097, val: 0.097
+  [1530] MSE:   tr: 7172.226, val: 6383.911
+       MAE:   tr: 54.948, val: 53.772
+       MAPE:  tr: 0.139, val: 0.139
+  [1540] MSE:   tr: 5349.533, val: 5362.309
+       MAE:   tr: 45.933, val: 45.921
+       MAPE:  tr: 0.107, val: 0.107
+  [1550] MSE:   tr: 5617.300, val: 5577.036
+       MAE:   tr: 47.087, val: 46.624
+       MAPE:  tr: 0.116, val: 0.116
+  [1560] MSE:   tr: 5700.725, val: 5185.160
+       MAE:   tr: 44.475, val: 43.162
+       MAPE:  tr: 0.107, val: 0.107
+  [1570] MSE:   tr: 5323.918, val: 5589.459
+       MAE:   tr: 42.775, val: 43.041
+       MAPE:  tr: 0.106, val: 0.106
+  [1580] MSE:   tr: 5739.862, val: 5018.369
+       MAE:   tr: 45.338, val: 43.063
+       MAPE:  tr: 0.115, val: 0.115
+  [1590] MSE:   tr: 5129.652, val: 5392.475
+       MAE:   tr: 41.365, val: 41.445
+       MAPE:  tr: 0.103, val: 0.103
+  [1600] MSE:   tr: 5323.580, val: 4560.830
+       MAE:   tr: 41.225, val: 39.147
+       MAPE:  tr: 0.101, val: 0.101
+  [1610] MSE:   tr: 14806.531, val: 13765.177
+       MAE:   tr: 88.952, val: 86.897
+       MAPE:  tr: 0.231, val: 0.231
+  [1620] MSE:   tr: 5405.440, val: 5103.995
+       MAE:   tr: 41.899, val: 41.281
+       MAPE:  tr: 0.106, val: 0.106
+  [1630] MSE:   tr: 5361.317, val: 5038.796
+       MAE:   tr: 39.180, val: 37.634
+       MAPE:  tr: 0.099, val: 0.099
+  [1640] MSE:   tr: 5636.804, val: 5352.764
+       MAE:   tr: 40.856, val: 39.605
+       MAPE:  tr: 0.106, val: 0.106
+  [1650] MSE:   tr: 5142.507, val: 4612.317
+       MAE:   tr: 38.960, val: 37.278
+       MAPE:  tr: 0.096, val: 0.096
+  [1660] MSE:   tr: 5050.598, val: 4704.142
+       MAE:   tr: 36.874, val: 35.156
+       MAPE:  tr: 0.087, val: 0.087
+  [1670] MSE:   tr: 5688.512, val: 6233.955
+       MAE:   tr: 38.945, val: 39.656
+       MAPE:  tr: 0.102, val: 0.102
+  [1680] MSE:   tr: 5208.009, val: 4935.418
+       MAE:   tr: 36.541, val: 35.835
+       MAPE:  tr: 0.089, val: 0.089
+  [1690] MSE:   tr: 68524.037, val: 65988.215
+       MAE:   tr: 146.822, val: 144.097
+       MAPE:  tr: 0.324, val: 0.324
+  [1700] MSE:   tr: 6905.082, val: 6394.652
+       MAE:   tr: 57.781, val: 57.057
+       MAPE:  tr: 0.144, val: 0.144
+  [1710] MSE:   tr: 5636.460, val: 5407.146
+       MAE:   tr: 48.250, val: 48.178
+       MAPE:  tr: 0.116, val: 0.116
+  [1720] MSE:   tr: 5429.390, val: 4797.551
+       MAE:   tr: 44.298, val: 42.727
+       MAPE:  tr: 0.104, val: 0.104
+  [1730] MSE:   tr: 5765.761, val: 5405.975
+       MAE:   tr: 46.647, val: 46.315
+       MAPE:  tr: 0.117, val: 0.117
+  [1740] MSE:   tr: 5104.295, val: 5977.448
+       MAE:   tr: 43.905, val: 45.337
+       MAPE:  tr: 0.107, val: 0.107
+  [1750] MSE:   tr: 5311.348, val: 5613.037
+       MAE:   tr: 43.087, val: 43.821
+       MAPE:  tr: 0.105, val: 0.105
+  [1760] MSE:   tr: 5190.676, val: 4724.712
+       MAE:   tr: 42.358, val: 41.091
+       MAPE:  tr: 0.101, val: 0.101
+  [1770] MSE:   tr: 5353.841, val: 4789.556
+       MAE:   tr: 41.563, val: 40.272
+       MAPE:  tr: 0.103, val: 0.103
+  [1780] MSE:   tr: 5340.294, val: 5434.962
+       MAE:   tr: 42.508, val: 42.083
+       MAPE:  tr: 0.106, val: 0.106
+  [1790] MSE:   tr: 5140.819, val: 4799.664
+       MAE:   tr: 40.478, val: 39.304
+       MAPE:  tr: 0.097, val: 0.097
+  [1800] MSE:   tr: 49287.549, val: 44412.316
+       MAE:   tr: 123.540, val: 118.612
+       MAPE:  tr: 0.278, val: 0.278
+  [1810] MSE:   tr: 5211.247, val: 4701.709
+       MAE:   tr: 40.571, val: 39.252
+       MAPE:  tr: 0.099, val: 0.099
+  [1820] MSE:   tr: 5312.098, val: 5356.517
+       MAE:   tr: 39.546, val: 38.327
+       MAPE:  tr: 0.096, val: 0.096
+  [1830] MSE:   tr: 5522.603, val: 5785.014
+       MAE:   tr: 38.657, val: 38.503
+       MAPE:  tr: 0.092, val: 0.092
+  [1840] MSE:   tr: 5059.305, val: 4758.481
+       MAE:   tr: 38.763, val: 37.512
+       MAPE:  tr: 0.092, val: 0.092
+  [1850] MSE:   tr: 5207.836, val: 5049.146
+       MAE:   tr: 38.165, val: 37.446
+       MAPE:  tr: 0.090, val: 0.090
+  [1860] MSE:   tr: 5182.766, val: 5240.135
+       MAE:   tr: 39.143, val: 38.478
+       MAPE:  tr: 0.095, val: 0.095
+  [1870] MSE:   tr: 5126.316, val: 4578.424
+       MAE:   tr: 38.239, val: 36.518
+       MAPE:  tr: 0.092, val: 0.092
+  [1880] MSE:   tr: 5081.406, val: 4588.294
+       MAE:   tr: 38.033, val: 36.474
+       MAPE:  tr: 0.089, val: 0.089
+  [1890] MSE:   tr: 4815.585, val: 5078.713
+       MAE:   tr: 38.824, val: 38.434
+       MAPE:  tr: 0.091, val: 0.091
+  [1900] MSE:   tr: 5221.527, val: 5689.891
+       MAE:   tr: 39.486, val: 39.929
+       MAPE:  tr: 0.101, val: 0.101
+  [1910] MSE:   tr: 4941.941, val: 5003.468
+       MAE:   tr: 39.815, val: 39.050
+       MAPE:  tr: 0.097, val: 0.097
+  [1920] MSE:   tr: 5229.446, val: 5641.175
+       MAE:   tr: 39.413, val: 39.669
+       MAPE:  tr: 0.095, val: 0.095
+  [1930] MSE:   tr: 5263.811, val: 4995.611
+       MAE:   tr: 38.824, val: 37.918
+       MAPE:  tr: 0.090, val: 0.090
+  [1940] MSE:   tr: 5260.800, val: 4568.232
+       MAE:   tr: 38.055, val: 36.121
+       MAPE:  tr: 0.090, val: 0.090
+  [1950] MSE:   tr: 58261.309, val: 55336.651
+       MAE:   tr: 205.229, val: 205.299
+       MAPE:  tr: 0.423, val: 0.423
+  [1960] MSE:   tr: 5339.106, val: 4562.633
+       MAE:   tr: 38.075, val: 36.084
+       MAPE:  tr: 0.092, val: 0.092
+  [1970] MSE:   tr: 4968.781, val: 4630.596
+       MAE:   tr: 37.267, val: 36.387
+       MAPE:  tr: 0.089, val: 0.089
+  [1980] MSE:   tr: 5155.347, val: 4832.112
+       MAE:   tr: 38.578, val: 37.067
+       MAPE:  tr: 0.095, val: 0.095
+  [1990] MSE:   tr: 5447.359, val: 4693.784
+       MAE:   tr: 39.134, val: 37.092
+       MAPE:  tr: 0.095, val: 0.095
+  [2000] MSE:   tr: 5294.242, val: 4661.813
+       MAE:   tr: 36.913, val: 35.756
+       MAPE:  tr: 0.088, val: 0.088
+  Finished Training
+  Neural Network train time: 294.9876985549927
+  [1380] MSE:   tr: 5409.056, val: 5213.643
+       MAE:   tr: 39.557, val: 38.589
+       MAPE:  tr: 0.098, val: 0.098
+  [1390] MSE:   tr: 5236.493, val: 5099.465
+       MAE:   tr: 39.517, val: 38.227
+       MAPE:  tr: 0.096, val: 0.096
+  [1400] MSE:   tr: 5345.374, val: 4887.877
+       MAE:   tr: 39.264, val: 38.155
+       MAPE:  tr: 0.099, val: 0.099
+  [1410] MSE:   tr: 5689.123, val: 5437.765
+       MAE:   tr: 44.404, val: 42.700
+       MAPE:  tr: 0.116, val: 0.116
+  [1420] MSE:   tr: 5043.018, val: 4836.488
+       MAE:   tr: 37.854, val: 36.350
+       MAPE:  tr: 0.094, val: 0.094
+  [1430] MSE:   tr: 5372.434, val: 4980.814
+       MAE:   tr: 41.168, val: 40.742
+       MAPE:  tr: 0.101, val: 0.101
+  [1440] MSE:   tr: 5331.361, val: 4857.606
+       MAE:   tr: 38.172, val: 36.956
+       MAPE:  tr: 0.093, val: 0.093
+  [1450] MSE:   tr: 5173.967, val: 5008.735
+       MAE:   tr: 39.559, val: 38.879
+       MAPE:  tr: 0.096, val: 0.096
+  [1460] MSE:   tr: 11332.635, val: 11063.412
+       MAE:   tr: 60.186, val: 60.053
+       MAPE:  tr: 0.180, val: 0.180
+  [1470] MSE:   tr: 7280.770, val: 6316.680
+       MAE:   tr: 43.340, val: 39.697
+       MAPE:  tr: 0.093, val: 0.093
+  [1480] MSE:   tr: 8687.672, val: 8505.598
+       MAE:   tr: 56.401, val: 53.602
+       MAPE:  tr: 0.163, val: 0.163
+  [1490] MSE:   tr: 5208.045, val: 4961.389
+       MAE:   tr: 41.151, val: 40.303
+       MAPE:  tr: 0.102, val: 0.102
+  [1500] MSE:   tr: 5202.867, val: 5252.954
+       MAE:   tr: 39.885, val: 39.743
+       MAPE:  tr: 0.098, val: 0.098
+  [1510] MSE:   tr: 5057.103, val: 4759.280
+       MAE:   tr: 38.912, val: 37.470
+       MAPE:  tr: 0.095, val: 0.095
+  [1520] MSE:   tr: 5010.824, val: 4874.163
+       MAE:   tr: 38.443, val: 38.066
+       MAPE:  tr: 0.097, val: 0.097
+  [1530] MSE:   tr: 7172.226, val: 6383.911
+       MAE:   tr: 54.948, val: 53.772
+       MAPE:  tr: 0.139, val: 0.139
+  [1540] MSE:   tr: 5349.533, val: 5362.309
+       MAE:   tr: 45.933, val: 45.921
+       MAPE:  tr: 0.107, val: 0.107
+  [1550] MSE:   tr: 5617.300, val: 5577.036
+       MAE:   tr: 47.087, val: 46.624
+       MAPE:  tr: 0.116, val: 0.116
+  [1560] MSE:   tr: 5700.725, val: 5185.160
+       MAE:   tr: 44.475, val: 43.162
+       MAPE:  tr: 0.107, val: 0.107
+  [1570] MSE:   tr: 5323.918, val: 5589.459
+       MAE:   tr: 42.775, val: 43.041
+       MAPE:  tr: 0.106, val: 0.106
+  [1580] MSE:   tr: 5739.862, val: 5018.369
+       MAE:   tr: 45.338, val: 43.063
+       MAPE:  tr: 0.115, val: 0.115
+  [1590] MSE:   tr: 5129.652, val: 5392.475
+       MAE:   tr: 41.365, val: 41.445
+       MAPE:  tr: 0.103, val: 0.103
+  [1600] MSE:   tr: 5323.580, val: 4560.830
+       MAE:   tr: 41.225, val: 39.147
+       MAPE:  tr: 0.101, val: 0.101
+  [1610] MSE:   tr: 14806.531, val: 13765.177
+       MAE:   tr: 88.952, val: 86.897
+       MAPE:  tr: 0.231, val: 0.231
+  [1620] MSE:   tr: 5405.440, val: 5103.995
+       MAE:   tr: 41.899, val: 41.281
+       MAPE:  tr: 0.106, val: 0.106
+  [1630] MSE:   tr: 5361.317, val: 5038.796
+       MAE:   tr: 39.180, val: 37.634
+       MAPE:  tr: 0.099, val: 0.099
+  [1640] MSE:   tr: 5636.804, val: 5352.764
+       MAE:   tr: 40.856, val: 39.605
+       MAPE:  tr: 0.106, val: 0.106
+  [1650] MSE:   tr: 5142.507, val: 4612.317
+       MAE:   tr: 38.960, val: 37.278
+       MAPE:  tr: 0.096, val: 0.096
+  [1660] MSE:   tr: 5050.598, val: 4704.142
+       MAE:   tr: 36.874, val: 35.156
+       MAPE:  tr: 0.087, val: 0.087
+  [1670] MSE:   tr: 5688.512, val: 6233.955
+       MAE:   tr: 38.945, val: 39.656
+       MAPE:  tr: 0.102, val: 0.102
+  [1680] MSE:   tr: 5208.009, val: 4935.418
+       MAE:   tr: 36.541, val: 35.835
+       MAPE:  tr: 0.089, val: 0.089
+  [1690] MSE:   tr: 68524.037, val: 65988.215
+       MAE:   tr: 146.822, val: 144.097
+       MAPE:  tr: 0.324, val: 0.324
+  [1700] MSE:   tr: 6905.082, val: 6394.652
+       MAE:   tr: 57.781, val: 57.057
+       MAPE:  tr: 0.144, val: 0.144
+  [1710] MSE:   tr: 5636.460, val: 5407.146
+       MAE:   tr: 48.250, val: 48.178
+       MAPE:  tr: 0.116, val: 0.116
+  [1720] MSE:   tr: 5429.390, val: 4797.551
+       MAE:   tr: 44.298, val: 42.727
+       MAPE:  tr: 0.104, val: 0.104
+  [1730] MSE:   tr: 5765.761, val: 5405.975
+       MAE:   tr: 46.647, val: 46.315
+       MAPE:  tr: 0.117, val: 0.117
+  [1740] MSE:   tr: 5104.295, val: 5977.448
+       MAE:   tr: 43.905, val: 45.337
+       MAPE:  tr: 0.107, val: 0.107
+  [1750] MSE:   tr: 5311.348, val: 5613.037
+       MAE:   tr: 43.087, val: 43.821
+       MAPE:  tr: 0.105, val: 0.105
+  [1760] MSE:   tr: 5190.676, val: 4724.712
+       MAE:   tr: 42.358, val: 41.091
+       MAPE:  tr: 0.101, val: 0.101
+  [1770] MSE:   tr: 5353.841, val: 4789.556
+       MAE:   tr: 41.563, val: 40.272
+       MAPE:  tr: 0.103, val: 0.103
+  [1780] MSE:   tr: 5340.294, val: 5434.962
+       MAE:   tr: 42.508, val: 42.083
+       MAPE:  tr: 0.106, val: 0.106
+  [1790] MSE:   tr: 5140.819, val: 4799.664
+       MAE:   tr: 40.478, val: 39.304
+       MAPE:  tr: 0.097, val: 0.097
+  [1800] MSE:   tr: 49287.549, val: 44412.316
+       MAE:   tr: 123.540, val: 118.612
+       MAPE:  tr: 0.278, val: 0.278
+  [1810] MSE:   tr: 5211.247, val: 4701.709
+       MAE:   tr: 40.571, val: 39.252
+       MAPE:  tr: 0.099, val: 0.099
+  [1820] MSE:   tr: 5312.098, val: 5356.517
+       MAE:   tr: 39.546, val: 38.327
+       MAPE:  tr: 0.096, val: 0.096
+  [1830] MSE:   tr: 5522.603, val: 5785.014
+       MAE:   tr: 38.657, val: 38.503
+       MAPE:  tr: 0.092, val: 0.092
+  [1840] MSE:   tr: 5059.305, val: 4758.481
+       MAE:   tr: 38.763, val: 37.512
+       MAPE:  tr: 0.092, val: 0.092
+  [1850] MSE:   tr: 5207.836, val: 5049.146
+       MAE:   tr: 38.165, val: 37.446
+       MAPE:  tr: 0.090, val: 0.090
+  [1860] MSE:   tr: 5182.766, val: 5240.135
+       MAE:   tr: 39.143, val: 38.478
+       MAPE:  tr: 0.095, val: 0.095
+  [1870] MSE:   tr: 5126.316, val: 4578.424
+       MAE:   tr: 38.239, val: 36.518
+       MAPE:  tr: 0.092, val: 0.092
+  [1880] MSE:   tr: 5081.406, val: 4588.294
+       MAE:   tr: 38.033, val: 36.474
+       MAPE:  tr: 0.089, val: 0.089
+  [1890] MSE:   tr: 4815.585, val: 5078.713
+       MAE:   tr: 38.824, val: 38.434
+       MAPE:  tr: 0.091, val: 0.091
+  [1900] MSE:   tr: 5221.527, val: 5689.891
+       MAE:   tr: 39.486, val: 39.929
+       MAPE:  tr: 0.101, val: 0.101
+  [1910] MSE:   tr: 4941.941, val: 5003.468
+       MAE:   tr: 39.815, val: 39.050
+       MAPE:  tr: 0.097, val: 0.097
+  [1920] MSE:   tr: 5229.446, val: 5641.175
+       MAE:   tr: 39.413, val: 39.669
+       MAPE:  tr: 0.095, val: 0.095
+  [1930] MSE:   tr: 5263.811, val: 4995.611
+       MAE:   tr: 38.824, val: 37.918
+       MAPE:  tr: 0.090, val: 0.090
+  [1940] MSE:   tr: 5260.800, val: 4568.232
+       MAE:   tr: 38.055, val: 36.121
+       MAPE:  tr: 0.090, val: 0.090
+  [1950] MSE:   tr: 58261.309, val: 55336.651
+       MAE:   tr: 205.229, val: 205.299
+       MAPE:  tr: 0.423, val: 0.423
+  [1960] MSE:   tr: 5339.106, val: 4562.633
+       MAE:   tr: 38.075, val: 36.084
+       MAPE:  tr: 0.092, val: 0.092
+  [1970] MSE:   tr: 4968.781, val: 4630.596
+       MAE:   tr: 37.267, val: 36.387
+       MAPE:  tr: 0.089, val: 0.089
+  [1980] MSE:   tr: 5155.347, val: 4832.112
+       MAE:   tr: 38.578, val: 37.067
+       MAPE:  tr: 0.095, val: 0.095
+  [1990] MSE:   tr: 5447.359, val: 4693.784
+       MAE:   tr: 39.134, val: 37.092
+       MAPE:  tr: 0.095, val: 0.095
+  [2000] MSE:   tr: 5294.242, val: 4661.813
+       MAE:   tr: 36.913, val: 35.756
+       MAPE:  tr: 0.088, val: 0.088
+  Finished Training
+  Neural Network train time: 295.36480951309204
+python -m nsp.scripts.train_model --problem sslp_15_45 --model_type nn_e --embed_hidden_dim 256 --embed_dim1 64 --embed_dim2 64 --relu_hidden_dim 128 --agg_type mean --lr 0.09621 --dropout 0.01053 --optimizer Adam --batch_size 128 --loss_fn MSELoss --wt_lasso 0.02965 --wt_ridge 0.0004 --log_freq 10 --n_epochs 2000 --use_wandb 0 
+python -m nsp.scripts.train_model --problem sslp_15_45 --model_type nn_e --embed_hidden_dim 256 --embed_dim1 64 --embed_dim2 64 --relu_hidden_dim 128 --agg_type mean --lr 0.09621 --dropout 0.01053 --optimizer Adam --batch_size 128 --loss_fn MSELoss --wt_lasso 0.02965 --wt_ridge 0.0004 --log_freq 10 --n_epochs 2000 --use_wandb 0 

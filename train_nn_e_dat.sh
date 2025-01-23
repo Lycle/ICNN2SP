@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=train_e_ip
 #SBATCH --output=train_e_ip_%a.out
-#SBATCH --time=04:00:00
+#SBATCH --time=02:00:00
 #SBATCH --mem=64G
 #SBATCH --gres=gpu:h100:1
 #SBATCH --cpus-per-task=1
