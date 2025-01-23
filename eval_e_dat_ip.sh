@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH --job-name=val_e_i
+#SBATCH --job-name=val_e_ip
 #SBATCH --time=12:00:00
-#SBATCH --mem=128G
+#SBATCH --mem=64G
 #SBATCH --cpus-per-task=16
 #SBATCH --output=eval_e_ip_%a.out
 #SBATCH --constraint=skl
