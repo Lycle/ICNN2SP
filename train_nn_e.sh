@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=train_e_cflp_25_25
-#SBATCH --output=train_e_cflp_25_25.out
+#SBATCH --job-name=train_e_cflp_10_10
+#SBATCH --output=train_e_cflp_10_10.out
 #SBATCH --time=06:00:00
 #SBATCH --mem=64G
 #SBATCH --gres=gpu:h100:1
@@ -10,5 +10,5 @@
 module load scicomp-python-env
 module load cuda/12.2.1
 
-srun python runner.py --problems cflp_25_25 --train_nn_e 1
+srun python runner.py --problems cflp_10_10 --train_nn_e 1
 

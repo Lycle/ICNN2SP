@@ -1,0 +1,4 @@
+Checking 1 model files...
+Best model :data/cflp/nn_e_results_f25_c25_r2.0_iss1_bt1_nsp10000_nse5000_sd7p-cflp_25_25_mt-nn-e-128_lr-0.08384_do-0.00238_opt-RMSprop_loss-MSELoss_ed2-8_rhd-512_at-mean.pkl
+Best val_mae  :313.60402346325236
+python -m nsp.scripts.get_best_model --problem cflp_25_25 --model_type nn_e 
