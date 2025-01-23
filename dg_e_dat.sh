@@ -6,5 +6,7 @@
 #SBATCH --output=dg_e_%A_%a.out
 #SBATCH --array=1-4
 
+module load scicomp-python-env
+
 command=$(sed -n "${SLURM_ARRAY_TASK_ID}p" table_dg_e.dat | cut -d' ' -f2-)
 srun $command
