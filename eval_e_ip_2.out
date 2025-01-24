@@ -1,0 +1,259 @@
+EVALUATING MODELS: problem=ip_b_H, model_type=nn_e, n_scenarios=4, test_set=0
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/ip/grb_log_nn_e_s4_ts0_fvC_svB_n1_tmi0_sd777.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 131 columns and 414 nonzeros
+Model fingerprint: 0x645364ec
+Coefficient statistics:
+  Matrix range     [2e-05, 2e+00]
+  Objective range  [1e+00, 4e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e-03, 5e+01]
+Presolve removed 129 rows and 131 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -5.5696003e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Optimal objective -5.569600313e+01
+
+User-callback calls 40, time in user-callback 0.00 sec
+
+  Evaluating first stage solution: [0. 5.]
+
+Results for nn_e
+    True:         -51.75
+    Predicted:    -55.69600313311056
+    Time:         0.05854201316833496
+    Sol:          [0. 5.]
+EVALUATING MODELS: problem=ip_b_H, model_type=nn_e, n_scenarios=9, test_set=0
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/ip/grb_log_nn_e_s9_ts0_fvC_svB_n1_tmi0_sd777.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 131 columns and 414 nonzeros
+Model fingerprint: 0xf2d8b9cf
+Coefficient statistics:
+  Matrix range     [2e-05, 2e+00]
+  Objective range  [1e+00, 4e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [8e-03, 5e+01]
+Presolve removed 129 rows and 131 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -5.7223463e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Optimal objective -5.722346297e+01
+
+User-callback calls 40, time in user-callback 0.00 sec
+
+  Evaluating first stage solution: [0. 5.]
+
+Results for nn_e
+    True:         -56.55555555555556
+    Predicted:    -57.22346297142701
+    Time:         0.07162904739379883
+    Sol:          [0. 5.]
+EVALUATING MODELS: problem=ip_b_H, model_type=nn_e, n_scenarios=36, test_set=0
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/ip/grb_log_nn_e_s36_ts0_fvC_svB_n1_tmi0_sd777.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 131 columns and 414 nonzeros
+Model fingerprint: 0x6f19a127
+Coefficient statistics:
+  Matrix range     [2e-05, 2e+00]
+  Objective range  [1e+00, 4e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [6e-03, 6e+01]
+Presolve removed 129 rows and 131 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -5.9383804e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Optimal objective -5.938380419e+01
+
+User-callback calls 45, time in user-callback 0.00 sec
+
+  Evaluating first stage solution: [0. 5.]
+
+Results for nn_e
+    True:         -59.30555555555556
+    Predicted:    -59.38380419247892
+    Time:         0.08163952827453613
+    Sol:          [0. 5.]
+EVALUATING MODELS: problem=ip_b_H, model_type=nn_e, n_scenarios=121, test_set=0
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/ip/grb_log_nn_e_s121_ts0_fvC_svB_n1_tmi0_sd777.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 131 columns and 414 nonzeros
+Model fingerprint: 0x52b76eab
+Coefficient statistics:
+  Matrix range     [2e-05, 2e+00]
+  Objective range  [1e+00, 4e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [8e-03, 5e+01]
+Presolve removed 129 rows and 131 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -5.9718585e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Optimal objective -5.971858524e+01
+
+User-callback calls 40, time in user-callback 0.00 sec
+
+  Evaluating first stage solution: [0. 5.]
+
+Results for nn_e
+    True:         -59.925619834710744
+    Predicted:    -59.71858524124616
+    Time:         0.06985759735107422
+    Sol:          [0. 5.]
+EVALUATING MODELS: problem=ip_b_H, model_type=nn_e, n_scenarios=441, test_set=0
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/ip/grb_log_nn_e_s441_ts0_fvC_svB_n1_tmi0_sd777.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 131 columns and 414 nonzeros
+Model fingerprint: 0xd0df0cda
+Coefficient statistics:
+  Matrix range     [2e-05, 2e+00]
+  Objective range  [1e+00, 4e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [7e-03, 6e+01]
+Presolve removed 129 rows and 131 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -6.0503737e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Optimal objective -6.050373720e+01
+
+User-callback calls 45, time in user-callback 0.00 sec
+
+  Evaluating first stage solution: [0. 5.]
+
+Results for nn_e
+    True:         -60.13832199546485
+    Predicted:    -60.5037371978833
+    Time:         0.14498329162597656
+    Sol:          [0. 5.]
+EVALUATING MODELS: problem=ip_b_H, model_type=nn_e, n_scenarios=1681, test_set=0
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/ip/grb_log_nn_e_s1681_ts0_fvC_svB_n1_tmi0_sd777.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 131 columns and 414 nonzeros
+Model fingerprint: 0x50264650
+Coefficient statistics:
+  Matrix range     [2e-05, 2e+00]
+  Objective range  [1e+00, 4e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [1e-02, 5e+01]
+Presolve removed 129 rows and 131 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -6.1516670e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Optimal objective -6.151667028e+01
+
+User-callback calls 40, time in user-callback 0.00 sec
+
+  Evaluating first stage solution: [0. 5.]
+
+Results for nn_e
+    True:         -60.46698393813207
+    Predicted:    -61.516670277251144
+    Time:         0.0638890266418457
+    Sol:          [0. 5.]
+EVALUATING MODELS: problem=ip_b_H, model_type=nn_e, n_scenarios=10000, test_set=0
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/ip/grb_log_nn_e_s10000_ts0_fvC_svB_n1_tmi0_sd777.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 131 columns and 414 nonzeros
+Model fingerprint: 0x1bfff26f
+Coefficient statistics:
+  Matrix range     [2e-05, 2e+00]
+  Objective range  [1e+00, 4e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [7e-03, 6e+01]
+Presolve removed 129 rows and 131 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -6.1068213e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Optimal objective -6.106821340e+01
+
+User-callback calls 45, time in user-callback 0.00 sec
+
+  Evaluating first stage solution: [0. 5.]
+
+Results for nn_e
+    True:         -60.5311
+    Predicted:    -61.068213400618504
+    Time:         0.20672202110290527
+    Sol:          [0. 5.]
+python -m nsp.scripts.evaluate_model --problem ip_b_H --model_type nn_e --n_scenarios 4 --test_set 0 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem ip_b_H --model_type nn_e --n_scenarios 9 --test_set 0 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem ip_b_H --model_type nn_e --n_scenarios 36 --test_set 0 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem ip_b_H --model_type nn_e --n_scenarios 121 --test_set 0 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem ip_b_H --model_type nn_e --n_scenarios 441 --test_set 0 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem ip_b_H --model_type nn_e --n_scenarios 1681 --test_set 0 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem ip_b_H --model_type nn_e --n_scenarios 10000 --test_set 0 --n_procs 16

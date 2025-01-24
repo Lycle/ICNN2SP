@@ -1,0 +1,2016 @@
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=5, test_set=0
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s5_ts0_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 196, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -250.8
+    Predicted:    -248.0093849870517
+    Time:         0.2962677478790283
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=5, test_set=1
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s5_ts1_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 195, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -260.8
+    Predicted:    -248.0093849870517
+    Time:         0.14405226707458496
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=5, test_set=2
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s5_ts2_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 196, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -266.80000000000007
+    Predicted:    -248.0093849870517
+    Time:         0.2898378372192383
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=5, test_set=3
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s5_ts3_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 195, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -257.20000000000005
+    Predicted:    -248.0093849870517
+    Time:         0.3000452518463135
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=5, test_set=4
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s5_ts4_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 196, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -216.0
+    Predicted:    -248.0093849870517
+    Time:         0.2810497283935547
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=5, test_set=5
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s5_ts5_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 195, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -228.80000000000007
+    Predicted:    -248.0093849870517
+    Time:         0.1453242301940918
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=5, test_set=6
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s5_ts6_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe8190867
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e+00, 3e+02]
+Found heuristic solution: objective -153.0565090
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -154.3516360
+
+Root relaxation: objective -2.023417e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -202.34174    0    1 -154.35164 -202.34174  31.1%     -    0s
+H    0     0                    -180.8724510 -202.34174  11.9%     -    0s
+H    0     0                    -195.4126966 -202.34174  3.55%     -    0s
+     0     0     cutoff    0      -195.41270 -195.41270  0.00%     -    0s
+
+Cutting planes:
+  Cover: 1
+  RLT: 1
+
+Explored 1 nodes (4 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 4: -195.413 -180.872 -154.352 -153.057 
+No other solutions better than -195.413
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -1.954126966000e+02, best bound -1.954126966000e+02, gap 0.0000%
+
+User-callback calls 193, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -256.20000000000005
+    Predicted:    -195.41269659996033
+    Time:         0.11813998222351074
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=5, test_set=7
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s5_ts7_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 196, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -244.60000000000002
+    Predicted:    -248.0093849870517
+    Time:         0.2743716239929199
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=5, test_set=8
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s5_ts8_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 195, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -241.40000000000003
+    Predicted:    -248.0093849870517
+    Time:         0.12483787536621094
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=5, test_set=9
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s5_ts9_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 196, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -262.80000000000007
+    Predicted:    -248.0093849870517
+    Time:         0.13664841651916504
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=5, test_set=10
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s5_ts10_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 195, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -245.80000000000007
+    Predicted:    -248.0093849870517
+    Time:         0.13611268997192383
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=5, test_set=siplib
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s5_tssiplib_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 196, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -259.2
+    Predicted:    -248.0093849870517
+    Time:         0.12260293960571289
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=10, test_set=0
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s10_ts0_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 195, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -237.90000000000003
+    Predicted:    -248.0093849870517
+    Time:         0.12427020072937012
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=10, test_set=1
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s10_ts1_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 195, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -263.80000000000007
+    Predicted:    -248.0093849870517
+    Time:         0.12720751762390137
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=10, test_set=2
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s10_ts2_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 196, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -254.4000000000001
+    Predicted:    -248.0093849870517
+    Time:         0.32434630393981934
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=10, test_set=3
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s10_ts3_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 196, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -244.0
+    Predicted:    -248.0093849870517
+    Time:         0.30890393257141113
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=10, test_set=4
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s10_ts4_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 196, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -254.10000000000002
+    Predicted:    -248.0093849870517
+    Time:         0.13578414916992188
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=10, test_set=5
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s10_ts5_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 195, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -247.20000000000005
+    Predicted:    -248.0093849870517
+    Time:         0.12227725982666016
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=10, test_set=6
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s10_ts6_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 195, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -258.6000000000001
+    Predicted:    -248.0093849870517
+    Time:         0.14745521545410156
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=10, test_set=7
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s10_ts7_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 195, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -255.10000000000002
+    Predicted:    -248.0093849870517
+    Time:         0.13696718215942383
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=10, test_set=8
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s10_ts8_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 195, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -241.70000000000005
+    Predicted:    -248.0093849870517
+    Time:         0.1355900764465332
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=10, test_set=9
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s10_ts9_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 195, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -265.70000000000005
+    Predicted:    -248.0093849870517
+    Time:         0.13169527053833008
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=10, test_set=10
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s10_ts10_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 196, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -257.9000000000001
+    Predicted:    -248.0093849870517
+    Time:         0.12442564964294434
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=10, test_set=siplib
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s10_tssiplib_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 195, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -259.3
+    Predicted:    -248.0093849870517
+    Time:         0.15376615524291992
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=15, test_set=0
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s15_ts0_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 196, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -255.4666666666667
+    Predicted:    -248.0093849870517
+    Time:         0.12105417251586914
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=15, test_set=1
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s15_ts1_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 196, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -253.33333333333331
+    Predicted:    -248.0093849870517
+    Time:         0.30295372009277344
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=15, test_set=2
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s15_ts2_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 196, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -257.06666666666666
+    Predicted:    -248.0093849870517
+    Time:         0.13671445846557617
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=15, test_set=3
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s15_ts3_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 195, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -251.66666666666663
+    Predicted:    -248.0093849870517
+    Time:         0.13366031646728516
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=15, test_set=4
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s15_ts4_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 195, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -263.93333333333334
+    Predicted:    -248.0093849870517
+    Time:         0.126417875289917
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=15, test_set=5
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s15_ts5_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 196, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -249.66666666666669
+    Predicted:    -248.0093849870517
+    Time:         0.1542043685913086
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=15, test_set=6
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s15_ts6_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 196, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -252.33333333333337
+    Predicted:    -248.0093849870517
+    Time:         0.24595308303833008
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=15, test_set=7
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s15_ts7_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 195, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -259.99999999999994
+    Predicted:    -248.0093849870517
+    Time:         0.11609387397766113
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=15, test_set=8
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s15_ts8_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 195, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -252.60000000000008
+    Predicted:    -248.0093849870517
+    Time:         0.12057852745056152
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=15, test_set=9
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s15_ts9_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 196, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -252.66666666666669
+    Predicted:    -248.0093849870517
+    Time:         0.3438401222229004
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=15, test_set=10
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s15_ts10_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 195, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -242.53333333333336
+    Predicted:    -248.0093849870517
+    Time:         0.14422869682312012
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+EVALUATING MODELS: problem=sslp_15_45, model_type=nn_e, n_scenarios=15, test_set=siplib
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Set parameter LogFile to value "data/sslp/grb_log_nn_e_s15_tssiplib_l15_c45_nsp10000_nse5000_sd7.log"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 129 rows, 144 columns and 2096 nonzeros
+Model fingerprint: 0xe32a0267
+Variable types: 129 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 9e+01]
+  Objective range  [1e+00, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 4e+02]
+Found heuristic solution: objective -204.4831271
+Presolve removed 125 rows and 125 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 19 columns, 64 nonzeros
+Variable types: 4 continuous, 15 integer (15 binary)
+Found heuristic solution: objective -235.6650534
+
+Root relaxation: objective -2.626918e+02, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -262.69176    0    1 -235.66505 -262.69176  11.5%     -    0s
+H    0     0                    -248.0093850 -262.69176  5.92%     -    0s
+     0     0 -261.92249    0    1 -248.00938 -261.92249  5.61%     -    0s
+     0     0     cutoff    0      -248.00938 -248.00938  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+  RLT: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 3: -248.009 -235.665 -204.483 
+No other solutions better than -248.009
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.480093849871e+02, best bound -2.480093849871e+02, gap 0.0000%
+
+User-callback calls 195, time in user-callback 0.00 sec
+Results for nn_e
+    True:         -251.60000000000002
+    Predicted:    -248.0093849870517
+    Time:         0.32398486137390137
+    Sol:          {'x_1': 1.0, 'x_2': 0.0, 'x_3': 0.0, 'x_4': 1.0, 'x_5': 0.0, 'x_6': 0.0, 'x_7': 0.0, 'x_8': 1.0, 'x_9': 0.0, 'x_10': 0.0, 'x_11': 0.0, 'x_12': 0.0, 'x_13': 0.0, 'x_14': 0.0, 'x_15': 1.0}
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 5 --test_set 0 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 5 --test_set 1 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 5 --test_set 2 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 5 --test_set 3 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 5 --test_set 4 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 5 --test_set 5 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 5 --test_set 6 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 5 --test_set 7 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 5 --test_set 8 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 5 --test_set 9 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 5 --test_set 10 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 5 --test_set siplib --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 10 --test_set 0 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 10 --test_set 1 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 10 --test_set 2 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 10 --test_set 3 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 10 --test_set 4 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 10 --test_set 5 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 10 --test_set 6 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 10 --test_set 7 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 10 --test_set 8 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 10 --test_set 9 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 10 --test_set 10 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 10 --test_set siplib --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 15 --test_set 0 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 15 --test_set 1 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 15 --test_set 2 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 15 --test_set 3 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 15 --test_set 4 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 15 --test_set 5 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 15 --test_set 6 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 15 --test_set 7 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 15 --test_set 8 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 15 --test_set 9 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 15 --test_set 10 --n_procs 16
+python -m nsp.scripts.evaluate_model --problem sslp_15_45 --model_type nn_e --n_scenarios 15 --test_set siplib --n_procs 16
