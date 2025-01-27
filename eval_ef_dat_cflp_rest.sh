@@ -6,7 +6,7 @@
 #SBATCH --output=eval_ef_cflp_10_rest_%a.out
 #SBATCH --constraint=skl
 #SBATCH --partition=batch-skl
-#SBATCH --array=1-11
+#SBATCH --array=1-22
 
 module load scicomp-python-env
 
