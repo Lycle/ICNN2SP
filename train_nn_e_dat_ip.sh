@@ -11,6 +11,6 @@
 module load scicomp-python-env
 module load cuda/12.2.1
 
-command=$(sed -n "${SLURM_ARRAY_TASK_ID}p" table_train_e.dat | cut -d' ' -f2-)
+command=$(sed -n "${SLURM_ARRAY_TASK_ID}p" table_train_e_ip.dat | cut -d' ' -f2-)
 srun $command
 
