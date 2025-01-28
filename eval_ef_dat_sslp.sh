@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=ef_sslp
-#SBATCH --time=4:00:00
+#SBATCH --time=5:00:00
 #SBATCH --mem=64G
 #SBATCH --cpus-per-task=1
 #SBATCH --output=eval_ef_sslp_%a.out
