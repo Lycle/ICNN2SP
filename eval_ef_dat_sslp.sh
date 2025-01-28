@@ -6,7 +6,7 @@
 #SBATCH --output=eval_ef_sslp_%a.out
 #SBATCH --constraint=skl
 #SBATCH --partition=batch-skl
-#SBATCH --array=1-120
+#SBATCH --array=1-130
 
 module load scicomp-python-env
 

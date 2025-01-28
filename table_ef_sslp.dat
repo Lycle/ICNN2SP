@@ -118,3 +118,13 @@
 118 python3 -m nsp.scripts.evaluate_extensive --problem sslp_5_25 --n_scenarios 100 --test_set 9 --n_procs 1
 119 python3 -m nsp.scripts.evaluate_extensive --problem sslp_5_25 --n_scenarios 100 --test_set 10 --n_procs 1
 120 python3 -m nsp.scripts.evaluate_extensive --problem sslp_5_25 --n_scenarios 100 --test_set 11 --n_procs 1
+121 python3 -m nsp.scripts.evaluate_extensive --problem sslp_5_25 --n_scenarios 50 --test_set 'siplib' --n_procs 1
+122 python3 -m nsp.scripts.evaluate_extensive --problem sslp_5_25 --n_scenarios 100 --test_set 'siplib' --n_procs 1
+123 python3 -m nsp.scripts.evaluate_extensive --problem sslp_10_50 --n_scenarios 50 --test_set 'siplib' --n_procs 1
+124 python3 -m nsp.scripts.evaluate_extensive --problem sslp_10_50 --n_scenarios 100 --test_set 'siplib' --n_procs 1
+125 python3 -m nsp.scripts.evaluate_extensive --problem sslp_10_50 --n_scenarios 500 --test_set 'siplib' --n_procs 1
+126 python3 -m nsp.scripts.evaluate_extensive --problem sslp_10_50 --n_scenarios 1000 --test_set 'siplib' --n_procs 1
+127 python3 -m nsp.scripts.evaluate_extensive --problem sslp_10_50 --n_scenarios 2000 --test_set 'siplib' --n_procs 1
+128 python3 -m nsp.scripts.evaluate_extensive --problem sslp_15_45 --n_scenarios 5 --test_set 'siplib' --n_procs 1
+129 python3 -m nsp.scripts.evaluate_extensive --problem sslp_15_45 --n_scenarios 10 --test_set 'siplib' --n_procs 1
+130 python3 -m nsp.scripts.evaluate_extensive --problem sslp_15_45 --n_scenarios 15 --test_set 'siplib' --n_procs 1
