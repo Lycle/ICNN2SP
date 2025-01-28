@@ -1,0 +1,63 @@
+EVALUATING EXTENSIVE: problem = ip_i_E, test=0
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter Threads to value 1
+Set parameter TimeLimit to value 10800
+Set parameter LogFile to value "data/ip/grb_log_ef_s4_ts0_fvC_svI_n1_tmi1_sd777.log"
+Set parameter NodefileStart to value 0.5
+Set parameter NodefileDir to value "node_files/s4_ts0"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 8 rows, 18 columns and 40 nonzeros
+Model fingerprint: 0xc91245dd
+Variable types: 2 continuous, 16 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 6e+00]
+  Objective range  [2e+00, 7e+00]
+  Bounds range     [5e+00, 5e+00]
+  RHS range        [5e+00, 2e+01]
+Found heuristic solution: objective -41.0000000
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 8 rows, 16 columns, 36 nonzeros
+Variable types: 0 continuous, 16 integer (7 binary)
+Found heuristic solution: objective -51.7500000
+
+Root relaxation: objective -6.627083e+01, 5 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  -66.27083    0    4  -51.75000  -66.27083  28.1%     -    0s
+H    0     0                     -63.2500000  -66.27083  4.78%     -    0s
+     0     0  -63.62500    0    2  -63.25000  -63.62500  0.59%     -    0s
+*    0     0               0     -63.5000000  -63.50000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 1
+  Implied bound: 1
+  MIR: 1
+
+Explored 1 nodes (10 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 4: -63.5 -63.25 -51.75 -41 
+No other solutions better than -63.5
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -6.350000000000e+01, best bound -6.350000000000e+01, gap 0.0000%
+
+User-callback calls 263, time in user-callback 0.00 sec
+
+  Evaluating first stage solution: [0. 0.]
+
+Extensive form stats:
+  Incumbent:   -63.5
+  Dual bound:  -63.5 
+  FS obj:      -63.5 
+  Time:        0.03741645812988281
+  x:           [0. 0.]

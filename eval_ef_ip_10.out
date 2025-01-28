@@ -1,0 +1,85 @@
+EVALUATING EXTENSIVE: problem = ip_b_H, test=0
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter Threads to value 1
+Set parameter TimeLimit to value 10800
+Set parameter LogFile to value "data/ip/grb_log_ef_s36_ts0_fvC_svB_n1_tmi0_sd777.log"
+Set parameter NodefileStart to value 0.5
+Set parameter NodefileDir to value "node_files/s36_ts0"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 72 rows, 146 columns and 432 nonzeros
+Model fingerprint: 0x30cea4ad
+Variable types: 2 continuous, 144 integer (144 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 6e+00]
+  Objective range  [4e-01, 4e+00]
+  Bounds range     [1e+00, 5e+00]
+  RHS range        [5e+00, 2e+01]
+Found heuristic solution: objective -43.4722222
+Presolve removed 4 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 68 rows, 139 columns, 394 nonzeros
+Found heuristic solution: objective -48.6666667
+Variable types: 2 continuous, 137 integer (137 binary)
+Found heuristic solution: objective -48.9722222
+
+Root relaxation: objective -6.621099e+01, 78 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  -66.21099    0   49  -48.97222  -66.21099  35.2%     -    0s
+H    0     0                     -59.2500000  -66.21099  11.7%     -    0s
+H    0     0                     -59.5555556  -66.21099  11.2%     -    0s
+     0     0  -63.01846    0   57  -59.55556  -63.01846  5.81%     -    0s
+     0     0  -62.57225    0   39  -59.55556  -62.57225  5.07%     -    0s
+     0     0  -62.48896    0   38  -59.55556  -62.48896  4.93%     -    0s
+     0     0  -62.13170    0   70  -59.55556  -62.13170  4.33%     -    0s
+     0     0  -62.08599    0   71  -59.55556  -62.08599  4.25%     -    0s
+     0     0  -62.08533    0   69  -59.55556  -62.08533  4.25%     -    0s
+     0     0  -62.00149    0   67  -59.55556  -62.00149  4.11%     -    0s
+     0     0  -61.90890    0   70  -59.55556  -61.90890  3.95%     -    0s
+     0     0  -61.81056    0   72  -59.55556  -61.81056  3.79%     -    0s
+     0     0  -61.76379    0   72  -59.55556  -61.76379  3.71%     -    0s
+     0     0  -61.76379    0   72  -59.55556  -61.76379  3.71%     -    0s
+     0     0  -61.71493    0   76  -59.55556  -61.71493  3.63%     -    0s
+     0     0  -61.66605    0   77  -59.55556  -61.66605  3.54%     -    0s
+     0     0  -61.66605    0   75  -59.55556  -61.66605  3.54%     -    0s
+     0     0  -61.66605    0   77  -59.55556  -61.66605  3.54%     -    0s
+     0     0  -61.66605    0   78  -59.55556  -61.66605  3.54%     -    0s
+     0     0  -61.63931    0   78  -59.55556  -61.63931  3.50%     -    0s
+     0     2  -61.58292    0   76  -59.55556  -61.58292  3.40%     -    0s
+H    3     3                     -59.7222222  -61.56062  3.08%   7.7    0s
+H   29    21                     -60.0555556  -61.56062  2.51%   8.9    0s
+H  349   148                     -60.2777778  -61.20543  1.54%   7.0    0s
+
+Cutting planes:
+  Gomory: 4
+  Cover: 8
+  MIR: 60
+  Flow cover: 37
+  Relax-and-lift: 1
+
+Explored 1437 nodes (13840 simplex iterations) in 1.18 seconds (0.55 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 8: -60.2778 -60.0556 -59.7222 ... -43.4722
+No other solutions better than -60.2778
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -6.027777777778e+01, best bound -6.027777777778e+01, gap 0.0000%
+
+User-callback calls 3945, time in user-callback 0.01 sec
+
+  Evaluating first stage solution: [0. 3.]
+
+Extensive form stats:
+  Incumbent:   -60.277777777777786
+  Dual bound:  -60.277777777777786 
+  FS obj:      -60.27777777777778 
+  Time:        1.2464983463287354
+  x:           [0. 3.]

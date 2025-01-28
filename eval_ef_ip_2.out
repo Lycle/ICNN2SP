@@ -1,0 +1,62 @@
+EVALUATING EXTENSIVE: problem = ip_b_H, test=0
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter Threads to value 1
+Set parameter TimeLimit to value 10800
+Set parameter LogFile to value "data/ip/grb_log_ef_s4_ts0_fvC_svB_n1_tmi0_sd777.log"
+Set parameter NodefileStart to value 0.5
+Set parameter NodefileDir to value "node_files/s4_ts0"
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 8 rows, 18 columns and 48 nonzeros
+Model fingerprint: 0x43ff2523
+Variable types: 2 continuous, 16 integer (16 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 6e+00]
+  Objective range  [2e+00, 7e+00]
+  Bounds range     [1e+00, 5e+00]
+  RHS range        [5e+00, 2e+01]
+Found heuristic solution: objective -42.0000000
+Presolve removed 2 rows and 3 columns
+Presolve time: 0.00s
+Presolved: 6 rows, 15 columns, 33 nonzeros
+Found heuristic solution: objective -44.5000000
+Variable types: 2 continuous, 13 integer (13 binary)
+Found heuristic solution: objective -52.5000000
+
+Root relaxation: objective -5.896528e+01, 6 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  -58.96528    0    4  -52.50000  -58.96528  12.3%     -    0s
+H    0     0                     -56.7500000  -58.96528  3.90%     -    0s
+     0     0  -57.37500    0    2  -56.75000  -57.37500  1.10%     -    0s
+
+Cutting planes:
+  Cover: 1
+  Implied bound: 1
+  MIR: 5
+
+Explored 1 nodes (12 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 4: -56.75 -52.5 -44.5 -42 
+No other solutions better than -56.75
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -5.675000000000e+01, best bound -5.675000000000e+01, gap 0.0000%
+
+User-callback calls 388, time in user-callback 0.00 sec
+
+  Evaluating first stage solution: [0. 3.]
+
+Extensive form stats:
+  Incumbent:   -56.75
+  Dual bound:  -56.75 
+  FS obj:      -56.75 
+  Time:        0.03835177421569824
+  x:           [0. 3.]
