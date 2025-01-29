@@ -169,9 +169,9 @@ class FacilityLocationProblem(TwoStageStocProg):
         # solve two_sp
         if log_dir is not None:
             model.setParam("LogFile", log_dir)
-        if node_file_start is not None:
-            model.setParam("NodefileStart", node_file_start)
-            model.setParam("NodefileDir", node_file_dir)
+        # if node_file_start is not None:
+        #     model.setParam("NodefileStart", node_file_start)
+        #     model.setParam("NodefileDir", node_file_dir)
         model.setParam("MIPGap", gap)
         model.setParam("TimeLimit", time_limit)
         model.setParam("Threads", threads)

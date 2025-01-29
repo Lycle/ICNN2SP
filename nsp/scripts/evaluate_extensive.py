@@ -31,11 +31,11 @@ def main(args):
 
     # get file locations 
     log_dir = get_path(cfg.data_path, cfg, ptype=f"grb_log_ef_{problem_str}", suffix='.log', as_str=True)
-    node_file_dir = f'node_files/{problem_str}'
-    node_file_dir = Path(node_file_dir)
+    # node_file_dir = f'node_files/{problem_str}'
+    # node_file_dir = Path(node_file_dir)
 
-    if not node_file_dir.exists():  # make node file directory is needed
-        node_file_dir.mkdir(parents=True, exist_ok=True)
+    # if not node_file_dir.exists():  # make node file directory is needed
+    #     node_file_dir.mkdir(parents=True, exist_ok=True)
 
     # solve extensive
     ef_time = time.time()

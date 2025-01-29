@@ -92,9 +92,9 @@ class InvestmentProblem(TwoStageStocProg):
         m.setParam('TimeLimit', time_limit)
         if log_dir is not None:
             m.setParam("LogFile", log_dir)
-        if node_file_start is not None:
-            m.setParam("NodefileStart", node_file_start)
-            m.setParam("NodefileDir", node_file_dir)
+        # if node_file_start is not None:
+        #     m.setParam("NodefileStart", node_file_start)
+        #     m.setParam("NodefileDir", node_file_dir)
         m.optimize(callback)
         # info = self._extract_mip_solve_info(m, get_var=True)
 
@@ -119,9 +119,9 @@ class InvestmentProblem(TwoStageStocProg):
         m.setParam('TimeLimit', time_limit)
         if log_dir is not None:
             m.setParam("LogFile", log_dir)
-        if node_file_start is not None:
-            m.setParam("NodefileStart", node_file_start)
-            m.setParam("NodefileDir", node_file_dir)
+        # if node_file_start is not None:
+        #     m.setParam("NodefileStart", node_file_start)
+        #     m.setParam("NodefileDir", node_file_dir)
         # Solve
         m.optimize()
 
