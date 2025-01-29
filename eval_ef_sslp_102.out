@@ -1,0 +1,88 @@
+EVALUATING EXTENSIVE: problem = sslp_5_25, test=5
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter LogFile to value "data/sslp/grb_log_ef_s50_ts5_l5_c25_nsp10000_nse5000_sd7.log"
+Set parameter NodefileStart to value 0.5
+Set parameter NodefileDir to value "node_files/s50_ts5"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 1501 rows, 6505 columns and 12805 nonzeros
+Model fingerprint: 0x70242fa6
+Variable types: 250 continuous, 6255 integer (6255 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [2e-02, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 5e+00]
+Found heuristic solution: objective 130029.84000
+Presolve removed 647 rows and 3326 columns
+Presolve time: 0.01s
+Presolved: 854 rows, 3179 columns, 6348 nonzeros
+Variable types: 0 continuous, 3179 integer (2929 binary)
+
+Root relaxation: objective -1.546472e+02, 2099 iterations, 0.04 seconds (0.03 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -154.64723    0  282 130029.840 -154.64723   100%     -    0s
+H    0     0                     -36.1600000 -154.64723   328%     -    0s
+     0     0 -138.51175    0  849  -36.16000 -138.51175   283%     -    0s
+     0     0 -137.13757    0  883  -36.16000 -137.13757   279%     -    0s
+     0     0 -136.88856    0  899  -36.16000 -136.88856   279%     -    0s
+     0     0 -136.84803    0  900  -36.16000 -136.84803   278%     -    0s
+     0     0 -136.84717    0  898  -36.16000 -136.84717   278%     -    0s
+     0     0 -128.46696    0 1170  -36.16000 -128.46696   255%     -    0s
+     0     0 -127.38808    0 1242  -36.16000 -127.38808   252%     -    0s
+     0     0 -126.96224    0 1279  -36.16000 -126.96224   251%     -    0s
+     0     0 -126.72930    0 1303  -36.16000 -126.72930   250%     -    0s
+     0     0 -126.67412    0 1318  -36.16000 -126.67412   250%     -    0s
+     0     0 -126.67135    0 1322  -36.16000 -126.67135   250%     -    0s
+     0     0 -123.82746    0 1625  -36.16000 -123.82746   242%     -    0s
+     0     0 -123.08176    0 1712  -36.16000 -123.08176   240%     -    0s
+     0     0 -122.58009    0 1646  -36.16000 -122.58009   239%     -    0s
+     0     0 -122.43114    0 1759  -36.16000 -122.43114   239%     -    0s
+     0     0 -122.36535    0 1696  -36.16000 -122.36535   238%     -    0s
+     0     0 -122.33337    0 1696  -36.16000 -122.33337   238%     -    0s
+     0     0 -121.87419    0 1200  -36.16000 -121.87419   237%     -    0s
+H    0     0                     -85.0600000 -121.87339  43.3%     -    0s
+     0     0 -121.82947    0 1211  -85.06000 -121.82947  43.2%     -    1s
+     0     0 -121.78527    0 1211  -85.06000 -121.78527  43.2%     -    1s
+     0     0 -121.78066    0 1207  -85.06000 -121.78066  43.2%     -    1s
+H    0     0                    -115.1200000 -121.78066  5.79%     -    1s
+H    0     0                    -115.4600000 -121.78066  5.47%     -    1s
+     0     2 -121.78066    0 1204 -115.46000 -121.78066  5.47%     -    1s
+*   18    12              12    -115.5000000 -118.02786  2.19%   216    1s
+*   21    11              11    -115.5400000 -118.02786  2.15%   185    1s
+H   27     2                    -115.8200000 -115.83714  0.01%   148    1s
+
+Cutting planes:
+  Gomory: 7
+  Cover: 706
+  Clique: 296
+  MIR: 156
+  StrongCG: 54
+  RLT: 2
+  Relax-and-lift: 129
+
+Explored 28 nodes (14505 simplex iterations) in 1.57 seconds (1.26 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 8: -115.82 -115.54 -115.5 ... 130030
+No other solutions better than -115.82
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -1.158200000000e+02, best bound -1.158200000000e+02, gap 0.0000%
+
+User-callback calls 659, time in user-callback 0.01 sec
+Extensive form stats:
+  Incumbent:   -115.82000000000016
+  Dual bound:  -115.82000000000016 
+  FS obj:      -115.82000000000002 
+  Time:        1.909623622894287
+  x:           {'x_1': 1.0, 'x_2': 1.0, 'x_3': 0.0, 'x_4': 0.0, 'x_5': 0.0}

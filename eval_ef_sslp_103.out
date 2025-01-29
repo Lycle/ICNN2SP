@@ -1,0 +1,83 @@
+EVALUATING EXTENSIVE: problem = sslp_5_25, test=6
+
+Set parameter TokenServer to value "lic-gurobi.aalto.fi"
+Set parameter LogFile to value "data/sslp/grb_log_ef_s50_ts6_l5_c25_nsp10000_nse5000_sd7.log"
+Set parameter NodefileStart to value 0.5
+Set parameter NodefileDir to value "node_files/s50_ts6"
+Set parameter TimeLimit to value 10800
+Set parameter Threads to value 1
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "Red Hat Enterprise Linux 9.4 (Plow)")
+
+CPU model: Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 40 physical cores, 40 logical processors, using up to 1 threads
+
+Optimize a model with 1501 rows, 6505 columns and 12805 nonzeros
+Model fingerprint: 0xb51b5d96
+Variable types: 250 continuous, 6255 integer (6255 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [2e-02, 7e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 5e+00]
+Found heuristic solution: objective 131967.90000
+Presolve removed 630 rows and 3245 columns
+Presolve time: 0.01s
+Presolved: 871 rows, 3260 columns, 6510 nonzeros
+Variable types: 0 continuous, 3260 integer (3010 binary)
+
+Root relaxation: objective -1.624632e+02, 1985 iterations, 0.04 seconds (0.03 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -162.46321    0  266 131967.900 -162.46321   100%     -    0s
+H    0     0                     -41.5200000 -162.46321   291%     -    0s
+     0     0 -146.08127    0  872  -41.52000 -146.08127   252%     -    0s
+     0     0 -144.38533    0  940  -41.52000 -144.38533   248%     -    0s
+     0     0 -144.16396    0  962  -41.52000 -144.16396   247%     -    0s
+     0     0 -144.13361    0  964  -41.52000 -144.13361   247%     -    0s
+     0     0 -144.13344    0  967  -41.52000 -144.13344   247%     -    0s
+     0     0 -135.03304    0 1419  -41.52000 -135.03304   225%     -    0s
+     0     0 -133.78679    0 1499  -41.52000 -133.78679   222%     -    0s
+     0     0 -133.22018    0 1554  -41.52000 -133.22018   221%     -    0s
+     0     0 -132.97060    0 1575  -41.52000 -132.97060   220%     -    0s
+     0     0 -132.92054    0 1601  -41.52000 -132.92054   220%     -    0s
+     0     0 -132.86283    0 1604  -41.52000 -132.86283   220%     -    0s
+     0     0 -132.84238    0 1609  -41.52000 -132.84238   220%     -    0s
+     0     0 -129.36950    0 1868  -41.52000 -129.36950   212%     -    0s
+     0     0 -128.84420    0 1225  -41.52000 -128.84420   210%     -    0s
+     0     0 -128.81236    0 1914  -41.52000 -128.81236   210%     -    0s
+     0     0 -128.73044    0 1256  -41.52000 -128.73044   210%     -    1s
+H    0     0                     -91.6000000 -128.72253  40.5%     -    1s
+H    0     0                     -91.6600000 -128.72253  40.4%     -    1s
+     0     0 -128.70424    0 1253  -91.66000 -128.70424  40.4%     -    1s
+     0     0 -128.65698    0 1259  -91.66000 -128.65698  40.4%     -    1s
+     0     0 -128.65508    0 1255  -91.66000 -128.65508  40.4%     -    1s
+H    0     0                    -123.4000000 -128.65508  4.26%     -    1s
+     0     2 -128.65508    0 1242 -123.40000 -128.65508  4.26%     -    1s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 635
+  Clique: 342
+  MIR: 179
+  StrongCG: 39
+  Zero half: 2
+  Relax-and-lift: 133
+
+Explored 7 nodes (13789 simplex iterations) in 1.54 seconds (1.28 work units)
+Thread count was 1 (of 40 available processors)
+
+Solution count 5: -123.4 -91.66 -91.6 ... 131968
+No other solutions better than -123.4
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -1.234000000000e+02, best bound -1.234000000000e+02, gap 0.0000%
+
+User-callback calls 595, time in user-callback 0.00 sec
+Extensive form stats:
+  Incumbent:   -123.40000000000015
+  Dual bound:  -123.40000000000015 
+  FS obj:      -123.4 
+  Time:        1.8636326789855957
+  x:           {'x_1': 1.0, 'x_2': 0.0, 'x_3': 1.0, 'x_4': 0.0, 'x_5': 0.0}
