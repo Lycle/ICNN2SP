@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=ef_cflp_50_50
 #SBATCH --time=4:00:00
-#SBATCH --mem=32G
+#SBATCH --mem=64G
 #SBATCH --cpus-per-task=8
 #SBATCH --output=eval_ef_cflp_50_50_%a.out
 #SBATCH --error=eval_ef_cflp_50_50_%a.err
