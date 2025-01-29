@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH --job-name=ef_sslp_10_50
-#SBATCH --time=5:00:00
+#SBATCH --time=4:00:00
 #SBATCH --mem=64G
-#SBATCH --cpus-per-task=1
+#SBATCH --cpus-per-task=8
 #SBATCH --output=eval_ef_sslp_10_50_%a.out
 #SBATCH --error=eval_ef_sslp_10_50_%a.err
 #SBATCH --constraint=skl
