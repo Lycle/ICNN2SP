@@ -2,7 +2,7 @@
 #SBATCH --job-name=ef_sslp_10_50r
 #SBATCH --time=4:00:00
 #SBATCH --mem=32G
-#SBATCH --cpus-per-task=1
+#SBATCH --cpus-per-task=8
 #SBATCH --output=eval_ef_sslp_10_50r_%a.out
 #SBATCH --error=eval_ef_sslp_10_50r_%a.err
 #SBATCH --constraint=skl
