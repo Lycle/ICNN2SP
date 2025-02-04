@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=dg_e_i_E
-#SBATCH --time=6:00:00
+#SBATCH --time=4:00:00
 #SBATCH --mem=128G
 #SBATCH --cpus-per-task=16
 #SBATCH --output=dg_e_ip_i_E_new.out
