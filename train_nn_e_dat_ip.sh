@@ -1,12 +1,12 @@
 #!/bin/bash
 #SBATCH --job-name=train_e_ip
 #SBATCH --output=train_e_ip_%a.out
-#SBATCH --time=02:00:00
+#SBATCH --time=01:00:00
 #SBATCH --mem=64G
 #SBATCH --gres=gpu:h100:1
 #SBATCH --cpus-per-task=1
 #SBATCH --partition=gpu-h100-80g
-#SBATCH --array=1-4
+#SBATCH --array=3
 
 module load scicomp-python-env
 module load cuda/12.2.1
