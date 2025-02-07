@@ -1,6 +1,11 @@
 # added exclusions
 *.pickle
 # *.pkl
+data/cflp/ml_data_e_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.pkl
+data/cflp/lr_f10_c10_r2.0_iss1_bt1_nsp10000_nse5000_sd7.pkl
+data/cflp/lr_f25_c25_r2.0_iss1_bt1_nsp10000_nse5000_sd7.pkl
+data/cflp/lr_f50_c50_r2.0_iss1_bt1_nsp10000_nse5000_sd7.pkl
+data/pp
 *.lp
 # *.pt
 *.mps
