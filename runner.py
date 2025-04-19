@@ -1,0 +1,233 @@
+import argparse
+import pickle as pkl
+import shutil
+import subprocess
+
+import numpy as np
+
+import sys
+
+
+def get_icnn_e_function_call(args, problem):
+    """  Gets training function call for best config 
+         as per the 100 random search runs ICNN-E.  
+    """
+    from nn_params import icnn_e_params
+    params = icnn_e_params[problem]
+
+    cmd =  f'python -m nsp.scripts.train_model --problem {problem} --model_type icnn_e '
+    cmd += f'--embed_hidden_dim {params["embed_hidden_dim"]} '
+    cmd += f'--embed_dim1 {params["embed_dim1"]} '
+    cmd += f'--embed_dim2 {params["embed_dim2"]} '
+    cmd += f'--relu_hidden_dim {params["relu_hidden_dim"]} '
+    cmd += f'--agg_type {params["agg_type"]} '
+    cmd += f'--lr {params["lr"]} '
+    cmd += f'--dropout {params["dropout"]} '
+    cmd += f'--optimizer {params["optimizer_type"]} '
+    cmd += f'--batch_size {params["batch_size"]} '
+    cmd += f'--loss_fn {params["loss_fn"]} '
+    cmd += f'--wt_lasso {params["wt_lasso"]} '
+    cmd += f'--wt_ridge {params["wt_ridge"]} '
+    cmd += f'--log_freq {params["log_freq"]} '
+    cmd += f'--n_epochs {params["n_epochs"]} '
+    cmd += f'--use_wandb {params["use_wandb"]} '
+    
+    return cmd
+
+def get_nn_e_function_call(args, problem):
+    """  Gets training function call for best config 
+         as per the 100 random search runs NN-E.  
+    """
+    from nn_params import nn_e_params
+    params = nn_e_params[problem]
+
+    cmd =  f'python -m nsp.scripts.train_model --problem {problem} --model_type nn_e '
+    cmd += f'--embed_hidden_dim {params["embed_hidden_dim"]} '
+    cmd += f'--embed_dim1 {params["embed_dim1"]} '
+    cmd += f'--embed_dim2 {params["embed_dim2"]} '
+    cmd += f'--relu_hidden_dim {params["relu_hidden_dim"]} '
+    cmd += f'--agg_type {params["agg_type"]} '
+    cmd += f'--lr {params["lr"]} '
+    cmd += f'--dropout {params["dropout"]} '
+    cmd += f'--optimizer {params["optimizer_type"]} '
+    cmd += f'--batch_size {params["batch_size"]} '
+    cmd += f'--loss_fn {params["loss_fn"]} '
+    cmd += f'--wt_lasso {params["wt_lasso"]} '
+    cmd += f'--wt_ridge {params["wt_ridge"]} '
+    cmd += f'--log_freq {params["log_freq"]} '
+    cmd += f'--n_epochs {params["n_epochs"]} '
+    cmd += f'--use_wandb {params["use_wandb"]} '
+    
+    return cmd
+
+
+def get_scenario_and_test_sets(problem):
+    """  Gets scenario set sizes and test set indexes to
+         reproduce results from the paper.
+    """
+    if problem == 'cflp_10_10':
+        scenarios  = [100, 500, 1000] 
+        test_sets = list(range(0,11))
+    elif problem == 'cflp_25_25':
+        scenarios  = [100, 500, 1000] 
+        test_sets = list(range(0,11))
+    elif problem == 'cflp_50_50':
+        scenarios  = [100, 500, 1000]  
+        test_sets = list(range(0,11))
+
+    # Stochastic Server Location Problem
+    elif problem == 'sslp_5_25':
+        scenarios  = [50, 100] 
+        test_sets = list(range(0,11))
+        test_sets.append('siplib')
+    elif problem == 'sslp_10_50':
+        scenarios  = [50, 100, 500, 1000, 2000] 
+        test_sets = list(range(0,11))
+        test_sets.append('siplib')
+    elif problem == 'sslp_15_45':
+        scenarios  = [5, 10, 15] 
+        test_sets = list(range(0,11))
+        test_sets.append('siplib')
+
+    # Investment Problem
+    elif problem == 'ip_b_H':
+        scenarios  = [4, 9, 36, 121, 441, 1681, 10000] 
+        test_sets = [0]
+    elif problem == 'ip_i_H':
+        scenarios  = [4, 9, 36, 121, 441, 1681, 10000] 
+        test_sets = [0]
+    elif problem == 'ip_b_E':
+        scenarios  = [4, 9, 36, 121, 441, 1681, 10000] 
+        test_sets = [0]
+    elif problem == 'ip_i_E':
+        scenarios  = [4, 9, 36, 121, 441, 1681, 10000] 
+        test_sets = [0]
+
+    return scenarios, test_sets
+
+
+
+def get_commands(problem, args):
+    """ Gets list of commands to reproduce experiements. """
+    cmds = []
+
+    # generate instance and dataset function calls.
+    if args.run_all or args.run_dg_inst:
+        cmds.append(f'python -m nsp.scripts.run_dm --problem {problem} --mode GEN_INSTANCE')
+    if args.run_all or args.run_dg_e:
+        cmds.append(f'python -m nsp.scripts.run_dm --problem {problem} --mode GEN_DATASET_E --n_procs {args.n_cpus}')
+
+    # generate train_model function calls.
+    if args.run_all or args.train_icnn_e:
+        cmds.append(get_icnn_e_function_call(args, problem))
+    if args.run_all or args.train_nn_e:
+        cmds.append(get_nn_e_function_call(args, problem))
+
+    # call get best model
+    if args.run_all or args.get_best_icnn_e_model:
+        cmds.append(f'python -m nsp.scripts.get_best_model --problem {problem} --model_type icnn_e ')
+    if args.run_all or args.get_best_nn_e_model:
+        cmds.append(f'python -m nsp.scripts.get_best_model --problem {problem} --model_type nn_e ')
+
+    # call get scenario sets and test sets for problem
+    scenarios, test_sets = get_scenario_and_test_sets(problem)
+
+    # evaluate scenarios and test sets for problem
+    for scenario in scenarios:
+        for test_set in test_sets:
+            if args.run_all or args.eval_icnn_e:
+                cmds.append(f'python -m nsp.scripts.evaluate_model --problem {problem} --model_type icnn_e --n_scenarios {scenario} --test_set {test_set} --n_procs {args.n_cpus}')
+            if args.run_all or args.eval_nn_e:
+                cmds.append(f'python -m nsp.scripts.evaluate_model --problem {problem} --model_type nn_e --n_scenarios {scenario} --test_set {test_set} --n_procs {args.n_cpus}')
+            if args.run_all or args.eval_ef:
+                cmds.append(f'python -m nsp.scripts.evaluate_extensive --problem {problem} --n_scenarios {scenario} --test_set {test_set} --n_procs {args.n_cpus}')
+
+    return cmds
+
+
+def main(args):
+    """  Get commands and execute them sequentially. """
+    sys.path.append(args.data_dir)
+
+    if args.as_dat and args.run_all:
+        raise Exception(" Using --run_all and --as_dat may cause issues with parallelization. \n\
+            It is strongly recommend to read the comments at the end of runner.py with respect --as_dat usage.  ")
+
+    # global variables for counting index of command
+    cmds = []
+    for problem in args.problems:
+        cmds += get_commands(problem, args)
+
+    # convert commands to index .dat file
+    if args.as_dat:
+        for idx in range(len(cmds)):
+            cmds[idx] = f"{idx + 1} {cmds[idx]}\n" 
+
+        # write dat file
+        with open(args.dat_file, 'w') as f:
+            for cmd in cmds:
+                f.write(cmd)
+
+    # Otherwise, execute commands sequentially
+    # Note that this will take quite a long time.
+    else:
+        for cmd in cmds:
+            # update: strip trailing spaces before splitting the command.
+            cmd_as_list = cmd.strip().split(" ")
+            print(cmd)
+            subprocess.call(cmd_as_list)
+
+
+
+if __name__ == '__main__':
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--problems', type=str, nargs='+', default=['cflp_10_10'],
+         help = 'The problem(s) to run.  Must be from the following set of problems: \n\
+                            cflp_10_10, cflp_25_25, cflp_50_50, sslp_5_25, sslp_10_50, \n\
+                            sslp_15_45, ip_b_E, ip_b_H, ip_i_E, ip_i_H')
+    parser.add_argument('--data_dir', type=str, default='./data/',
+         help = 'The data directory.  This should be left as the default unless otherwise required.')
+    parser.add_argument('--n_cpus', type=int, default=1,
+         help = 'Number of CPUs/threads to use.  This is only used in data generation and evaluating first-stage solutions.')
+
+    # run all commands (this overrides all below arguments)
+    parser.add_argument('--run_all', type=int, default=0,
+         help = 'Runs all commands for a specified problem.  Should only be used in if reproducing experiements sequentially.')
+
+    # commands indicating which parts of experiements to run
+    parser.add_argument('--run_dg_inst', type=int, default=0,
+         help = 'Runs commands to generate instance')
+    parser.add_argument('--run_dg_e', type=int, default=0,
+         help = 'Runs commands to generate dataset for NN-E.')
+
+    # train models
+    parser.add_argument('--train_icnn_e', type=int, default=0,
+         help = 'Trains ICNN-E model.')
+    parser.add_argument('--train_nn_e', type=int, default=0,
+         help = 'Trains NN-E model.')
+
+    parser.add_argument('--get_best_icnn_e_model', type=int, default=0,
+         help = 'Recovers best model for ICNN-E.')
+    parser.add_argument('--get_best_nn_e_model', type=int, default=0,
+         help = 'Recovers best model for NN-E.')
+
+    # evaluate models
+    parser.add_argument('--eval_icnn_e', type=int, default=0,
+         help = 'Evaluations opimization model with ICNN-E predictor.')
+    parser.add_argument('--eval_nn_e', type=int, default=0,
+         help = 'Evaluations opimization model with NN-E predictor.')
+    parser.add_argument('--eval_ef', type=int, default=0,
+         help = 'Evaluations extensive form.')
+
+    # parallel computing
+    parser.add_argument('--as_dat', type=int, default=0,
+         help = 'Indicator for saving commands to .dat files for use with parallel computing.')
+    parser.add_argument('--dat_file', type=str, default='table.dat',
+         help = 'File to save batch commands to.')
+
+    args = parser.parse_args()
+
+    main(args)
+
+
