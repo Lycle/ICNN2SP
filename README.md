@@ -1,5 +1,5 @@
 # ICNN2SP
-Implementation of the method proposed in the paper "ICNN-enhanced 2SP: Leveraging input convex neural networks for solving two-stage stochastic programming"
+Implementation of the method proposed in the paper "[ICNN-enhanced 2SP: Leveraging input convex neural networks for solving two-stage stochastic programming](https://arxiv.org/abs/2505.05261)"
 
 ## About
 ICNN-enhanced 2SP leverages [input convex neural network (ICNN)](https://proceedings.mlr.press/v70/amos17b.html) to exploit the linear programming (LP) representability in solving two-stage stochastic programming (2SP) problems. The codebase extends Neur2SP’s implementation (https://github.com/khalil-research/Neur2SP) by augmenting it with ICNN-specific functionality.
